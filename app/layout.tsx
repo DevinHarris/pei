@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Open_Sans, Roboto, Poppins, Lato} from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const openSans = Open_Sans({ subsets: ["latin"] });
+const roboto = Roboto({ weight: ["300", "400", "700", "900"], subsets: ["latin"] });
+const poppinsFont = Poppins({ subsets: ["latin"], weight: ["300", "400", "600"] });
+const lato = Lato({ subsets: ["latin"], weight: ["100", "300", "400", "700", "900"] })
 
 export const metadata: Metadata = {
   title: "Welcome to Proficient Engineering",
@@ -16,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={lato.className}>
         <div className="layout-container">
            {children}
         </div>

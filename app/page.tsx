@@ -51,7 +51,19 @@ export default function Home() {
            </div>
         </header>
         <main className="landing-main-container">
-          <h1>Test</h1>
+          <section className="landing-section">
+              <div className="landing-section-content-cont">
+                <div className="landing-section-content">
+                    <span className="landing-section-heading">About us</span>
+                    <div className="landing-section-content-cont landing-section-content-meta">
+                      <h1>Test</h1>
+                    </div>
+                    <div className="landing-section-content-cont landing-section-content-img">
+                      <img src="/images/img-1.jpg" alt="building image" />
+                    </div>
+                </div>
+              </div>
+          </section>
         </main>
     </div> 
   )
