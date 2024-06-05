@@ -37,9 +37,12 @@ nav ul {
 }
 
 .nav-item {
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-size: 0.7rem;
+  font-weight: 600;
   margin-right: 1.5rem;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 0.1em;
 }
 
 .landing-hero {
@@ -112,9 +115,11 @@ nav ul {
 }
 
 .featured-project-tag {
+  color: #adadad;
   display: inline-block;
   font-family: 'Lato', sans-serif;
   font-size: 0.7rem;
+  letter-spacing: 0.1em;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
@@ -192,16 +197,16 @@ nav ul {
 }
 
 .experience-meta h3 {
-  font-family: 'Roboto Serif', serif;
+  /* font-family: 'Bitter', serif; */
   font-size: 3rem;
   font-weight: 300;
   letter-spacing: .1rem;
 }
 
 .experience-meta p {
-  font-family: 'Lato', sans-serif;
+  /* font-family: 'Bitter', sans-serif; */
   font-size: 0.9rem;
-  line-height: 1.3rem;
+  line-height: 2rem;
 }
 
 .experience-main-content {

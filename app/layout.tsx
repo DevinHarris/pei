@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Open_Sans, Roboto, Poppins, Lato, Merriweather, Roboto_Serif} from "next/font/google";
+import { Inter, Open_Sans, Roboto, Poppins, Lato, Merriweather, Roboto_Serif, Bitter} from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-const openSans = Open_Sans({ subsets: ["latin"] });
-const roboto = Roboto({ weight: ["300", "400", "700", "900"], subsets: ["latin"] });
-const poppinsFont = Poppins({ subsets: ["latin"], weight: ["300", "400", "600"] });
 const lato = Lato({ subsets: ["latin"], weight: ["100", "300", "400", "700", "900"] })
-const merriweather = Merriweather({ subsets: ["latin"], weight: ['300', '400', '700', '900']})
-const robotoSerif = Roboto_Serif({ subsets: ['latin'], weight: ['300', '400', '600']});
+const bitter = Bitter({ subsets: ['latin'], weight: ['200', '300', '400', '500'] });
 
 export const metadata: Metadata = {
   title: "Welcome to Proficient Engineering",
@@ -22,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${lato.className} ${robotoSerif.className}`}>
+      <body className={`${lato.className} ${bitter.className}`}>
         <div className="layout-container">
            {children}
         </div>

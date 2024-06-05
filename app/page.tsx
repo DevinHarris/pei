@@ -93,7 +93,6 @@ export default function Home() {
                     <a className="featured-project-read-more" href="#">Learn more</a>
                 </div>
                 <div className="experience-main-content experience-col">
-                    <h1 className="experience-years">Over 10+ years</h1>
                     <p className="experience-description">At Proficient Engineering, Inc. we start with proficiency at our core, but we don’t stop there. Our team of proactive, dependable engineers love to help you succeed and deliver top-notch, reasonably-priced work on time with minimal involvement from you.
                       What sets us apart from other engineering firms? It’s not the credentials we hang on our walls (though we have plenty of those), but rather our unrelenting drive to help our clients succeed. And frankly, it’s why we formed Proficient in 2008.
                     </p>
