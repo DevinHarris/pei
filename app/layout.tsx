@@ -1,9 +1,39 @@
 import type { Metadata } from "next";
 import { Inter, Open_Sans, Roboto, Poppins, Lato, Merriweather, Roboto_Serif, Bitter} from "next/font/google";
+import localFont from 'next/font/local';
+
 import "./globals.css";
+
+import Navbar from "./components/Navbar/Navbar";
 
 const lato = Lato({ subsets: ["latin"], weight: ["100", "300", "400", "700", "900"] })
 const bitter = Bitter({ subsets: ['latin'], weight: ['200', '300', '400', '500'] });
+
+const helveticaNow = localFont({
+
+  src: [
+    {
+      path: './HelveticaNowDisplay-Regular.woff2',
+      weight: '300',
+      style: 'light'
+    },
+    {
+      path: './HelveticaNowDisplay-Medium.woff2',
+      weight: '400',
+      style: 'normal'
+    },
+    {
+      path: './HelveticaNowDisplay-Bold.woff2',
+      weight: '500',
+      style: 'bold'
+    },
+    {
+      path: './HelveticaNowDisplay-Black.woff2',
+      weight: '600',
+      style: 'bold'
+    }
+  ]
+})
 
 export const metadata: Metadata = {
   title: "Welcome to Proficient Engineering",
@@ -17,8 +47,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${lato.className} ${bitter.className}`}>
+      <body className={`${helveticaNow.className} ${bitter.className}`}>
         <div className="layout-container">
+          <Navbar />
            {children}
         </div>
       </body>

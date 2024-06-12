@@ -1,65 +1,24 @@
-import MainHero from "@/app/component/MainHero"
+import Header from '@/app/components/Header/Header';
+
 
 export default function Home() {
 
   return (
     <div className="home-container">
-        <header>
-           <nav>
-              <ul className="nav-container">
-                  <li className="nav-item">
-                    <a href="#">What We Do</a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#">Why Proficient</a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#">Projects</a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#">BIM</a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="/">
-                        <img className="nav-logo" src="/images/logo.png" />
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#">Lunch and Learns</a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#">Blogs</a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#">Careers</a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#">Contact Us</a>
-                  </li>
-              </ul>
-           </nav>
-           <div className="landing-hero">
-              <video className="hero-video" autoPlay loop muted>
-                <source src="/images/video-bg-1.mp4" type="video/mp4" />
-              </video>
-              <div className="hero-content">
-                <div className="hero-content-container">
-                <h1 className="hero-content-heading">Welcome to Proficient Engineering</h1>
-                <p>At Proficient, we believe it’s not just about engineering. It’s about challenging the status quo and innovating for the future. It’s about constantly pushing the envelope to deliver the best results. It’s about tailoring what we deliver to each and every client. It’s about building relationships that matter.</p>
-                </div>
-              </div>
-           </div>
-        </header>
+       <Header />
         <main className="landing-main-container">
           <section className="callout-quote-container">
-            <h1 className="callout-quote">WE BELIEVE SIMPLICITY IS ULTIMATE SOPHISTICATION</h1>
-            <p className="callout-quote-desc">With an unrelenting focus on helping clients succeed, Proficient Engineering is a full-service Mechanical, Electrical, & Plumbing (MEP) engineering firm that combines decades of experience with nimble, proactive service to deliver effective solutions on time and on budget with minimal hassle.</p>
+            <h1 className="callout-quote">Unlock your Potential with Proficient</h1>
+            <p className="callout-quote-desc">We have successfully completed thousands of commercial projects, showcasing our proficiency across a diverse range of sectors. Our team of licensed professional engineers, registered across the United States, brings
+                            a wealth of experience and expertise to every project.</p>
           </section>
           <section className="landing-section">
              <div className="featured-project">
                 <div className="featured-project-heading">
                     <span className="featured-project-tag">Featured Project</span>
-                    <h2 className="featured-project-title">PNC Bank | Atlanta, GA</h2>
+                    <h2 className="featured-project-title">
+                      <a href='/projects'>SweetWater Brewing Company | Atlanta, GA</a>
+                    </h2>
                 </div>
                 <div className="featured-project-main">
                   <div className="featured-project-img-container">
@@ -80,7 +39,7 @@ export default function Home() {
                     </div>
                     
                   </div>
-                  <a className="featured-project-read-more" href="#">Read More</a>
+                  <a className="rounded-btn-cta" href="#">Read More</a>
                 </div>
              </div>
           </section>
@@ -90,7 +49,7 @@ export default function Home() {
                     <span className="featured-project-tag">Proficient Engineering</span>
                     <h3>Our Experience</h3>
                     <p>No matter how complex or simple, we engineer our projects precisely and don’t tolerate corner-cutting. Between our vast project expertise, in-house tools and fully licensed staff, we produce accurate, architecturally efficient designs. Besides, we’re engineers. Precision should be our middle name.</p>
-                    <a className="featured-project-read-more" href="#">Learn more</a>
+                    <a className="rounded-btn-cta" href="#">Learn more</a>
                 </div>
                 <div className="experience-main-content experience-col">
                     <p className="experience-description">At Proficient Engineering, Inc. we start with proficiency at our core, but we don’t stop there. Our team of proactive, dependable engineers love to help you succeed and deliver top-notch, reasonably-priced work on time with minimal involvement from you.
