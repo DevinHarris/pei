@@ -22,7 +22,7 @@ export default function Home() {
                 </div>
                 <div className="featured-project-main">
                   <div className="featured-project-img-container">
-                    <img className="featured-project-img" src="/images/bg-img-6.jpg" alt="building image"  />
+                    <img className="featured-project-img" src="/images/project-img-8.jpg" alt="building image"  />
                   </div>
                   <div className="featured-project-info-grid">
                     <div className="featured-project-info">
@@ -43,7 +43,7 @@ export default function Home() {
                 </div>
              </div>
           </section>
-          <section className="experience">
+          {/* <section className="experience">
               <div className="experience-container">
                 <div className="experience-meta experience-col">
                     <span className="featured-project-tag">Proficient Engineering</span>
@@ -60,6 +60,9 @@ export default function Home() {
                     </div>
                 </div>
               </div>
+          </section> */}
+          <section className="landing-section">
+            <div className="landing-section-"></div>
           </section>
         </main>
     </div> 

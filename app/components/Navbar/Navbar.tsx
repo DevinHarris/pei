@@ -11,7 +11,7 @@ export default function Navbar() {
                         <a href="#">Why Proficient</a>
                     </li>
                     <li className="nav-item">
-                        <a href="/projects">Projects</a>
+                        <a href="/portfolio">Portfolio</a>
                     </li>
                     <li className="nav-item">
                         <a href="#">BIM</a>
