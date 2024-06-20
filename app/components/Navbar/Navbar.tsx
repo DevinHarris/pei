@@ -5,10 +5,10 @@ export default function Navbar() {
             <nav>
                 <ul className="nav-container">
                     <li className="nav-item">
-                        <a href="#">What We Do</a>
+                        <a href="/what-we-do">What We Do</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#">Why Proficient</a>
+                        <a href="#why-proficient">Why Proficient</a>
                     </li>
                     <li className="nav-item">
                         <a href="/portfolio">Portfolio</a>

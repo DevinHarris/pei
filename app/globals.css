@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  scroll-behavior: smooth;
+}
 
 
 /* Page defaults */
@@ -31,6 +34,7 @@ nav {
   left: 0;
   width: 100%;
   z-index: 10000;
+  background: #fff;
 }
 
 nav ul {
@@ -127,6 +131,8 @@ nav ul {
   width: 8rem;
 }
 
+
+
 /* Featured project component */
 
 .featured-project {
@@ -198,6 +204,66 @@ nav ul {
   text-align: center;
   margin: 2rem 0;
   width: 8rem;
+}
+
+/* What We Do */
+
+
+
+.what-we-do__header {
+  align-items: flex-end;
+  display: flex;
+  color: #fff;
+  background: url('/images/project-img-9.jpg') center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  justify-content: flex-start;
+  padding: 3rem;
+  margin: 0;
+  width: 100%;
+}
+
+.what-we-do__header h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.what-we-do__services {
+  padding: 1rem 5rem;
+}
+
+.what-we-do__services h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: max-content;
+  margin-top: 3rem;
+}
+
+.services__grid-item {
+  cursor: pointer;
+  border: 1px solid #093542;
+  display: flex;
+  /* border-top: none;
+  border-right: none; */
+  justify-content: center;
+    align-items: center;
+  padding: 4rem;
+  text-align: center;
+  width: 100%;
+  -webkit-transition: 0.5s all linear;
+  -moz-transition: 0.5s all linear;
+}
+
+.services__grid-item:hover {
+  background-color: #093542;
+  color: #fff;
 }
 
 /* Experience */
@@ -288,13 +354,8 @@ nav ul {
 }
 
 .landing-stand-out-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 90%;
 }
-
-
 
 .landing-stand-out__heading {
   font-size: 2rem;
@@ -302,13 +363,35 @@ nav ul {
 }
 
 .landing-stand-out__content {
-  width: 50%;
-
+  width: 100%;
+  text-align: left;
 }
 
+.landing-stand-out__content-col {
+  max-width: 50%;
+}
+
+.landing-stand-out__content-item {
+  border-bottom: 1px solid #e9e9e9;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+  max-width: 100%;
+  
+}
+
+.landing-stand-out__content-item-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
 .landing-stand-out__content p {
+  color: #aeaeae;
   font-size: 0.9rem;
   font-weight: 300;
+  line-height: 1.5;
 }
 
 .landing-stand-out__bg-img {
@@ -323,9 +406,70 @@ nav ul {
   width: 100%;
 }
 
-.landing-stand-out__content {
-  width: 60%;
+.landing-section-qualifications {
+  /* align-items: center; */
+  background-color: #093542;
+  color: #fff;
+  /* height: 30rem; */
+  margin: 5rem 0;
+  padding: 3rem 0;
+  text-align: center;
+  width: 100%;
 }
+
+.landing-section-qualifications__heading {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.landing-section-qualifications h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2.3rem;
+}
+
+.landing-section-qualifications__heading p {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.landing-section-qualifications__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.landing-section-qualifications__qualification h2 {
+  font-size: 1.5rem; 
+  font-weight: 300;
+}
+
+.landing-section-qualifications__qualification li {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+/* What We Do */
+
+.what-we-do__about {
+
+}
+
+.what-we-do__about h2 {
+  color: #a8a8a8;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  
+}
+
+
+.what-we-do__about p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
 
 /* Bio Page */
 

@@ -43,6 +43,7 @@ export default function Home() {
                 </div>
              </div>
           </section>
+         
           <section className="landing-section-callout">
                 <div className="landing-section-meta landing-section-callout-meta  experience-col">
                       <div className='landing-section-meta-container'>
@@ -58,7 +59,7 @@ export default function Home() {
                   
                 </div>
           </section>
-          <section className='landing-section landing-stand-out'>
+          <section className='landing-section landing-stand-out' id="why-proficient">
               <div className='landing-stand-out-container'>
                     <div className='landing-stand-out__header'>
                         <span className='featured-project-tag'>More About Us</span>
@@ -66,10 +67,103 @@ export default function Home() {
                     </div>
                     <div className='landing-stand-out__bg-img'></div>
                     <div className='landing-stand-out__content'>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aspernatur cumque hic temporibus iste odit numquam omnis quibusdam, sint iure possimus facere inventore dolore doloremque magnam, unde consequatur quasi? Autem!</p>
-                      <a className='rounded-btn-cta' href="#">Get in touch</a>
+                      <div className='landing-stand-out__content-item'>
+                        <div className='landing-stand-out__content-col landing-stand-out__content-item-title'>
+                          <h3>We Get It Right</h3>
+                        </div>
+                        <div className='landing-stand-out__content-col landing-stand-out__content-item-content'>
+                          <p>No matter how complex or simple, we engineer our projects precisely and don’t tolerate corner-cutting. Between our vast project expertise, in-house tools and fully licensed staff, we produce accurate, architecturally efficient designs. Besides, we’re engineers. Precision should be our middle name.</p>
+                        </div>
+                      </div>
+                      <div className='landing-stand-out__content-item'>
+                        <div className='landing-stand-out__content-col landing-stand-out__content-item-title'>
+                          <h3>We Make It Easy</h3>
+                        </div>
+                        <div className='landing-stand-out__content-col landing-stand-out__content-item-content'>
+                          <p>From the first phone call to finished project, we take ownership and are incredibly easy to work with, resulting in reliable work without hand holding. We work hard to make it easy for you.</p>
+                        </div>
+                      </div>
+                      <div className='landing-stand-out__content-item'>
+                        <div className='landing-stand-out__content-col landing-stand-out__content-item-title'>
+                          <h3>We Save You Time</h3>
+                        </div>
+                        <div className='landing-stand-out__content-col landing-stand-out__content-item-content'>
+                          <p>We provide focused, dedicated teams that enable fast decision-making so that you can spend more time focused on your job.</p>
+                        </div>
+                      </div>
+                      <div className='landing-stand-out__content-item'>
+                        <div className='landing-stand-out__content-col landing-stand-out__content-item-title'>
+                          <h3>We Charge Fairly</h3>
+                        </div>
+                        <div className='landing-stand-out__content-col landing-stand-out__content-item-content'>
+                          <p>We value quality and character over profit and power. You can count on us to charge reasonable fees without nickel and diming.</p>
+                        </div>
+                      </div>
+                      <div className='landing-stand-out__content-item'>
+                        <div className='landing-stand-out__content-col landing-stand-out__content-item-title'>
+                          <h3>We Provide a Great Experience</h3>
+                        </div>
+                        <div className='landing-stand-out__content-col landing-stand-out__content-item-content'>
+                          <p>Our employees love to work here and our top priority is to help you succeed, bar none. </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
+          </section>
+          <section className='landing-section landing-section-qualifications'>
+              <div className='landing-section-qualifications__heading'>
+                <h1>Our Qualifications</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores facilis iusto qui expedita eligendi eius dicta amet dolorum modi iste fugiat nulla maxime deleniti dolorem magni accusamus, dolor quas necessitatibus?</p>
+              </div>
+              <div className='landing-section-qualifications__content'>
+                  <div className='landing-section-qualifications__qualification'>
+                    <h2>Registration</h2>
+                    <ul>
+                      <li>Professional Engineer Registrations in <a href="#">49 states</a></li>
+                      <li>NCEES records available in other states</li>
+                    </ul>
+                  </div>
+                  <div className='landing-section-qualifications__qualification'>
+                    <h2>Insurance</h2>
+
+                    <span>Additional insurance available if required</span>
+                    <ul>
+                      <li>Architects & Engineers Professional Liability Insurance Policy</li>
+                      <li>Each Claim – $5,000,000</li>
+                      <li>Aggregate – $5,000,000</li>
+                    </ul>
+                  </div>
+                  <div className='landing-section-qualifications__qualification'>
+                    <h2>Associations</h2>
+                    <ul>
+                      <li>
+                        <a href="#">American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE)</a>
+                      </li>
+                      <li>
+                        <a href="#">American Society of Plumbing Engineers (ASPE)</a>
+                      </li>
+                      <li>
+                        <a href="#">United States Green Building Council (USGBC)</a>
+                      </li>
+                      <li>
+                        <a href="#">Leadership in Energy and Environmental Design Accredited Professional (LEED AP)</a>
+                      </li>
+                      <li>
+                        <a href="#">The National Council of Examiners for Engineering and Surveying (NCEES)</a>
+                      </li>
+                      <li>
+                        <a href="#">Institute of Electrical and Electronics Engineers (IEEE)</a>
+                      </li>
+
+                      <li>
+                        <a href="#">National Fire Protection Association (NFPA)</a>
+                      </li>
+                      <li>
+                        <a href="#">American Society of Plumbing Engineers (ASPE)</a>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
           </section>
         </main>
     </div> 
