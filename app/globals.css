@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 /* Page defaults */
 
 .page {
@@ -9,6 +11,7 @@
 }
 
 .layout-container {
+  overflow-x: hidden;
   width: 100vw;
 }
 
@@ -142,7 +145,7 @@ nav ul {
   /* font-family: 'Lato', sans-serif; */
   font-size: 0.7rem;
   letter-spacing: 0.1em;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
   text-transform: uppercase;
 }
 
@@ -199,52 +202,129 @@ nav ul {
 
 /* Experience */
 
-.experience {
-  align-items: center;
+.landing-section-callout {
+  align-items: stretch;
   background-color: #f7f7f7;
   display: flex;
   justify-content: center;
   height: 40rem;
-  padding: 3rem;
+  /* padding: 3rem; */
 }
 
-.experience-container {
+.landing-section-callout-container {
   display: flex;
+  height: 100%;
   width: 100%;
 }
 
-.experience-meta {
-  width: 40%;
+/* .landing-section-callout-meta {
+
+
+  height: 100%;
   text-align: left;
+  width: 70%;
+} */
+
+.landing-section-meta {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.experience-meta h3 {
+.landing-section-meta-container {
+  width: 80%;
+}
+
+.landing-section-callout-meta h3 {
   /* font-family: 'Bitter', serif; */
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 300;
-  letter-spacing: .1rem;
+  margin: 0.5rem 0;
 }
 
-.experience-meta p {
+.landing-section-callout-meta p {
   /* font-family: 'Bitter', sans-serif; */
+  color: #aeaeae;
   font-size: 0.9rem;
-  line-height: 2rem;
+  line-height: 1.4;
 }
 
-.experience-main-content {
-  padding: 2rem;
-  width: 60%;
+.landing-section-callout-main-content {
+  /* padding: 2rem; */
+  height: 100%;
+  width: 50%;
 }
 
-.experience-description {
+.landing-section-callout-description {
   color: #aeaeae;
   font-size: .9rem;
   line-height: 2rem;
 
 }
 
-.experience-years {
+.landing-section-callout-years {
   margin-bottom: 1rem;
+}
+
+.landing-section-callout-image {
+  width: 50%;
+}
+
+.landing-section-callout-image img {
+  height: 100%;
+  object-fit: fill;
+  max-width: max-content;
+}
+
+
+.landing-stand-out {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  text-align: center;
+  width: 100%;
+}
+
+.landing-stand-out-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.landing-stand-out__heading {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.landing-stand-out__content {
+  width: 50%;
+
+}
+
+.landing-stand-out__content p {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.landing-stand-out__bg-img {
+  align-items: center;
+  display: flex;
+  background: url('/images/project-img-1.jpg') center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 25rem;
+  justify-content: center;
+  margin: 3rem 0;
+  width: 100%;
+}
+
+.landing-stand-out__content {
+  width: 60%;
 }
 
 /* Bio Page */
@@ -461,7 +541,7 @@ nav ul {
 }
 
 .portfolio-page__projects {
-  padding-left: 5rem;
+  padding: 0 5rem;
 }
 
 .portfolio-page__project-selection select {
@@ -521,3 +601,4 @@ nav ul {
   font-weight: 300;
 
 }
+

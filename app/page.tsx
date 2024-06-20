@@ -22,7 +22,7 @@ export default function Home() {
                 </div>
                 <div className="featured-project-main">
                   <div className="featured-project-img-container">
-                    <img className="featured-project-img" src="/images/project-img-8.jpg" alt="building image"  />
+                    <img className="featured-project-img" src="/images/project-img-6.jpg" alt="building image"  />
                   </div>
                   <div className="featured-project-info-grid">
                     <div className="featured-project-info">
@@ -43,26 +43,33 @@ export default function Home() {
                 </div>
              </div>
           </section>
-          {/* <section className="experience">
-              <div className="experience-container">
-                <div className="experience-meta experience-col">
-                    <span className="featured-project-tag">Proficient Engineering</span>
-                    <h3>Our Experience</h3>
-                    <p>No matter how complex or simple, we engineer our projects precisely and don’t tolerate corner-cutting. Between our vast project expertise, in-house tools and fully licensed staff, we produce accurate, architecturally efficient designs. Besides, we’re engineers. Precision should be our middle name.</p>
-                    <a className="rounded-btn-cta" href="#">Learn more</a>
+          <section className="landing-section-callout">
+                <div className="landing-section-meta landing-section-callout-meta  experience-col">
+                      <div className='landing-section-meta-container'>
+                        <span className="featured-project-tag">Proficient Engineering</span>
+                        <h3>Our Experience</h3>
+                        <p>No matter how complex or simple, we engineer our projects precisely and don’t tolerate corner-cutting. Between our vast project expertise, in-house tools and fully licensed staff, we produce accurate, architecturally efficient designs. Besides, we’re engineers. Precision should be our middle name.</p>
+                        <a className="rounded-btn-cta" href="#">Learn more</a>
+                      </div>
                 </div>
-                <div className="experience-main-content experience-col">
-                    <p className="experience-description">At Proficient Engineering, Inc. we start with proficiency at our core, but we don’t stop there. Our team of proactive, dependable engineers love to help you succeed and deliver top-notch, reasonably-priced work on time with minimal involvement from you.
-                      What sets us apart from other engineering firms? It’s not the credentials we hang on our walls (though we have plenty of those), but rather our unrelenting drive to help our clients succeed. And frankly, it’s why we formed Proficient in 2008.
-                    </p>
-                    <div className="experience-icons">
-                      
+                <div className="landing-section-callout-image experience-col">
+
+                  <img className='landing-section-image' src="/images/project-img-10.jpg" alt="landing-image" />
+                  
+                </div>
+          </section>
+          <section className='landing-section landing-stand-out'>
+              <div className='landing-stand-out-container'>
+                    <div className='landing-stand-out__header'>
+                        <span className='featured-project-tag'>More About Us</span>
+                        <h1 className='landing-stand-out__heading'>Why choose Proficient Engineering?</h1>
                     </div>
-                </div>
-              </div>
-          </section> */}
-          <section className="landing-section">
-            <div className="landing-section-"></div>
+                    <div className='landing-stand-out__bg-img'></div>
+                    <div className='landing-stand-out__content'>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aspernatur cumque hic temporibus iste odit numquam omnis quibusdam, sint iure possimus facere inventore dolore doloremque magnam, unde consequatur quasi? Autem!</p>
+                      <a className='rounded-btn-cta' href="#">Get in touch</a>
+                    </div>
+                  </div>
           </section>
         </main>
     </div> 
