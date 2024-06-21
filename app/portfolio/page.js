@@ -11,7 +11,7 @@ export default function PortfolioPage() {
             locations: ['Atlanta, GA'],
             images: ['/images/project-img-5.jpg'],
             description: 'C. Ellet\’s is a next-generation steakhouse located at The Battery in Truist Park. The space includes a kitchen, associated storage spaces, a bar, oyster bar with wall up service window, multiple points of sale and dining spaces, and restrooms required for the fit-out.',
-            projectType: 'Food and Beverage'
+            projectType: 'Food and Beverages'
         },
 
         {
@@ -19,7 +19,7 @@ export default function PortfolioPage() {
             locations: ['Atlanta, GA'],
             images: ['/images/project-img-2.jpg'],
             description: 'An adaptive use of an existing warehouse that the developers will turn into a series of retail/restaurant spaces. This food hall joins restaurants, breweries, offices, and retail shops open at the Lee + White complex along the Westside Beltline. The food hall will feature a mix of 19 food stalls once fully open, a central bar in front opening to a large patio, and full-service restaurants.',
-            projectType: 'Food and Beverage'
+            projectType: 'Office'
         },
 
         {
@@ -27,7 +27,7 @@ export default function PortfolioPage() {
             locations: ['Atlanta, GA', 'Charlotte, NC'],
             images: ['/images/project-img-1.jpg'],
             description: 'O-Ku restaurant celebrates authentic Asian cuisine with a southern approach and a menu that focuses on unique ingredients and sophisticated presentations. Both locations are roughly 7,500 square feet with a full kitchen and bar and required wood solid fuel.',
-            projectType: 'Food and Beverage'
+            projectType: 'Food and Beverages'
         },
 
         {
@@ -35,7 +35,7 @@ export default function PortfolioPage() {
             locations: ['Charlotte, NC'],
             images: ['/images/project-img-7.jpg'],
             description: 'Oak Steakhouse embodies a contemporary interpretation of the traditional American steakhouse, with a spacious footprint spanning nearly 14,000 square feet and equipped with a full kitchen and bar. The architectural design integrates elements to accommodate wood burning solid fuel, enhancing the culinary experience with an authentic touch.',
-            projectType: 'Food and Beverage'
+            projectType: 'Community'
         },
 
         {
@@ -43,7 +43,7 @@ export default function PortfolioPage() {
             locations: ['Nationwide'],
             images: ['/images/project-img-4.jpg'],
             description: 'Ted\'s is renowned for its authentic American cuisine. Our teams collaborate closely to refine their prototypical design to support the expansion of this national account, ensuring each location maintains its unique charm while adhering to high standards of quality and consistency.',
-            projectType: 'Food and Beverage'
+            projectType: 'Food and Beverages'
         },
 
         {
@@ -51,7 +51,7 @@ export default function PortfolioPage() {
             locations: ['Nationwide'],
             images: ['/images/project-img-9.jpg'],
             description: 'As Waffle House’s go-to MEP engineering firm, we specialize in designing intricate fit-ups within existing facilities, seamlessly integrating their evolving needs while ensuring optimal functionality and efficiency. We have completed hundreds of projects for them across the country.',
-            projectType: 'Food and Beverage'
+            projectType: 'Retail'
         },
     ])
 
@@ -96,10 +96,10 @@ export default function PortfolioPage() {
                 </div>
                 <div className='portfolio-page__projects-grid'>
                     {
-                        projects.map(project => {
-                            return (
-                                <ProjectThumbnail key={project.name} {...project} />
-                            )
+                        projects.filter(project => {
+                            return project.projectType === currentProjectType;
+                        }).map(project => {
+                           return <ProjectThumbnail key={project.name} {...project} />
                         })
                     }
                 </div>

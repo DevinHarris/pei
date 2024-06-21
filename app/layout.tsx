@@ -5,6 +5,7 @@ import localFont from 'next/font/local';
 import "./globals.css";
 
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 const lato = Lato({ subsets: ["latin"], weight: ["100", "300", "400", "700", "900"] })
 const bitter = Bitter({ subsets: ['latin'], weight: ['200', '300', '400', '500'] });
@@ -52,6 +53,7 @@ export default function RootLayout({
           <Navbar />
            {children}
         </div>
+        <Footer />
       </body>
     </html>
   );

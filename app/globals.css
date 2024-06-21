@@ -4,6 +4,7 @@
 
 html, body {
   scroll-behavior: smooth;
+  /* overflow-x: hidden; */
 }
 
 
@@ -14,15 +15,15 @@ html, body {
 }
 
 .layout-container {
-  overflow-x: hidden;
-  width: 100vw;
+  /* overflow-x: hidden; */
+  width: 100%;
 }
 
 header {
   height: 100vh;
   margin-bottom: 4rem;
   /* font-family: 'Lato', sans-serif; */
-  width: 100vw;
+  width: 100%;
 }
 
 nav {
@@ -71,7 +72,7 @@ nav ul {
   top: 0;
   left: 0;
   object-fit: fill;
-  width: 100vw;
+  width: 100%;
   z-index: -1;
 }
 
@@ -273,7 +274,7 @@ nav ul {
   background-color: #f7f7f7;
   display: flex;
   justify-content: center;
-  height: 40rem;
+  height: 100vh;
   /* padding: 3rem; */
 }
 
@@ -296,6 +297,7 @@ nav ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 60%;
 }
 
 .landing-section-meta-container {
@@ -334,13 +336,13 @@ nav ul {
 }
 
 .landing-section-callout-image {
-  width: 50%;
+  width: 40%;
 }
 
 .landing-section-callout-image img {
   height: 100%;
-  object-fit: fill;
-  max-width: max-content;
+  object-fit: cover;
+  max-width: 100%;
 }
 
 
@@ -377,6 +379,10 @@ nav ul {
   justify-content: space-between;
   padding: 3rem 0;
   max-width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999999999999999999999999999999999999999999999999;
+  background-color: #fff;
   
 }
 
@@ -384,6 +390,13 @@ nav ul {
   font-size: 1.3rem;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.landing-stand-out__content-item-title h3 {
+  
+  position: sticky;
+  position: -webkit-sticky;
+  top: 20px;
 }
 
 
@@ -623,7 +636,7 @@ nav ul {
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: calc((40vw * .6) - 5px);
+  grid-auto-rows: calc((40% * .6) - 5px);
   width: 100%;
 }
 
@@ -704,7 +717,7 @@ nav ul {
 .portfolio-page__projects-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-auto-rows: calc((40vw * .6) - 5px);
+  grid-auto-rows: calc((40% * .6) - 5px);
   gap: 1rem;
   margin-top: 4rem;
   width: 100%;
@@ -746,3 +759,31 @@ nav ul {
 
 }
 
+/* Footer */
+
+footer {
+  margin: 5rem;
+  /* width: 100%; */
+}
+
+.footer__container {
+  align-items: center;
+  display: flex;
+  
+  width: 100%;
+}
+
+.footer__logo {
+  margin-right: auto;
+  width: 20%;
+}
+
+.footer__locations {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.footer__location span {
+  display: block;
+}
