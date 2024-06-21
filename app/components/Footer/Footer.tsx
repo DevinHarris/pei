@@ -17,12 +17,12 @@ export default function Footer() {
                     </div>
                     <div className="footer__location">
                         <h3 className="font-medium">Denver</h3>
-                        <span className="footer__location-address">5335 W. 48th Avenue Suite 103<br></br>Frisco, TX 75033</span>
+                        <span className="footer__location-address">5335 W. 48th Avenue Suite 103<br></br>Denver, CO 80212</span>
                         <span className="footer__location-phone">720-779-3556</span>
                     </div>
                     <div className="footer__location">
                         <h3 className="font-medium">Dallas</h3>
-                        <span className="footer__location-address">2770 Main St, Suite 123<br></br>Knoxville, TN 37919</span>
+                        <span className="footer__location-address">2770 Main St, Suite 123<br></br>Frisco, TX 75033</span>
                         <span className="footer__location-phone">972-777-6078</span>
                     </div>
                 </div>
