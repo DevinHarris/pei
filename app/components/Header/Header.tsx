@@ -8,7 +8,7 @@ export default function Header() {
                 <Navbar />
                 <div className="landing-hero">
                     <video className="hero-video" autoPlay loop muted>
-                        <source src="/images/video-bg-1.mp4" type="video/mp4" />
+                        <source src="/images/video-bg-2.mp4" type="video/mp4" />
                     </video>
                     <div className="hero-content">
                         <div className="hero-content-container">

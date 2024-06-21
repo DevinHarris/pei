@@ -410,7 +410,7 @@ nav ul {
 .landing-stand-out__bg-img {
   align-items: center;
   display: flex;
-  background: url('/images/project-img-1.jpg') center center no-repeat;
+  background: url('/images/project-img-1.jpg') center bottom no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 25rem;
