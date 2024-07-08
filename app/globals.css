@@ -242,7 +242,7 @@ nav ul {
 
 .services__grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: max-content;
   margin-top: 3rem;
 }
@@ -255,7 +255,7 @@ nav ul {
   border-right: none; */
   justify-content: center;
     align-items: center;
-  padding: 4rem;
+  padding: 2rem 1rem;
   text-align: center;
   width: 100%;
   -webkit-transition: 0.5s all linear;
