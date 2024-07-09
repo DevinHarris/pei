@@ -1,5 +1,3 @@
 import { buildConfig } from 'payload/config';
 
-export default buildConfig({
-    
-})
+export default buildConfig({});

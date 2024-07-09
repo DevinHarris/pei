@@ -22,6 +22,9 @@ export default function Navbar() {
                         </a>
                     </li>
                     <li className="nav-item">
+                        <a href="/our-team">Our Team</a>
+                    </li>
+                    <li className="nav-item">
                         <a href="#">Lunch and Learns</a>
                     </li>
                     <li className="nav-item">
@@ -31,7 +34,7 @@ export default function Navbar() {
                         <a href="#">Careers</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#">Contact Us</a>
+                        <a href="/contact-us">Contact Us</a>
                     </li>
                 </ul>
                 </nav>

@@ -486,39 +486,44 @@ nav ul {
 
 /* Bio Page */
 
-.bio-page {
-
-  padding: 0 2rem;
-}
-
-.bio-page__header {
-  text-align: center;
+.bio-page__projects-container {
+  padding: 0 5rem;
   width: 100%;
 }
 
-.bio-page__header-content {
-  margin: 3rem 0;
-}
+.bio-page__projects-heading {
 
-.bio-page__header-content h1 {
+  color: #a8a8a8;
+  font-size: 1.8rem;
   font-weight: 300;
-  font-size: 3.5rem;
+  letter-spacing: 0.1rem;
 }
 
-.bio-page__header-content p {
-  font-size: 1rem;
-  color: #aeaeae;
-} 
-
-.bio-page__header-hero-img {
-  height: 70vh;
+.bio-page__projects-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 2rem;
   width: 100%;
 }
 
-.bio-page__header-hero-img img {
-  border-radius: 2rem;
-  height: 100%;
-  object-fit: cover;
+.bio-page__project {
+  text-align: center;
+}
+
+.bio-page__project-img {
+  margin-bottom: 1rem;
+}
+
+.bio-page__callout {
+  align-items: center;
+  background-color: #093542;
+  color: #fff;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 300;
+  /* height: 15rem; */
+  padding: 3rem 5rem;
   width: 100%;
 }
 
@@ -759,6 +764,53 @@ nav ul {
 
 }
 
+/* Our Team Page */
+
+.our-team-page__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: min-content;
+  padding: 0 5rem;
+  width: 100%;
+}
+
+.our-team-page__profile {
+  text-align: center;
+}
+
+.our-team-page__img {
+  margin-bottom: 1rem;
+}
+
+.our-team-page__img img {
+  /* height: 100%; */
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Contact us */
+
+.contact__form input, textarea {
+  background-color: #f9f9f9;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.contact__form textarea {
+  padding: 1rem; 
+}
+
+.contact__form input {
+  padding: 1rem;
+}
+
+.contact-us-page__form {
+  padding: 0 5rem;
+  width: 100%;
+}
+
 /* Footer */
 
 footer {
@@ -780,7 +832,7 @@ footer {
 
 .footer__locations {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 60%;
 }
 
