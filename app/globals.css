@@ -285,7 +285,7 @@ nav ul {
 
 .services__grid-item:hover {
   background-color: #093542;
-  color: #fff;
+  color: #b7e798;
 }
 
 /* Experience */
@@ -518,6 +518,13 @@ nav ul {
   font-size: 1.8rem;
   font-weight: 300;
   letter-spacing: 0.1rem;
+}
+
+.bio-page__about-heading {
+  color: #a8a8a8;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
 }
 
 .bio-page__projects-grid {
@@ -1000,6 +1007,10 @@ footer {
   .portfolio-page__projects-grid {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 2rem;
+  }
+
+  .project-page__callout--center p {
+    width: 100%;
   }
 
 
