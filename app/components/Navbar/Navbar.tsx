@@ -1,9 +1,20 @@
+'use client'
+
+import { useState, useEffect } from 'react';
+import { AiOutlineMenu } from 'react-icons/ai'
+
 export default function Navbar() {
+
+    const [isNavOpen, setIsNavOpen] = useState(true);
+
+    const toggleNav = () => {
+        setIsNavOpen(!isNavOpen);
+    }
 
     return (
         <>
             <nav>
-                <ul className="nav-container">
+                <ul className={`nav-container `}>
                     <li className="nav-item">
                         <a href="/what-we-do">What We Do</a>
                     </li>
@@ -16,7 +27,7 @@ export default function Navbar() {
                     <li className="nav-item">
                         <a href="#">BIM</a>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-logo-container">
                         <a href="/">
                             <img className="nav-logo" src="/images/logo.png" />
                         </a>
@@ -36,8 +47,13 @@ export default function Navbar() {
                     <li className="nav-item">
                         <a href="/contact-us">Contact Us</a>
                     </li>
+                    
                 </ul>
-                </nav>
+
+                {/* <button className='responsive-nav-btn' onClick={toggleNav}>
+                    <AiOutlineMenu />
+                </button> */}
+            </nav>
         </>
     )
 }
