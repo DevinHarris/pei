@@ -1,4 +1,6 @@
-export default function ProjectPage() {
+export default function ProjectPage({ params }:  { params: { id: string } }) {
+
+    console.log('Project: ', params);
 
     return (
         <div className="project-page">

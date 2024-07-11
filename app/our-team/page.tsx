@@ -46,6 +46,14 @@ export default function OurTeam() {
                         </div>
                         <div className="our-team-page__profile">
                             <div className="our-team-page__img">
+                                <a href="/bios/jen">
+                                    <img src="/images/bios/bio-img-15.jpeg" alt="" />
+                                </a>
+                            </div>
+                            <h2 className="our-team-page__name">Jen Duchac | Mechanical Principal</h2>
+                        </div>
+                        <div className="our-team-page__profile">
+                            <div className="our-team-page__img">
                                 <a href="/bios/wayne">
                                     <img src="/images/bios/bio-img-9.jpeg" alt="" />
                                 </a>

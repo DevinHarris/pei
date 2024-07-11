@@ -1,42 +1,116 @@
+"use client";
+
+import { useState, useEffect } from 'react';
+import { useParams } from 'next/navigation';
+
+import data from '../../../data/bios.json';
+
+interface Profile {
+    id: string,
+    slug: string,
+    name: string,
+    tagline: string,
+    title: string,
+    tasks: string[],
+    year_started: string,
+    location: string,
+    hobbies: string[],
+    image: string,
+    pe_registrations?: string[],
+    memberships?: string[],
+    education?: string[],
+    bio: string[],
+    featured_projects: { name: string, thumbnail: string }[]
+}
+
 export default function BioPage() {
+
+    const [currentProfile, setCurrentProfile] = useState<Profile | undefined>();
+    const { id } = useParams<{ id: string }>();
+
+
+    useEffect(() => {
+
+        const profileData = data.find(profile => profile.slug === `/${id}`);
+
+
+        setCurrentProfile(profileData);
+    }, [currentProfile])
+
 
     return (
         <>
             <div className="project-page bio-page">
             <header className="project-page__header">
                 <div className="project-page__header--hero">
-                    <img className="project-page__header--img" src="/images/bios/bio-img-3.jpg" alt="project-image" />
+                    <img className="project-page__header--img" src={currentProfile?.image} alt="project-image" />
                     <div className="project-page__header--content">
-                        <h1 className="project-title">Devonta Harris | Software Engineer</h1>
+                        <h1 className="project-title">{currentProfile?.name} | {currentProfile?.title}</h1>
                     </div>
                 </div>
             </header>
             <main className="project-page__main">
                 <section className="bio-page__callout ">
-                    <h2 className="project-page__callout-text">Hi, I'm Devonta and I love making cool things that people use.</h2>
+                    <h2 className="project-page__callout-text">{currentProfile?.tagline}</h2>
                 </section>
                 <section className="project-page__meta">
                     <div className="project-page__meta-grid">
                         <div className="project-page__meta-grid-col project-page__meta-grid-about">
                             <div className="project-page__meta-desc">
                                 <b className="project-page__meta-title">What I Do</b>
-                                <span className="project-page__meta-value">Software, Web, IT</span>
+                                <span className="project-page__meta-value">
+                                    { currentProfile?.tasks.map(task => `${task}, `) }
+                                </span>
                             </div>
                             <div className="project-page__meta-desc">
                                 <b className="project-page__meta-title">Year I Started</b>
-                                <span className="project-page__meta-value">2023</span>
+                                <span className="project-page__meta-value">{currentProfile?.year_started}</span>
                             </div>
                             <div className="project-page__meta-desc">
                                 <b className="project-page__meta-title">My Location</b>
-                                <span className="project-page__meta-value">Atlanta, GA</span>
+                                <span className="project-page__meta-value">{currentProfile?.location}</span>
                             </div>
+                            
+                            {
+                                currentProfile?.education ? (
+                                    <div className="project-page__meta-desc">
+                                        <b className="project-page__meta-title">My Education</b>
+                                        {
+                                            currentProfile.education?.map(education => <span className="project-page__meta-value">{`${education} | `}</span>)
+                                        }
+                                    </div>
+                                ) : null
+                            }
+
+{
+                             currentProfile?.memberships ? (
+                                    <div className="project-page__meta-desc">
+                                        <b className="project-page__meta-title">Memberships</b>
+                                        {
+                                            currentProfile.memberships?.map(membership => <span className="project-page__meta-value">{`${membership}, `}</span>)
+                                        }
+                                    </div>
+                                ) : null
+                            }
+
+{
+                                currentProfile?.pe_registrations ? (
+                                    <div className="project-page__meta-desc">
+                                        <b className="project-page__meta-title">PE Registrations</b>
+                                        {
+                                            currentProfile.pe_registrations?.map(registration => <span className="project-page__meta-value">{`${registration}, `}</span>)
+                                        }
+                                    </div>
+                                ) : null
+                            }
                         </div>
                         <div className="project-page__meta-grid-col project-page__meta-grid-text">
-                        <h3 className="bio-page__about-heading">About Devonta</h3>
-                                <p className="project-page__meta-text">Devonta is a Full Stack Engineer based in Atlanta, GA, with over three years of experience in web development, database design, and systems architecture. Skilled in technologies like HTML, CSS, JavaScript, React, Node.js</p> 
+                        <h3 className="bio-page__about-heading">About {currentProfile?.name.split(" ")[0]}</h3>
                                 
-                                <p className="project-page__meta-text">His commitment to excellence is evident in his hands-on approach to problem-solving and his ability to thrive in dynamic environments. He has successfully collaborated with teams to confirm creative proposals, design best practices, and deliver high-quality results. His proactive nature and dedication to continuous improvement make him a valuable asset to any team looking to innovate and excel.</p>
-
+                                {
+                                    currentProfile?.bio.map(paragraph => <p className="project-page__meta-text">{paragraph}</p> )
+                                }
+                               
                                 
                         </div>
                     </div>

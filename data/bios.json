@@ -1,0 +1,150 @@
+[
+    {
+        "id": "1232123",
+        "slug": "/devonta",
+        "name": "Devonta Harris",
+        "tagline": "Hi, I'm Devonta and I love making cool things that people use and improves lives.",
+        "title": "Full Stack Engineer",
+        "tasks": ["Software", "Web", "IT"],
+        "year_started": "2023",
+        "location": "Atlanta, GA",
+        "hobbies": ["coding", "lifting"],
+        "image": "/images/bios/bio-img-5.jpeg",
+        "bio": 
+            ["Devonta is a Full Stack Engineer based in Atlanta, GA, with over three years of experience in web development, database design, and systems architecture. Skilled in technologies like HTML, CSS, JavaScript, React, Node.js",
+        "His commitment to excellence is evident in his hands-on approach to problem-solving and his ability to thrive in dynamic environments. He has successfully collaborated with teams to confirm creative proposals, design best practices, and deliver high-quality results. His proactive nature and dedication to continuous improvement make him a valuable asset to any team looking to innovate and excel."],
+        "featured_projects": [
+            {
+                "name": "Pwork Site",
+                "thumbnail": "/images/project-img-6.jpg"
+            },
+
+            {
+                "name": "Proficient Engineering Site",
+                "thumbnail": "/images/project-img-6.jpg"
+            }
+        ]
+    },
+
+    {
+        "id": "23413",
+        "slug": "/jeff",
+        "name": "Jeff Gray",
+        "tagline": "Jeff plays guitar and crushed networking is a cool dude.",
+        "title": "Head of IT",
+        "tasks": ["IT", "Networking"],
+        "year_started": "2010",
+        "location": "Atlanta, GA",
+        "hobbies": ["networking", "jammin", "guitar"],
+        "image": "/images/bios/bio-img-13.jpeg",
+        "bio": ["Jeff is awesome"],
+        "featured_projects": []
+    },
+
+    {
+        "id": "231313",
+        "slug": "/wayne",
+        "name": "Wayne Watt",
+        "tagline": "Wayne is an exceptional drummer with mad networking and PC skills.",
+        "title": "Director of IT",
+        "tasks": ["IT", "Networking", "Cloud Architecture"],
+        "year_started": "2015",
+        "location": "Atlanta, GA",
+        "hobbies": ["networking", "jammin", "drums"],
+        "image": "/images/bios/bio-img-9.jpeg",
+        "bio": ["Wayne is cool beans"],
+        "featured_projects": []
+    },
+
+    {
+        "id": "231313",
+        "slug": "/jen",
+        "name": "Jennifer Duchac",
+        "tagline": "Jen's hobbies include cycling, kayaking, hiking, gardening and pretty much anything else outdoors.",
+        "title": "Mechanical Principal",
+        "tasks": ["Mechanical Engineering"],
+        "year_started": "2017",
+        "location": "Atlanta, GA",
+        "hobbies": ["networking", "jammin", "drums"],
+        "image": "/images/bios/bio-img-15.jpeg",
+        "bio": ["Jen is a mechanical principal with Proficient Engineering.  She has been in the industry since 2004 and holds a BSME from Georgia Tech.  Jen has been employed both on the consulting engineering side as well as the contracting side of the construction industry.",
+                "She has both designed and managed a large variety of project types ranging from large scale cold storage,  distribution centers, or data centers to the quaintest pizza joint one could imagine (300SF!)."],
+        "featured_projects": [],
+        "pe_registrations": ["GA", "ND", "RI"],
+        "memberships": ["ASHRAE"],
+        "education": ["B.S. Mechanical Engineering - Montana State University"]
+    }, 
+
+    {
+        "id": "231313",
+        "slug": "/paul",
+        "name": "Paul Kenney",
+        "tagline": "The strength is in the pack",
+        "title": "Mechanical Principal",
+        "tasks": ["PE", "LEED AP", "Founder"],
+        "year_started": "2009",
+        "location": "Atlanta, GA",
+        "hobbies": ["networking", "jammin", "drums"],
+        "image": "/images/bios/bio-img-11.jpeg",
+        "bio": ["Paul recognized the value of a day’s work at his father’s painting company during high school. This is where he learned his business skills and to value service above profit. Since then,  he's envisioned a dynamic company of his own built on these values.",
+                "With an entrepreneurial passion and love for science, Paul returned to Atlanta after college to fulfill his dream. The rigor of his career path has helped him become a top engineer, taught him how to run an efficient company and fostered relationships with many of Atlanta’s most talented engineers.",
+                "Many of those engineers form the PEI staff today."],
+        "featured_projects": [],
+        "pe_registrations": ["AL", "AZ", "CA", "CT", "FL", "GA", "HI", "IA", "ID", "IL",
+    "IN", "KS", "LA", "MI", "MO", "MS", "NC", "NE", "NH", "NJ", "NM", "NV", "OH", "OK", "OR", "SC", "SD", "TN", "TX", "UT", "VA", "VT", "WA", "WI",
+    "WY"],
+        "memberships": ["ASHRAE", "LEED AP"],
+        "education": ["B.S. Mechanical Engineering - Montana State University"]
+    },
+
+    {
+        "id": "231313",
+        "slug": "/wayne",
+        "name": "Wayne Watt",
+        "tagline": "Wayne is an exceptional drummer with mad networking and PC skills.",
+        "title": "Director of IT",
+        "tasks": ["IT", "Networking", "Cloud Architecture"],
+        "year_started": "2015",
+        "location": "Atlanta, GA",
+        "hobbies": ["networking", "jammin", "drums"],
+        "image": "/images/bios/bio-img-9.jpeg",
+        "bio": ["Wayne is cool beans"],
+        "featured_projects": []
+    },
+
+    {
+        "id": "231313",
+        "slug": "/wayne",
+        "name": "Wayne Watt",
+        "tagline": "Wayne is an exceptional drummer with mad networking and PC skills.",
+        "title": "Director of IT",
+        "tasks": ["IT", "Networking", "Cloud Architecture"],
+        "year_started": "2015",
+        "location": "Atlanta, GA",
+        "hobbies": ["networking", "jammin", "drums"],
+        "image": "/images/bios/bio-img-9.jpeg",
+        "bio": ["Wayne is cool beans"],
+        "featured_projects": []
+    },
+
+    {
+        "id": "231313",
+        "slug": "/brian",
+        "name": "Brian Armenta",
+        "tagline": "The strength is in the pack",
+        "title": "Electrical Principal",
+        "tasks": ["PE", "LEED AP"],
+        "year_started": "2009",
+        "location": "Atlanta, GA",
+        "hobbies": ["networking", "jammin", "drums"],
+        "image": "/images/bios/bio-img-10.jpeg",
+        "bio": ["Brian served 15 years in the U.S. Coast Guard where he traveled to 30 countries.",
+                "After leaving the service, he began his career in electrical building design and pursued increasingly senior design roles at several Atlanta firms where he gained an impressive breadth of experience across commercial disciplines.",
+                "In addition to leading PEI’s entry into renewable energy, he has expanded the firm’s presence in the cannabis pharmaceutical market.", 
+            "Brian is licensed as a professional engineer in more than 25 states and has served as a senior member of IEEE."],
+        "featured_projects": [],
+        "pe_registrations": ["AL", "AR", "AZ", "CA", "CO", "DC", "GA", "HI", "KY", "LA", "MA", "MD", "ME", "MN", "NE", "NH", "NY", "OH", "PA", "SC", "TN", "VA", "WI", "UT", "VA", "WI", "WV"],
+        "memberships": ["LEED AP", ", ISO 9001 Certification Team Member"],
+        "education": ["B.S. Electrical Engineering - U.S. Coast Guard Academy", "M.S. Electrical Engineering - Georgia Institute of Technology"]
+    }
+]
