@@ -1,20 +1,17 @@
 'use client'
 
 import { useState, useEffect } from 'react';
-import { AiOutlineMenu } from 'react-icons/ai'
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 export default function Navbar() {
 
-    const [isNavOpen, setIsNavOpen] = useState(true);
+    const [isNavOpen, setIsNavOpen] = useState(false);
 
-    const toggleNav = () => {
-        setIsNavOpen(!isNavOpen);
-    }
-
+    const toggleOpen = () => setIsNavOpen(prevState => !prevState);
     return (
         <>
             <nav>
-                <ul className={`nav-container `}>
+                <ul className={`nav-container ${isNavOpen ? 'navbar-responsive' : ''}`}>
                     <li className="nav-item">
                         <a href="/what-we-do">What We Do</a>
                     </li>
@@ -49,10 +46,11 @@ export default function Navbar() {
                     </li>
                     
                 </ul>
-
-                {/* <button className='responsive-nav-btn' onClick={toggleNav}>
-                    <AiOutlineMenu />
-                </button> */}
+                <button className='responsive-nav-btn' onClick={toggleOpen}>
+                    {
+                        !isNavOpen ? <AiOutlineMenu  /> : <AiOutlineClose />
+                    }
+                </button>
             </nav>
         </>
     )
