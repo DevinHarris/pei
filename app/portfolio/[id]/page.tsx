@@ -1,6 +1,33 @@
-export default function ProjectPage({ params }:  { params: { id: string } }) {
+"use client";
 
-    console.log('Project: ', params);
+import { useState, useEffect } from 'react';
+import { useParams } from 'next/navigation';
+import projects from '../../../data/projects.json';
+
+interface Project {
+    id: string,
+    name: string,
+    project_tagline: string,
+    project_description: string[],
+    year_completed: string,
+    location: string,
+    client_name: string,
+    images: string[]
+}
+
+export default function ProjectPage() {
+
+    const { id } = useParams<{ id: string }>();
+    const [currentProject, setCurrentProject] =  useState<Project | undefined>();
+
+
+    useEffect(() => {
+        const projectData = projects.find(project => project.id === `${id}`);
+
+
+        setCurrentProject(projectData);
+
+    }, [currentProject]);
 
     return (
         <div className="project-page">
@@ -8,13 +35,13 @@ export default function ProjectPage({ params }:  { params: { id: string } }) {
                 <div className="project-page__header--hero">
                     <img className="project-page__header--img" src="/images/project-img-4.jpg" alt="project-image" />
                     <div className="project-page__header--content">
-                        <h1 className="project-title">SweetWater Brewing Company | Atlanta, GA</h1>
+                        <h1 className="project-title">{currentProject?.name} | {currentProject?.location}</h1>
                     </div>
                 </div>
             </header>
             <main className="project-page__main">
                 <section className="project-page__callout">
-                    <h2 className="project-page__callout-text">PEI is a very professional MEP engineering consulting group. They work efficiently and are great to collaborate with. Without expection, all the members of PEI team have been very capable, efficient, and friendly. Yes, I would absolutely recommend PEI to other firms.</h2>
+                    <h2 className="project-page__callout-text">{currentProject?.project_tagline}</h2>
                 </section>
                 <section className="project-page__meta">
                     <div className="project-page__meta-grid">
@@ -25,29 +52,22 @@ export default function ProjectPage({ params }:  { params: { id: string } }) {
                             </div>
                             <div className="project-page__meta-desc">
                                 <b className="project-page__meta-title">Year</b>
-                                <span className="project-page__meta-value">2021</span>
+                                <span className="project-page__meta-value">{currentProject?.year_completed}</span>
                             </div>
                             <div className="project-page__meta-desc">
                                 <b className="project-page__meta-title">Location</b>
-                                <span className="project-page__meta-value">Atlanta, GA</span>
+                                <span className="project-page__meta-value">{currentProject?.location}</span>
                             </div>
                             <div className="project-page__meta-desc">
                                 <b className="project-page__meta-title">Client</b>
-                                <span className="project-page__meta-value">SweetWater, LLC</span>
+                                <span className="project-page__meta-value">{currentProject?.client_name}</span>
                             </div>
                         </div>
                         <div className="project-page__meta-grid-col project-page__meta-grid-text">
-                                <p className="project-page__meta-text">The SweetWater Brewery project is located at 195 Ottley Drive in Atlanta, Georgia. Partnering with Studio Chib, our goal of the projects was to create indoor\outdoor musical experience, and relaxing with a beer. The focus of the indoor space was a central beer bar with an open kitchen surround by friendship-style dining tables that offers views of the brewery's beer making process.</p> 
+                            {
+                                currentProject?.project_description.map(description => <p className="project-page__meta-text">{description}</p>)
+                            }
                                 
-                                <p className="project-page__meta-text">The outdoor space is directly connected through openable glass garage doors and has an elevated patoio that is covered by a canopy and wood trellis allowing the customer to view the musical event stage set amidst a sprawling green landscaped lawn.</p>
-
-                                <p className="project-page__meta-text">
-                                    The biggest challenge of project was manage the tight project schedule and keeping the project within the budget while meeting the client's expectations. 
-                                </p>
-
-                                <p className="project-page__meta-text">
-                                    Concealed existing conditions discovered during construction as well as the dining area's open design posed some additional challenges.
-                                </p>
                         </div>
                        
                     </div>

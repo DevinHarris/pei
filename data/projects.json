@@ -1,5 +1,6 @@
 [
     {
+        "id": "212afa",
         "name": "SweetWater Brewing Company",
         "project_tagline": "PEI is a very professional MEP engineering consulting group. They work efficiently and are great to collaborate with. Without expection, all the members of PEI team have been very capable, efficient, and friendly. Yes, I would absolutely recommend PEI to other firms.",
         "project_description": [
@@ -11,6 +12,23 @@
 
         "year_completed": "2021",
         "location": "Atlanta, GA",
-        "client_name": "SweetWater, LLC"
+        "client_name": "SweetWater, LLC",
+        "images": [],
+        "projectType": "Food and Beverages"
+    },
+
+    {
+        "id": "542j21",
+        "name": "New Company",
+        "project_tagline": "PEI is a very professional MEP engineering consulting group. They work efficiently and are great to collaborate with. Without expection, all the members of PEI team have been very capable, efficient, and friendly. Yes, I would absolutely recommend PEI to other firms.",
+        "project_description": [
+            "New company is awesome!"
+        ],
+
+        "year_completed": "2024",
+        "location": "Los Angeles, CA",
+        "client_name": "Test, LLC",
+        "images": [],
+        "projectType": "Food and Beverages"
     }
 ]
