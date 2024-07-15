@@ -33,7 +33,7 @@ export default function Navbar() {
                         <a href="/our-team">Our Team</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#">Lunch and Learns</a>
+                        <a href="/lunch-learn">Lunch and Learns</a>
                     </li>
                     <li className="nav-item">
                         <a href="#">Blogs</a>

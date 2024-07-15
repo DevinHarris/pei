@@ -508,6 +508,10 @@ nav ul {
 
 /* Bio Page */
 
+.bio-page {
+  margin-top: 5rem;
+}
+
 .bio-page__projects-container {
   padding: 0 5rem;
   width: 100%;
