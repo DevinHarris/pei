@@ -64,7 +64,7 @@ nav ul {
 
 .navbar-responsive {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .navbar-responsive .nav-item {
@@ -822,6 +822,7 @@ nav ul {
   width: 100%;
 }
 
+
 /* Contact us */
 
 .contact__form input, textarea {
@@ -873,9 +874,104 @@ footer {
   display: block;
 }
 
+/* Lunch and Learn */
+
+.lunch-learn-container {
+  margin-top: 7rem;
+  padding: 0 5rem;
+  text-align: center;
+}
+
+.lunch-learn-heading {
+  margin-top: 5rem;
+  color: #a8a8a8;
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+.lunch-learn-description {
+  margin: 1rem auto;
+  line-height: 1.5;
+  width: 65rem;
+}
+
+
+.lunch-learn-type {
+  display: flex;
+  margin-top: 7rem;
+  /* padding: 0 5rem; */
+  width: 100%;
+}
+
+.lunch-learn-col-image {
+  height: 100%;
+  width: 70%;
+  /* width: 40%; */
+}
+
+.lunch-learn-col-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.lunch-learn-col-description {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  width: 30%;
+}
+
+.lunch-learn-title {
+  /* color: #a8a8a8; */
+  font-size: 3rem;
+  /* font-weight: 300; */
+  /* letter-spacing: 0.1rem; */
+  margin-bottom: 1rem;
+}
+
+.lunch-learn-objectives ul li {
+  color: #a8a8a8;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.lunch-learn-reverse {
+  flex-direction: row-reverse;
+}
+
+
+/* Careers */
+
+.careers-open-positions-container {
+  text-align: center;
+  width: 100%;
+}
+
+.current-open-position-heading {
+  margin-bottom: 0.5rem;
+}
+
+
 /* Media Queries */
 
 
+@media (max-width: 1500px) {
+  .lunch-learn-type {
+    flex-direction: column;
+  }
+
+  .lunch-learn-col-image {
+    width: 100%;
+  }
+
+  .lunch-learn-col-description {
+    width: 100%;
+  }
+}
 
 @media (max-width: 1200px) {
 
