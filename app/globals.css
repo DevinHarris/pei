@@ -1032,7 +1032,7 @@ footer {
   width: 70%;
 }
 
-.what-is-bim__heading h1, h2, h3 {
+.what-is-bim__heading h1, .what-is-bim__heading h2, .what-is-bim__heading h3 {
   color:#aeaeae;
 }
 
