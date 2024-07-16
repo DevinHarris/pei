@@ -17,7 +17,7 @@ export default function CareerPage() {
                         <p className="lunch-learn-description"> Send your resume and CV over to <a className="font-medium" href="mailto:careers@proficientengineering.com">careers@proficientengineering.com</a> to apply and if you're a good fit, we'll be in touch soon!</p>
                     </section>
                     <section className="careers-open-positions-container">
-                        <h1 className="lunch-learn-heading current-open-position-heading">Current Open Positions</h1>
+                        <h1 className="lunch-learn-heading current-open-position-heading">Current Open Roles</h1>
                         <p>Currently there are no openings. Please continue to check back regularly.</p>
                     </section>
                 </main>
