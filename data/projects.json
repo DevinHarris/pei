@@ -1486,124 +1486,235 @@
 
     {
         "id": "afoj4f",
-        "name": "",
-        "location": "",
-        "client_name": "",
+        "name": "Holiday Inn Express & Suites Renovation",
+        "location": "Lancaster, OH",
+        "client_name": "Holiday Inn Express & Suites",
         "dimensions": {
             "sqft": 43000
         },
         "project_tagline": "",
         "project_description": [
-            ""
+            "The existing Holiday Inn Express & Suites building consists of 3 stories, 63 guest rooms, and an enclosed swimming pool.",
+            "The renovation includes new finished, new casework, exterior and interior repair work, and 2 new meeting rooms that will replace 2 existing guest rooms."
         ],
         "year_completed": "2024",
-        "images": [],
-        "tag": ""
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
     },
 
     {
         "id": "itiyug87",
-        "name": "",
-        "location": "",
-        "client_name": "",
+        "name": "Hampton Inn Renovation",
+        "location": "Knoxville, TN",
+        "client_name": "Hampton Inn",
         "dimensions": {
             "sqft": 43000
         },
         "project_tagline": "",
         "project_description": [
-            ""
+            "Located in Cedar Bluff, the project involves an approximately 7,600-square-foot hotel renovation.",
+            "The scope of the work includes first floor spaces such as common restrooms, a meeting room, offices, a lobby, a breakfast area, a food prep area, and fitness room."
         ],
         "year_completed": "2024",
-        "images": [],
-        "tag": ""
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
     },
 
     {
-        "id": "3423124",
-        "name": "",
-        "location": "",
-        "client_name": "",
+        "id": "4fadf32",
+        "name": "Best Western Premier",
+        "location": "Gatlinburg, TN",
+        "client_name": "Best Western",
         "dimensions": {
             "sqft": 43000
         },
         "project_tagline": "",
         "project_description": [
-            ""
+            "Best Western Premier a 124-key, seven story hotel.",
+            "The scope includes coordinating utility connections with the indoor pool designer, the MEP design for a rooftop restaurant and patio seating, site lighting, and photometric design."
         ],
         "year_completed": "2024",
-        "images": [],
-        "tag": ""
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
     },
 
     {
-        "id": "3423124",
-        "name": "",
-        "location": "",
-        "client_name": "",
+        "id": "afffe44",
+        "name": "TownePlace Suites by Marriott",
+        "location": "Buford, GA",
+        "client_name": "Marriott",
         "dimensions": {
             "sqft": 43000
         },
         "project_tagline": "",
         "project_description": [
-            ""
+            "The TownePlace Suites project involves modifying the hotel's Gen 4 prototype to Gen 5 interior updates.",
+            "The 85-key hotel features a porte-cochère and an interior swimming pool. The structure had metal stud bearing walls with hollow core concrete plank floors and metal roof trusses."
         ],
         "year_completed": "2024",
-        "images": [],
-        "tag": ""
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
     },
 
     {
-        "id": "3423124",
-        "name": "",
-        "location": "",
-        "client_name": "",
+        "id": "acadc4",
+        "name": "Inn at Patrick Square",
+        "location": "Clemson, SC",
+        "client_name": "Inn at Patrick Square",
         "dimensions": {
             "sqft": 43000
         },
         "project_tagline": "",
         "project_description": [
-            ""
+            "The Inn at Patrick Square is a boutique hotel that will feature 45 guest rooms, a ballroom with capacity of up to 150 and the Stumphouse Café.",
+            "It offers an authentic, traditional setting overlooking the beautiful Village Green.."
         ],
         "year_completed": "2024",
-        "images": [],
-        "tag": ""
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
     },
 
     {
-        "id": "3423124",
-        "name": "",
-        "location": "",
-        "client_name": "",
+        "id": "pohih3fe",
+        "name": "Avid Hotel",
+        "location": "Asheville, NC",
+        "client_name": "Avid Hotel",
         "dimensions": {
-            "sqft": 43000
+            "sqft": 41695
         },
         "project_tagline": "",
         "project_description": [
-            ""
+            "The Avid Hotel project involves the development of a new, 41,695-square-foot hotel with 4 levels and 87 rooms."
         ],
         "year_completed": "2024",
-        "images": [],
-        "tag": ""
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
     },
 
     {
-        "id": "3423124",
-        "name": "",
-        "location": "",
-        "client_name": "",
+        "id": "4tejvas",
+        "name": "Staybridge Suites by IHG",
+        "location": "Duluth, GA",
+        "client_name": "IHG",
         "dimensions": {
             "sqft": 43000
         },
         "project_tagline": "",
         "project_description": [
-            ""
+            "Staybridge Suites is going to be in Duluth, GA. This project is a new, ground up, 5-story, 115-room hotel."
         ],
         "year_completed": "2024",
-        "images": [],
+        "images": ["/images/portfolio/hospitality.jpg"],
         "tag": ""
     },
     {
-        "id": "3423124",
+        "id": "fwefjp2",
+        "name": "The Hyatt",
+        "location": "Augusta, GA",
+        "client_name": "The Hyatt",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Hyatt Augusta is a 70,000-square-foot, 4-story hotel.",
+            "The facility was built to provide added hospitality options in Augusta and specifically for the Masters",
+            "The facility includes a guest dining room and bar with a full commercial kitchen, a business center, multiple meeting rooms, and commercial and guest laundry areas."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
+    },
+
+    {
+        "id": "32rfafw",
+        "name": "Home2 Suites by Hilton",
+        "location": "Gulf Breeze, FL",
+        "client_name": "Hilton",
+        "dimensions": {
+            "sqft": 56651
+        },
+        "project_tagline": "",
+        "project_description": [
+            "This Home2 Suites located in Gulf Breeze, Florida is 56,651 gross square feet.",
+            "The ground floor amenity and service spaces are approximately 11,630 square feet. There are 107 guest suites comprised of 2-4-unit types. Extended stay suites will include a kitchenette."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
+    },
+
+    {
+        "id": "asdf42",
+        "name": "Sobu Flats Conversion",
+        "location": "Atlanta, GA",
+        "client_name": "Sobu Flats",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Proficient Engineering provided the mechanical and plumbing engineering for the conversion of the Sobu Flats building in Revit.",
+            "The early 1950's building will feature a 135,000-sqaure-foot, boutique hotel with 9 stories and a variable refrigerant flow (VRF) for the HVAC."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
+    },
+
+    {
+        "id": "lenf24",
+        "name": "Residence Inn by Marriott",
+        "location": "Greensboro, NC",
+        "client_name": "Marriott",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Residence Inn is 7 stories and 88,183 square feet. The project includes fitness area office space, bedrooms, and laundry room."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
+    },
+
+    {
+        "id": "3lfi3a",
+        "name": "Fairfield Inn by Marriott",
+        "location": "Dawsonville, GA",
+        "client_name": "Marriott",
+        "dimensions": {
+            "sqft": 56809
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The scope of the project includes the mechanical, electrical, and plumbing engineering of a wood frame hotel that totals 56,809 square feet with 4 stories and 92 rooms."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
+    },
+
+    {
+        "id": "k421fa",
+        "name": "Residence Inn by Marriott",
+        "location": "South Haven, MS",
+        "client_name": "Marriott",
+        "dimensions": {
+            "sqft": 94124
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Residence Inn is 94,124 square feet and has 3 stories. The 78-room building includes a business center, pool, outdoor patio, sports court, and dry cleaning."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
+    },
+
+    {
+        "id": "nie2r4",
         "name": "",
         "location": "",
         "client_name": "",
@@ -1615,8 +1726,811 @@
             ""
         ],
         "year_completed": "2024",
-        "images": [],
-        "tag": ""
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
+    },
+
+    {
+        "id": "324otga",
+        "name": "Best Western Plus Renovation",
+        "location": "Pigeon Forge, TN",
+        "client_name": "Best Western Plus",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Best Western Plus renovation included the mechanical and electrical engineering design for approximately 4,900 square feet of the hotel's ground floor.",
+            "The new equipment design featured a split system for the lobby, a split system for a meeting room and bathrooms, and (5) mini-split ceiling cassettes for the fitness room, the prep kitchen, and corridors."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/hospitality.jpg"],
+        "tag": "hospitality"
+    },
+
+    {
+        "id": "h42tadf",
+        "name": "Taco Bell",
+        "location": "Across the Southeastern U.S.",
+        "client_name": "Taco Bell",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Proficient is consistently helping Taco Bell expand and has worked on several of their locations across the Southeast."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+
+    {
+        "id": "4e2rtfasd",
+        "name": "",
+        "location": "",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+
+    {
+        "id": "34roojf",
+        "name": "Zaxby's",
+        "location": "Across the Southeastern U.S.",
+        "client_name": "Zaxby's",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Proficient developed the new prototype design for Zaxby's.",
+            "This prototype has saved thousands of dollars on each store while providing more comfortable space conditions using less energy."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+
+    {
+        "id": "x3rofae",
+        "name": "C Ellet's",
+        "location": "Marietta, GA",
+        "client_name": "C Ellet's",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "C. Ellet’s is a next-generation steakhouse located at The Battery at SunTrust Park.",
+            ". The space includes a kitchen, associated storage spaces, a bar, oyster bar with walk up service window, multiple points of sale and dining spaces, and restrooms required for the fitout."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+
+    {
+        "id": "n3fa0",
+        "name": "Dreamland BBQ",
+        "location": "Duluth, GA",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Dreamland is known for their bar-b-que ribs and southern atmosphere.",
+            "The décor inside is warm and inviting with a big bar, a few tables and booths and a pot bellied stove. Duluth Georgia is home to this 6,500 square foot BBQ restaurant."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+    {
+        "id": "j3n2d",
+        "name": "Bar Mercado",
+        "location": "Atlanta, GA",
+        "client_name": "Bar Mercado",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "For Bar Mercado, bright colors and bold patterns are layered over an existing backdrop of old brick, steel, and concrete to evoke the excitement of a Spanish market.",
+            "Alongside our restauranteur clients, we took inspiration from the Mercado de San Miguel, a food hall within an open ironwork structure dating from 1916 located in Madrid."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+    {
+        "id": "ln3p2fa",
+        "name": "",
+        "location": "",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+    {
+        "id": "g42ra",
+        "name": "Gusto at The Avalon",
+        "location": "Alpharetta, GA",
+        "client_name": "Gusto at The Avalon",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Gusto is known for their unique menu and innovative attitude.",
+            "This restaurant makes a great addition to the Aavalon, a popular hangout spot outside of Atlanta."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+    {
+        "id": "nio32fa",
+        "name": "Kale Me Crazy",
+        "location": "Across the Southeastern U.S.",
+        "client_name": "Kale Me Crazy",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Kale Me Crazy is a super food café that that focuses on feeding a healthy lifestyle. Proficient has designed several of these establishments across the Southeast."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+    {
+        "id": "lhfoie",
+        "name": "H&W Steakhouse",
+        "location": "Peachtree Corners, GA",
+        "client_name": "H&W Steakhouse",
+        "dimensions": {
+            "sqft": 6600
+        },
+        "project_tagline": "",
+        "project_description": [
+            "H&W Steakhouse is a brand of parent company Norsan Restaurants. This concept will breathe new life into the traditional steakhouse and plans to carry the finest prime grade, black angus and corn fed steaks.",
+            "The scope of the project includes a 6,600- square-foot building with covered patio. The dining room and bar was gutted and the kitchen was reworked."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+    {
+        "id": "nklo3e",
+        "name": "Wild Wing Cafe",
+        "location": "Dawsonville, GA",
+        "client_name": "Wild Wing Cafe",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "An existing Ruby Tuesday is being converted into a Wild Wing Café in Dawsonville, GA.",
+            "The project scope includes a new covered patio to front of building, an expanded bar area, a new kitchen equipment layout, a potential new raised stage in dining room, and a potential addition of a new cooler to back of building."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+    {
+        "id": "ke4pfa",
+        "name": "Zalate Taqueria",
+        "location": "Knoxville, TN",
+        "client_name": "Zalate Taqueria",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The project featured the mechanical, electrical, and plumbing engineering design for a 3,800-square-foot restaurant renovation of an existing retail space with a bar."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+    {
+        "id": "lk432",
+        "name": "Bud's Farmhouse Coffee",
+        "location": "Oak Ridge, TN",
+        "client_name": "Bud's Farmhouse Coffee",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "For Bud's Farmhouse Coffee, we provided the mechanical, electrical, and plumbing engineering design for an approximately 1,500-square-foot coffee shop p fit-up of a previously occupied generic retail space.",
+            "The mechanical scope included reusing existing RTU with the revised diffuser layout. One new restroom was also added and the existing restroom was modified as necessary to meet code."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+
+    {
+        "id": "e4fas",
+        "name": "Common Place Coffee",
+        "location": "Knoxville, TN",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The project involved an approximately 2,700-squarefoot coffee shop tenant fit-up. The HVAC scope included re-using the existing system if possible. New exhaust fan(s) were included for the revised bathroom layout.",
+            ". The plumbing scope covered the modification of the bathroom layout and the addition of a coffee bar with a dishwasher and under-counter grease trap. Lighting updates and power design was also included as needed."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+
+    {
+        "id": "4tfads",
+        "name": "Sweetwater Brewing Company",
+        "location": "Atlanta, GA",
+        "client_name": "Sweetwater Brewing Company",
+        "dimensions": {
+            "sqft": 1500
+        },
+        "project_tagline": "",
+        "project_description": [
+            "For Sweetwater Brewing Company, Proficient provided services for a 1,500-square-foot renovation to the taproom.",
+            "This included a new bar as the room's centerpiece and the addition of a kitchen allowing the brewery to offer catering services and a bar menu for taproom guests."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/food.jpg"],
+        "tag": "food and beverages"
+    },
+
+    {
+        "id": "3jassdf3",
+        "name": "Second Self",
+        "location": "Atlanta, GA",
+        "client_name": "Second Self",
+        "dimensions": {
+            "sqft": 4000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Second Self Brewery is located on the West side of Atlanta. The building is 4,000 square feet and includes a tasting room with a game area, storage space and beer making room."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/manufacturing.jpg"],
+        "tag": "manufacturing"
+    },
+
+    {
+        "id": "oiuhou8",
+        "name": "Reformation Brewery",
+        "location": "Woodstock, GA",
+        "client_name": "Reformation Brewery",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Proficient provided services for the relocation of Reformation Brewery into an existing 7,000-squarefoot building."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/manufacturing.jpg"],
+        "tag": "manufacturing"
+    },
+
+    {
+        "id": "dlf29",
+        "name": "Wild Heaven Beer",
+        "location": "Atlanta, GA",
+        "client_name": "Wild Heaven Beer",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Wild Heaven Beer is located on the Beltline in the Lee + White Development. The brewery is 20,700 square feet including cold storage, dry storage, event space, and office space."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/manufacturing.jpg"],
+        "tag": "manufacturing"
+    },
+
+    {
+        "id": "e4fw42",
+        "name": "Elsewhere Brewing",
+        "location": "Atlanta, GA",
+        "client_name": "Elsewhere Brewing",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Elsewhere sells a diverse line-up of American and European brews and offers Argentine inspired sandwiches & empanadas, along with other seasonal plates.",
+            "Elsewhere’s taproom design takes inspiration from beer gardens in Bavaria, pubs in Yorkshire, cafes in Brussels, drinking halls in Prague, and mezcalerias in Oaxac, forming a unique and homey atmosphere"
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/manufacturing.jpg"],
+        "tag": "manufacturing"
+    },
+
+    {
+        "id": "42gfasf",
+        "name": "Sabbath Brewing",
+        "location": "Atlanta, GA",
+        "client_name": "Sabbath Brewing",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Located on Flat Shoals Avenue, Sabbath Brewing focuses on brewing high quality ales fermented in oak such as Saisons and Grisettes.",
+            "The venue also hosts live music and game nights. We provided the plumbing design for the new establishment."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/manufacturing.jpg"],
+        "tag": "manufacturing"
+    },
+    {
+        "id": "rfasbn",
+        "name": "Pontoon Brewing",
+        "location": "Tucker, GA",
+        "client_name": "Pontoon Brewing",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Pontoon Brewing is opening a new location at an existing warehouse in Tucker, GA. The building includes 3,000-sqaure-foot of office area that will be converted into a tasting room and small kitchen.",
+            "The restrooms need to be upgraded and the HVAC design needs to be re-worked. The rest of the space will become Pontoon's new primary production brewery."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/manufacturing.jpg"],
+        "tag": "manufacturing"
+    },
+    {
+        "id": "asdfw3",
+        "name": "Georgia Furniture Mart",
+        "location": "Kennesaw, GA",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 38680
+        },
+        "project_tagline": "",
+        "project_description": [
+            "This project includes providing electrical and plumbing for the renovation and tenant fit-up of an existing 38,680 square foot retail space. It also includes the renovation of two restrooms, a break room, and new lighting throughout the facility."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/manufacturing.jpg"],
+        "tag": "manufacturing"
+    },
+    {
+        "id": "jef32a",
+        "name": "Lendmark",
+        "location": "Across the U.S.",
+        "client_name": "Lendmark",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Proficient has provided services for Lendmark at multiple locations including in CA, AZ, AL, TX, TN, GA, SC, NC, WA, and OH.",
+            "For these projects, Mep design is completed for an approximately 1200-1500-squarefoot office space. Services are relatively similar for all projects and are completed on an effective and flexible schedule."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+    {
+        "id": "342pir",
+        "name": "Two Bikes",
+        "location": "Knoxville, TN",
+        "client_name": "Two Bikes",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Two Bikes project is a 3,800-square-foot renovation of an existing space into a bicycle shop located in the historic Old City. The scope of work includes retail, bike storage & display, and a bike workshop space on the ground level.",
+            "At the upper level, there is an additional bulk bike storage & a small office space."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+
+    {
+        "id": "asdf3r",
+        "name": "",
+        "location": "",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+    {
+        "id": "poij3rf",
+        "name": "HBO Storage",
+        "location": "Panama City, FL",
+        "client_name": "HBO Storage",
+        "dimensions": {
+            "sqft": 36000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "For this project, Proficient provided design for all new MEP systems included in the repair and renovation of an existing self storage building.",
+            "The facility consists of one 63,157-square-foot level and a 36,000-squarefoot mezzanine."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+
+     {
+        "id": "f32r2fa",
+        "name": "Westside Village at Moores Mill",
+        "location": "Atlanta, GA",
+        "client_name": "Westside Village at Moores Mill",
+        "dimensions": {
+            "sqft": 50000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The $25 million project is a mix of shops and restaurants.",
+            "It sits on nearly 10 acres along Marietta Boulevard. The development repurposes two existing buildings, a large warehouse and former church, and adds as much as 50,000 SF of new construction."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+
+    {
+        "id": "b34faf",
+        "name": "Saks Fifth Avenue",
+        "location": "Atlanta, GA",
+        "client_name": "Saks Fifth Avenue",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "With 27,000 square feet at Buckhead Station, Saks Fifth Avenue includes a sales floor with office package, warehouse and support areas."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+
+    {
+        "id": "v34r2a",
+        "name": "Indian Lake",
+        "location": "Hendersonville, TN",
+        "client_name": "Indian Lake",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Indian Lake Retail project is a total of 29,360 square feet of leasable area for the developer. The initial design provides warm dark shells for multiple tenants with full fit-ups of a Tuesday Morning restaurant and a UFC Gym."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+
+    {
+        "id": "fawrfa",
+        "name": "Pure Luxe Renovation",
+        "location": "Knoxville, TN",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The project is currently in permitting. It features a 2,000-SF renovation to a 4,100-SF suite. The space will be joined to a neighboring suite, but the utilities will remain separate.",
+            "Additional renovations/ additions include new decorative lighting and new data/power for the reception desk, 6 new laser/injectable med rooms, and converting the existing sauna/gym to a staff workroom."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+
+    {
+        "id": "of0oka",
+        "name": "Fairview Road Self Storage",
+        "location": "Simpsonville, SC",
+        "client_name": "Fairview Road Self Storage",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Fairview Road Self Storage project involved the MEP system design of a 3-story prototype for a storage facility that can be easily adaptable to several other locations"
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+
+    {
+        "id": "c3daaf",
+        "name": "North Macon Plaza",
+        "location": "Macon, GA",
+        "client_name": "North Macon Plaza",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Plaza project consists of 3 buildings and parking lots. The buildings have varying levels of fit-outs including cold dark shells, turnkey spaces, modified white boxes, and warm dark shells.",
+            "Building 100 features a Michaels, Ross, Marshalls/HomeGoods, and Five Below. Some of Building 200's tenants are Lifeway Christian Stores, Famous Footwear, Old Navy, and Bealls."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+
+    {
+        "id": "cdrg5rt",
+        "name": "Roosevelt Square",
+        "location": "Jacksonville, FL",
+        "client_name": "Roosevelt Square",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Roosevelt Square is a shopping and restaurant center located in West Jacksonville. We provided the MEP design of four warm dark shell buildings for future retail and restaurant use.",
+            "This included stubbing in utilities for all suites and setting grease traps for the planned restaurant spaces."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+
+    {
+        "id": "foij3rfa",
+        "name": "Bradley Square Mall Renovation",
+        "location": "Cleveland, TN",
+        "client_name": "Bradley Square Mall Renovation",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The mall renovation includes the demolition of an existing department store and replacement with 3 new tenant suites.",
+            "An addition of a new free-standing building with inline tenants and a new mall entry is also included. Some of the tenant spaces will include grease interceptors for potential future use as restaurants."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+
+    {
+        "id": "fpo3o",
+        "name": "The Beacon",
+        "location": "Atlanta, GA",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 80000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Containing 80,000 square feet, The Beacon is a unique retail, dining and cultural destination nestled along the Beltline in Atlanta’s charming Grant Park Neighborhood."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/retail.jpg"],
+        "tag": "retail"
+    },
+
+    {
+        "id": "her3r",
+        "name": "The Malone",
+        "location": "Atlanta, GA",
+        "client_name": "The Malone",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Malone is the development of a 55+ living community. The facility is approximately 440,000 square feet and includes retail space, a leasing office, and amenities including demonstration cooking."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/senior.jpg"],
+        "tag": "senior living"
+    },
+
+    {
+        "id": "b3iefa",
+        "name": "Watercrest Senior Living",
+        "location": "Macon, GA",
+        "client_name": "Watercrest",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Watecrest Macon is a 107-unit senior living community with 75 assisted living and 32 memory care dwellings. The overall structure is 93,249 square feet includes several different amenity and service spaces."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/senior.jpg"],
+        "tag": "senior living"
+    },
+    {
+        "id": "nke3fa",
+        "name": "Vinings Senior Village",
+        "location": "Smyrna, GA",
+        "client_name": "Vinings Senior Village is a new construction project that will consist of a 56,279-sqaure-foot, 4-story building. It is planned to have 48 units.",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/senior.jpg"],
+        "tag": "senior living"
+    },
+
+    {
+        "id": "hu0hoj",
+        "name": "The Union at Auburn",
+        "location": "Auburn, AL",
+        "client_name": "The Union at Auburn",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Union project involves the design of a new construction, 5-story student housing building. The structure includes a parking deck, apartment units, and a 3,791-square-foot clubhouse.",
+            "The unit types include a mix of 2, 3 and 4-bedroom units."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/mixed.jpg"],
+        "tag": "mixed use"
+    },
+    {
+        "id": "yihjkn",
+        "name": "Aiken Mall Redevelopment",
+        "location": "Aiken, SC",
+        "client_name": "Aiken Mall",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "For Phase 1 of the Aiken mall redevelopment, there will be an addition of 256 luxury apartments. Future plans include an upscale hotel as well as retail and dining establishments."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/mixed.jpg"],
+        "tag": "mixed use"
+    },
+    {
+        "id": "arti0h",
+        "name": "Cinepolis Movie Theater",
+        "location": "Gaithersburg, MD",
+        "client_name": "Cinepolis Movie Theater",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The 33,000-square-foot movie theater, with a new full-service kitchen addition, underwent complete gutting and renovation."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/mixed.jpg"],
+        "tag": "mixed use"
+    },
+    {
+        "id": "oh4hfa",
+        "name": "The Academy Lofts",
+        "location": "Atlanta, GA",
+        "client_name": "The Academy Lofts",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The old George Adair School, constructed in 1912, will be transformed into The Academy Lofts.",
+            "The development works on revitalizing the Adair Park neighborhood by providing 35 affordable micro-units targeting creatives and artists and 2,500 square feet of loft-office space to serve nonprofits and small businesses."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/mixed.jpg"],
+        "tag": "mixed use"
+    },
+    {
+        "id": "no3rfa",
+        "name": "Quarter Westside",
+        "location": "Atlanta, GA",
+        "client_name": "Quarter Westside",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The planned mixed use will featuremore than300 residential units, including a 273-unit apartment complex, and a collection of townhouses, flats and city homes. It includes 3 different buildings, 2 that are 4 stories and 1 that is 5 stories."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/mixed.jpg"],
+        "tag": "mixed use"
+    },
+
+    {
+        "id": "g4o3a",
+        "name": "The Local",
+        "location": "Louisville, KY",
+        "client_name": "The Local",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Local is an urban infill, mixed-use project that includes 282 residential units and 8,000 SF of street level retail that wrap around a 5-level parking deck. Portions of two historic warehouses were also preserved in a separate, 5-story adaptive reuse building, housing 23 units and 5,000 SF of amenity space."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/mixed.jpg"],
+        "tag": "mixed use"
+    },
+    {
+        "id": "afoifew",
+        "name": "115 East Broad Street",
+        "location": "Athens, GA",
+        "client_name": "115 East Broad Street",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Located at 115 East Broad Street is a new construction, 6-story mixed-use building. With a total of 31,663 square feet, the structure includes 19,256 square feet of office and 12,138 square feet of retail space, as well as Athens’ first rooftop restaurant. With solar panels and a green roof up top, the building will meet LEED gold standard."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/mixed.jpg"],
+        "tag": "mixed use"
+    },
+    {
+        "id": "fdas324r",
+        "name": "KWA Office HQ",
+        "location": "Atlanta, GA",
+        "client_name": "KWA Office HQ",,
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "With a total of 4,800 square feet split evenly over two stories, Kronberg Wall’s studio is located in what was the historic church’s sanctuary with a separate tenant space below"
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/mixed.jpg"],
+        "tag": "mixed use"
     },
     {
         "id": "3423124",
@@ -1634,4 +2548,5 @@
         "images": [],
         "tag": ""
     }
+
 ]
