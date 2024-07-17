@@ -4,10 +4,10 @@ interface ProjectThumbnail {
     images: string[],
     location: string,
     project_description: string,
-    projectType: string
+    tag: string
 }
 
-export default function ProjectThumbnail({ id, name, images, location, project_description, projectType }: ProjectThumbnail) {
+export default function ProjectThumbnail({ id, name, images, location, project_description, tag }: ProjectThumbnail) {
 
     return (
         <div className="project-thumbnail">

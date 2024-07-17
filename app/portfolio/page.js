@@ -10,22 +10,22 @@ export default function PortfolioPage() {
 
     // used to filter different projects 
 
-    const [projectTypes, setProjectTypes] = useState(['Food and Beverages', 'Community', 'Higher Education', 'Historic', 'Hospitality', 
-                                'Industrial', 'K-12 Education', 'Medical', 'Mixed Use', 'Multi-Family', 'Office', 'Retail', 'Senior Living'])
+    const [projectTags, setProjectTags] = useState(['Food and Beverages', 'Community', 'Higher Education', 'Historic', 'Hospitality', 
+                                'Industrial', 'Aviation', 'Recreation', 'Medical', 'Mixed Use', 'Multi-Family', 'Office', 'Retail', 'Senior Living'])
 
-    const [currentProjectType, setCurrentProjectType] = useState('Food and Beverages');
+    const [currentProjectTag, setCurrentProjectTag] = useState('Community');
 
     const [projects, setProjects] = useState([]);
 
     const handleOnChange = (e) => {
 
-        setCurrentProjectType(e.target.value)
+        setCurrentProjectTag(e.target.value)
         console.log(e.target.value)
     }
 
     useEffect(() => {
         setProjects(projectData);
-    }, [currentProjectType, projects])
+    }, [currentProjectTag, projects])
 
     
     return (
@@ -38,24 +38,24 @@ export default function PortfolioPage() {
             </header>
             <section className="portfolio-page__projects">
                 <div className="portfolio-page__project-selection">
-                    <select className="project-type" name="project-type" id="project-type" onChange={handleOnChange}>
+                    <select className="project-type" name="project-type" id="project-type" value={currentProjectTag} onChange={handleOnChange}>
                         {
-                            projectTypes.map(projectType => {
+                            projectTags.map(projectTag => {
                                 return (
-                                    <option value={projectType} key={projectType}>{projectType}</option>
+                                    <option value={projectTag} key={projectTag}>{projectTag}</option>
                                 )
                             })
                         }
                     </select>
-                    <h3 className='current-project-type'>{currentProjectType}</h3>
+                    <h3 className='current-project-type'>{currentProjectTag}</h3>
                 </div>
                 <div className='portfolio-page__projects-grid'>
                     {
-                        projects.filter(project => {
-                            return project.projectType === currentProjectType;
+                        projects ? projects.filter(project => {
+                            return project.tag === currentProjectTag.toLowerCase();
                         }).map(project => {
                            return <ProjectThumbnail key={project.name} {...project} />
-                        })
+                        }) : <h1>Currently there are no projects to display.</h1>
                     }
                 </div>
             </section>

@@ -12,7 +12,11 @@ interface Project {
     year_completed: string,
     location: string,
     client_name: string,
-    images: string[]
+    images: string[],
+    tag: string,
+    dimensions?: {
+        sqft?: number
+    }
 }
 
 export default function ProjectPage() {
@@ -33,7 +37,7 @@ export default function ProjectPage() {
         <div className="project-page">
             <header className="project-page__header">
                 <div className="project-page__header--hero">
-                    <img className="project-page__header--img" src="/images/project-img-4.jpg" alt="project-image" />
+                    <img className="project-page__header--img" src={currentProject?.images[0]} alt="project-image" />
                     <div className="project-page__header--content">
                         <h1 className="project-title">{currentProject?.name} | {currentProject?.location}</h1>
                     </div>
@@ -48,7 +52,7 @@ export default function ProjectPage() {
                         <div className="project-page__meta-grid-col project-page__meta-grid-about">
                             <div className="project-page__meta-desc">
                                 <b className="project-page__meta-title">Size</b>
-                                <span className="project-page__meta-value">49,200 SF New | 25,900 SF Renovation</span>
+                                <span className="project-page__meta-value">{currentProject?.dimensions?.sqft}</span>
                             </div>
                             <div className="project-page__meta-desc">
                                 <b className="project-page__meta-title">Year</b>

@@ -1,34 +1,1637 @@
 [
     {
         "id": "212afa",
-        "name": "SweetWater Brewing Company",
+        "name": "Fulton County Government Center Renovation",
+        "dimensions": {
+            "sqft": 43000
+        },
         "project_tagline": "PEI is a very professional MEP engineering consulting group. They work efficiently and are great to collaborate with. Without expection, all the members of PEI team have been very capable, efficient, and friendly. Yes, I would absolutely recommend PEI to other firms.",
         "project_description": [
-            "The SweetWater Brewery project is located at 195 Ottley Drive in Atlanta, Georgia. Partnering with Studio Chib, our goal of the projects was to create indoor \\ outdoor musical experience, and relaxing with a beer. The focus of the indoor space was a central beer bar with an open kitchen surround by friendship-style dining tables that offers views of the brewery's beer making process.",
-            "The outdoor space is directly connected through openable glass garage doors and has an elevated patoio that is covered by a canopy and wood trellis allowing the customer to view the musical event stage set amidst a sprawling green landscaped lawn.",
-            "The biggest challenge of project was manage the tight project schedule and keeping the project within the budget while meeting the client's expectations.",
-            "Concealed existing conditions discovered during construction as well as the dining area's open design posed some additional challenges."
+            "For the Fulton County Government Center, Proficient provided services for the interior renovation and expansion of the 3rd floor conference and training room.",
+            "This included separating the existing conference and media room to create room for one large multi-purpose space."
         ],
 
         "year_completed": "2021",
         "location": "Atlanta, GA",
-        "client_name": "SweetWater, LLC",
-        "images": [],
-        "projectType": "Food and Beverages"
+        "client_name": "Fulton County",
+        "images": ["/images/portfolio/community.jpg"],
+        "tag": "community"
+    },
+
+    {
+        "id": "342324",
+        "name": "City of Atlanta Office Building ",
+        "location": "Atlanta, GA",
+        "client_name": "City of Atlanta ",
+        "dimensions": {
+            "sqft": 61399
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The City of Atlanta office building is located on 160 Trinity Avenue in the middle of the Downtown Atlanta Government Center.",
+            "The structure is a 61,399 square feet with 3 stories. A VRF system was included in Proficient's design."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/community.jpg"],
+        "tag": "community"
     },
 
     {
         "id": "542j21",
-        "name": "New Company",
+        "name": "Braselton Civil Center",
+        "dimensions": {
+            "sqft": 43000
+        },
         "project_tagline": "PEI is a very professional MEP engineering consulting group. They work efficiently and are great to collaborate with. Without expection, all the members of PEI team have been very capable, efficient, and friendly. Yes, I would absolutely recommend PEI to other firms.",
         "project_description": [
-            "New company is awesome!"
+            "The civil center is a new construction, pre-engineered metal building with 2 stories.",
+            "The center includes an administrative office, a multi-purpose room, a ballroom, a lobby, a kitchen, restrooms, and storage and utility rooms."
         ],
 
         "year_completed": "2024",
-        "location": "Los Angeles, CA",
-        "client_name": "Test, LLC",
+        "location": "Braselton, GA",
+        "client_name": "Braselton Civil Center",
+        "images": ["/images/portfolio/community.jpg"],
+        "tag": "community"
+    },
+
+    {
+        "id": "3424r32",
+        "name": "Neva Lomason Memorial Library",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Neva Lomason Memorial Library project involves adding 10,000 square feet to the current 18,000- square-foot building.",
+            "The space includes meeting areas, additional public computers and accessible collections."
+        ],
+        "year_completed": "2024",
+        "location": "Carrolton, GA",
+        "client_name": "Neva Lomason Memorial Library",
+        "images": ["/images/portfolio/community.jpg"],
+        "tag": "community"
+    },
+
+    {
+        "id": "a3241f",
+        "name": "West Memphis Municipal",
+        "location": "West Memphis, AR",
+        "client_name": "West Memphis Municipal",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The project scope consists of a 9,000-square-foot fire station and police substation, a 12,000-square-foot municipal courthouse, and a 7,500-square foot fire station."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/community.jpg"],
+        "tag": "community"
+    },
+
+    {
+        "id": "4fasf",
+        "name": "Jefferson County Municipal",
+        "location": "Jefferson County, AR",
+        "client_name": "Jefferson County Municipal",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The municipal features three 1-story buildings. One One is ~12,800 SF and includes a lab, pharmacy, and exam rooms for Jefferson County Health.",
+            "The second is a 9,000-SF structure for the County Coroner’s office. The third is roughly 5,300 SF and is for the Affairs Building in the downtown historic district."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/community.jpg"],
+        "tag": "community"
+    },
+
+    {
+        "id": "0jiojF",
+        "name": "Cornelia Municipal Complex",
+        "location": "Cornelia, GA",
+        "client_name": "Cornelia Municipal Complex",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Cornelia Municipal Complex is a 36,500 square foot structure that includes a city hall, police department and fire station."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/community.jpg"],
+        "tag": "community"
+    },
+
+    {
+        "id": "3423MK124",
+        "name": "Jackson County Agricultural Center",
+        "location": "Jefferson, GA",
+        "client_name": "Jackson County Agricultural Center",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Located on the intersection of County Farm Rd and Fowler Dr, Georgia, the new construction agricultural center is an approximately 43,000-square-foot, prefabricated metal building.",
+            "The facility possesses wash rooms, multi-purpose rooms, show areas, offices, storage rooms, conference rooms, restrooms, concession areas, a kitchen, and utility rooms."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/community.jpg"],
+        "tag": "community"
+    },
+
+    {
+        "id": "3E24R",
+        "name": "Decatur Visitors Center",
+        "location": "Decatur, GA",
+        "client_name": "Decatur Visitors Center",
+        "dimensions": {
+            "sqft": 4600
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Decatur Visitors Center project is a fit out of a 4,600-square-foot existing space for the city of Decatur. The space includes two conference areas, an office space, a storage area, and a bathroom facility"
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/community.jpg"],
+        "tag": "community"
+    },
+
+    {
+        "id": "9JFAODF",
+        "name": "The Beltline Visitors Center",
+        "location": "Atlanta, GA",
+        "client_name": "The Beltline",
+        "dimensions": {
+            "sqft": 4300
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Beltline Visitors Center project is a fit-out of a 4,300 square foot visitors center for the Atlanta Beltline. The space includes a new conference room, an office space, and a storage area."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/community.jpg"],
+        "tag": "community"
+    },
+
+    {
+        "id": "3F423124",
+        "name": "Foothills Church Renovation",
+        "location": "Maryville, TN",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "This project includes a 27,000-square-foot office/daycare renovation at Foothill's Church.",
+            "The existing space is a pre-manufactured metal building and the renovation will cover the ground floor and mezzanine above."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/community.jpg"],
+        "tag": "community"
+    },
+
+    {
+        "id": "34290A3124",
+        "name": "Emory University",
+        "location": "Atlanta, GA",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Emory University is a top-ranked private institution. ",
+            "Proficient provided services for a renovation in the Grace Crum Rollins Building, an All-Gender Restroom addition, student housing, the James B. Williams Medical Education Building and a renovation of the Pharmacology building."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/education.jpg"],
+        "tag": "education"
+    },
+
+    {
+        "id": "3423423124",
+        "name": "Georgia Military College",
+        "location": "Fayetteville, GA",
+        "client_name": "Georgia Military College",
+        "dimensions": {
+            "sqft": 25000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Georgia Military College is a public institution that focuses on providing liberal arts higher education. The Fayetteville campus is GMC’s newest campus and is 25,000 square feet."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/education.jpg"],
+        "tag": "education"
+    },
+
+    {
+        "id": "3423fa124",
+        "name": "Georgia Tech",
+        "location": "Atlanta, GA",
+        "client_name": "Georgia Tech",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Georgia Tech provides technology-based higher education and is one of the top research facilities in the U.S. Proficient's projects for the university include the Montgomery Knight Aerospace building, the Swann building, the College of Computer Sciences building, the Pettit MRC building, and the Ramble Reck Garage."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/education.jpg"],
+        "tag": "education"
+    },
+
+    {
+        "id": "34234r3124",
+        "name": "Georgia State University",
+        "location": "Atlanta, GA",
+        "client_name": "Georgia State University",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Georgia State University projects include 25 Park Place Phase 1 & 2 Renovations and A&H restrooms."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/education.jpg"],
+        "tag": "education"
+    },
+
+    {
+        "id": "htehe",
+        "name": "Eddie White Middle Academy",
+        "location": "Hampton, GA",
+        "client_name": "Eddie White Middle Academy",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "We provided MEP design services for a renovation of the Eddie White Middle Academy's kindergarten hall, science labs, prep rooms, administrative suite, hallway restrooms, electronic sign, intercom system, and additional rooms."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/education.jpg"],
+        "tag": "education"
+    },
+
+    {
+        "id": "afasdf4",
+        "name": "Clark Atlanta University President's Residence",
+        "location": "Atlanta, GA",
+        "client_name": "Clark Atlanta University",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Clark Atlanta University is a private Methodist historically black research university.",
+            "The project featured is for a new 8,861-square-foot President's Residence for the university. It's features include a sitting room, a billiards room, a recreation room, a bedroom, a media room, a wine cellar, storage spaces, and a bathroom."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/education.jpg"],
+        "tag": "education"
+    },
+
+    {
+        "id": "ojfw323r",
+        "name": "University of Georgia",
+        "location": "Athens, GA",
+        "client_name": "University of Georgia",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Proficient has completed multiple projects for the public University of Georgia including the Science Library building, Dawson Hall building, Agriculture and Environmental building."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/education.jpg"],
+        "tag": "education"
+    },
+
+    {
+        "id": "adwfa443",
+        "name": "Kennesaw State University",
+        "location": "Marietta, GA",
+        "client_name": "Kennesaw State University",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Proficient has completed multiple projects for Kennesaw State University.",
+            ". Our work for the public research university includes the Kennesaw Campus Bookstore, Marietta Campus Library, Campus Lab, Administrative Suite, Dance Studio and UTIS Offices."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/education.jpg"],
+        "tag": "education"
+    },
+
+    {
+        "id": "45345fafd",
+        "name": "University of Florida",
+        "location": "Gainesville, FL",
+        "client_name": "University of Florida",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Proficient provided services for the top-ranked public research university's Harrell Medical Education Building."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/education.jpg"],
+        "tag": "education"
+    },
+
+    {
+        "id": "uyor324",
+        "name": "Alabama A&M University",
+        "location": "Normal, AL",
+        "client_name": "Alabama A&M University",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "AAMU is a public research university that reflects upon its heritage as a historical black college and land-grant institution.",
+            "Proficient has provided services for a 2-story and ~ 23,000-square-foot conversion of the historic Alabama A&M Frank Lewis Gym into facilities for the Reserve Officer Training Corps Program."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/education.jpg"],
+        "tag": "education"
+    },
+
+    {
+        "id": "34rfadf",
+        "name": "Altla Buckhead Place",
+        "location": "Atlanta GA",
+        "client_name": "Altla Buckhead Place",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Altla Buckhead Place is a new multi-family housing development with 5 levels of 286 residential units above a 3-level open parking garage with 528 spaces. A pool courtyard, leasing/amenity spaces, and a clubhouse are also included."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/multi.jpg"],
+        "tag": "multi-family"
+    },
+
+    {
+        "id": "iojf43",
+        "name": "Crogman School Lofts",
+        "location": "Atlanta, GA",
+        "client_name": "Crogman School Lofts",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The scope of this project includes the MEP design for converting an auditorium and stage in an old school building into one and two-story residential units"
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/multi.jpg"],
+        "tag": "multi-family"
+    },
+
+    {
+        "id": "uyr32r",
+        "name": "The Union at Auburn",
+        "location": "Auburn, AL",
+        "client_name": "The Union at Auburn",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Union project involves the design of a new construction, 5-story student housing building.",
+            "The structure includes a parking deck, apartment units, and a 3,791-square-foot clubhouse. The unit types include a mix of 2, 3 and 4-bedroom units."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/multi.jpg"],
+        "tag": "multi-family"
+    },
+
+    {
+        "id": "se3221",
+        "name": "Parc at Murfreesboro",
+        "location": "Murfreesboro, TN",
+        "client_name": "Parc at Murfreesboro",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The 359-unit, multi-family community is composed of 3-story buildings with pen breezeways and balconies.",
+            "Along with a 9,500-SF clubhouse, the development includes a pool, lounge seating, cabanas, a hammock oasis, and an outdoor kitchen. Other amenities include fitness/yoga rooms, a pet spa, and a bark park."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/multi.jpg"],
+        "tag": "multi-family"
+    },
+
+    {
+        "id": "pwer2r3",
+        "name": "Volar Barracks",
+        "location": "Fort Stewart, GA",
+        "client_name": "Volar Barracks",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The project focuses on repairing Buildings 514, 515, 516, and 517.",
+            "The 3-story barracks each need repairs for excessive moisture conditions and failing mechanical, electrical, and plumbing systems."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/multi.jpg"],
+        "tag": "multi-family"
+    },
+
+    {
+        "id": "o3fr2fe",
+        "name": "Milton Townhomes",
+        "location": "Atlanta, GA",
+        "client_name": "Milton Townhomes",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The scope of the project involves a 110-unit townhome development.",
+            "All units will be three stories and include spaces for living, kitchen/dining, laundry, and a 1-2 car garage.",
+            "The residences will range from 1,280 to 1,690 square feet. The overall design will be divided into two phases."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/multi.jpg"],
+        "tag": "multi-family"
+    },
+
+    {
+        "id": "3rfavf",
+        "name": "Westside Future Funds (WFF) Properties",
+        "location": "Atlanta, GA",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "With the mission to redevelop Atlanta's Historic Westiside, WFF grouped contracts for the design and renovation of 3 vacant multi-family properties.",
+            "The locations are 613 Echo Street with 7 units and 4,650 GSF, 588 Paines Avenue with 6 units and 4,000 GSF, and 592 Paines Avenue with 6 units and 4,500 GSF."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/multi.jpg"],
+        "tag": "multi-family"
+    },
+
+    {
+        "id": "kfean32",
+        "name": "The Chelsea Westside",
+        "location": "Atlanta, GA",
+        "client_name": "The Chelsea Westside",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Chelsea Westside is an urban contemporary community with 92 luxury townhomes ranging from 1,616 to 2,888 square feet. There are 9 different floors."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/multi.jpg"],
+        "tag": "multi-family"
+    },
+
+    {
+        "id": "48jeq",
+        "name": "Main Gate Logistics",
+        "location": "Garden City, GA",
+        "client_name": "Main Gate Logistics",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Located at 1 Prosperity Drive, the Main Gate Logistics project involves a fit-out of an existing 125,000- square-foot shell building to a warehouse and distribution facility with heat, ventilation, lighting and battery charging stations.",
+            "A full fit-out of three remote offices within the space is also included."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/industrial.jpg"],
+        "tag": "industrial"
+    },
+
+    {
+        "id": "rt54221",
+        "name": "Daeyoung Electronics Manufacturing Facility",
+        "location": "Newberry, SC",
+        "client_name": "Daeyoung Electronics",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Based in South Korea, Daeyoung Electronics Co. Ltd manufactures semiconductors, semiconductor parts, and other electronic parts.",
+            "We designed the mechanical, plumbing, and electrical engineering for their new, approximately 40,000-square-foot manufacturing facility in Newberry, SC.",
+            "The design is complete, and currently, we are working on the construction administration phase of the project."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/industrial.jpg"],
+        "tag": "industrial"
+    },
+
+    {
+        "id": "53tgsfga",
+        "name": "Rockdale Technology Center",
+        "location": "Conyers, GA",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 150000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Rockdale Technology Center involves the design of a 150,000-SF warehouse building and a 3,000-SF office space.",
+            "Plumbing will be on one side the length of the building for sanitary and water. The electrical service is designed for 2,000-amp service at each end with conduits to double in future.",
+            "Freeze protection with gas fired space heaters are also included to maintain 45 to 50 degrees."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/industrial.jpg"],
+        "tag": "industrial"
+    },
+
+    {
+        "id": "bbvw445",
+        "name": "Hyundai Transys Plant Extension",
+        "location": "West Point, GA",
+        "client_name": "Hyundai Transys Plant",
+        "dimensions": {
+            "sqft": 569603
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Including factory, office, and facility areas, the plant totals 569,603 square feet. The scope of work includes a new construction site of the Transys Georgia Transmission Shop for a siphonic storm drainage system."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/industrial.jpg"],
+        "tag": "industrial"
+    },
+
+    {
+        "id": "o4rfadf",
+        "name": "LG Electronics Washing Machine Facility",
+        "location": "Clarksville, TN",
+        "client_name": "LG Electronics",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The LG Electronics’ 1 million square-foot facility is their first washing machine plant built in the United States. Located on a 310-acre site, the facility offers a wide range of opportunities for product production."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/industrial.jpg"],
+        "tag": "industrial"
+    },
+
+    {
+        "id": "sadf4434",
+        "name": "Hanger",
+        "location": "Alpharetta, GA",
+        "client_name": "Hanger",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Hanger is a lead provider of orthotic and prosthetic services and products. The project consists of the group's relocation to a 144,554-square-foot building",
+            "This includes approximately 25,000 SF of office space, approximately 15,000 SF of manufacturing space, 4,440 SF for returns and a hazmat room, and the remainder will be warehouse space."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/industrial.jpg"],
+        "tag": "industrial"
+    },
+
+    {
+        "id": "93rjfas",
+        "name": "O2 Energy",
+        "location": "Yadkinville, NC",
+        "client_name": "O2 Energy",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "02 Energy is a 3.5-megawatt solar farm set on a 51- acre site."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/industrial.jpg"],
+        "tag": "industrial"
+    },
+
+    {
+        "id": "ae45f",
+        "name": "Prime Subaru",
+        "location": "Norwich, VT",
+        "client_name": "Prime Subaru",
+        "dimensions": {
+            "sqft": 32000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Prime Subaru is a 32,000-square-foot car dealership that includes a showroom, customer lounge, office, conference space, and service shop all laid out over two floors."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/industrial.jpg"],
+        "tag": "industrial"
+    },
+
+    {
+        "id": "904rfa",
+        "name": "Shottenkirk Toyota Dealership",
+        "location": "Weatherford, TX",
+        "client_name": "Shottenkirk Toyota",
+        "dimensions": {
+            "sqft": 48000 
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The new dealership is approximately 48,000 square feet with a lot space for a 500+ car inventory. Car wash, quick lube, sales, and service facilities are included."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/industrial.jpg"],
+        "tag": "industrial"
+    },
+
+    {
+        "id": "4fadfp",
+        "name": "Mike Erdman Nissan",
+        "location": "Cocoa, FL",
+        "client_name": "Mike Erdman Nissan",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The site area for the Mike Erdman Toyota & Nissan property is 34.23 acres with the Nissan building totaling approximately 45,789 square feet."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/industrial.jpg"],
+        "tag": "industrial"
+    },
+
+    {
+        "id": "dasfa3",
+        "name": "Mike Erdman Nissan",
+        "location": "Cocoa, FL",
+        "client_name": "Mike Erdman Nissan",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The site area for the Mike Erdman Toyota & Nissan property is 34.23 acres with the Nissan building totaling approximately 45,789 square feet."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/industrial.jpg"],
+        "tag": "industrial"
+    },
+
+    {
+        "id": "kdiajf",
+        "name": "Sutherlin Nissan",
+        "location": "Holly Springs, GA",
+        "client_name": "Sutherlin Nissan",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Sutherlin Nissan is a 45,000-square-foot car dealership with showrooms, multiple garages (conditioned and just heated), offices, a training room, a car wash, a warehouse, and support areas."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/industrial.jpg"],
+        "tag": "industrial"
+    },
+
+    {
+        "id": "n32pfaa",
+        "name": "Fulton County Airport Hangar",
+        "location": "Atlanta, GA",
+        "client_name": "Fulton County Airport Hangar",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Proficient designed the MEP systems of a one-story aviation hangar with offices for the Fulton County Airport. The project totals approximately 14,774 square feet."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/aviation.jpg"],
+        "tag": "aviation"
+    },
+
+    {
+        "id": "adf4fga",
+        "name": "Sky Harbour BNA",
+        "location": "Nashville, TN",
+        "client_name": "Sky Harbour BNA",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The project consists of nine 12,000-square-foot hangars, each with 1,600 square feet of office space, for the Nashville International Airport (BNA).",
+            "All the office areas include a lounge, a galley kitchen, a laundry room, and restrooms. A 2,100-square-foot service support building is also included."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/aviation.jpg"],
+        "tag": "aviation"
+    },
+
+    {
+        "id": "afdas34r",
+        "name": "Mammal Gallery at the Met",
+        "location": "Atlanta, GA",
+        "client_name": "Mammal Gallery",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The project involves the repurposing of a water tower that once served as a fire-suppression system for the 105-year-old mammoth warehouse complex. The tower will be a 2-story bar and the the adjacent 6,100- SF warehouse will feature a 300-person performance venue."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/recreation.jpg"],
+        "tag": "recreation"
+    },
+
+    {
+        "id": "4rqafdsaf",
+        "name": "The Rock Fitness Center",
+        "location": "Cartersville, GA",
+        "client_name": "The Rock Fitness Center",
+        "dimensions": {
+            "sqft": 17000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Rock Fitness Center is a roughly 17,000-SF gym. Proficient worked on a renovation of the building's admin areas into more fitness spaces such as racquetball courts, saunas, and group activity rooms.",
+            "The indoor pool was also fully conditioned with a dehumidification unit."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/recreation.jpg"],
+        "tag": "recreation"
+    },
+
+    {
+        "id": "4rsfaf",
+        "name": "Ritz-Carlton Lake Oconee Pool Facility",
+        "location": "Greensboro, GA",
+        "client_name": "Ritz-Carlton",
+        "dimensions": {
+            "sqft": 3570
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The facility will consist of two levels and serve as a building and bath house for families. The building totals 3,570 square feet and will include restrooms/washrooms, a game room, storage areas, and an office."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/recreation.jpg"],
+        "tag": "recreation"
+    },
+
+    {
+        "id": "faf4t5t",
+        "name": "Adventure Air Sports",
+        "location": "Kennesaw, GA",
+        "client_name": "Adventure Air Sports",
+        "dimensions": {
+            "sqft": 38000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Adventure Air Sports required a full tenant fitup for a 38,000 square foot facility in the basement of an existing building.",
+            "The facility offers trampolines, adventure courses, a zip line, and foam pits."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/recreation.jpg"],
+        "tag": "recreation"
+    },
+
+    {
+        "id": "pe032r",
+        "name": "Atlanta Music Project",
+        "location": "Atlanta, GA",
+        "client_name": "Atlanta Music Project",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Atlanta Music Project provides music education for youths and offers rentable space to the public for conferences, luncheons, watch parties, concerts, and banquets The venue has full/audio/visual capability, flexible staging, 200 seats, a grand piano, and conference and baquet tables."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/recreation.jpg"],
+        "tag": "recreation"
+    },
+
+    {
+        "id": "lio4r23t",
+        "name": "Grace Midtown",
+        "location": "Atlanta, GA",
+        "client_name": "Grace Midtown",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Grace Midtown project consisted of two separate designs.",
+            "The first section involved the “kidtown” area, and the second consisted of a new auditorium.",
+            "The work for “kidtown” includes a standalone building with 8 different classrooms and 2 sets of bathrooms. The auditorium contains a sanctuary, performance theater, and a café bar."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/recreation.jpg"],
+        "tag": "recreation"
+    },
+
+    {
+        "id": "lm4faa",
+        "name": "Three Ring Studios",
+        "location": "Covington, GA",
+        "client_name": "Three Ring Studios",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Three Rings Studios is a 40,000-square-foot building consisting of two 50’-0” high sound stages and back of house areas.",
+            "Sound stage areas were designed with acoustics and production flexibility in mind."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/recreation.jpg"],
+        "tag": "recreation"
+    },
+
+    {
+        "id": "34rfasav",
+        "name": "WellStar Medical Center",
+        "location": "Across the U.S.",
+        "client_name": "WellStar Medical Center",
+        "dimensions": {
+            "sqft": 8000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Several WellStar medical offices have been designed by Proficient across the United States. ",
+            "The projects range from approximately 3,000 square feet to 8,000 square feet of office space renovations."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "9gjajknd",
+        "name": "PT Solutions",
+        "location": "Across the U.S.",
+        "client_name": "PT Solutions",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "A typical PT Solutions project is 3,000 square feet. The facilities include a physical therapy room with machines and other rehab equipment, office and support areas."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "bj5fga",
+        "name": "Emory Cardiology Clinic & Imaging Renovation",
+        "location": "Peachtree City, GA",
+        "client_name": "Emory Cardiology Clinic & Imaging",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Emory at Peachtree City has board-certified cardiologists that offer services including general cardiology, interventional cardiology, echocardiography, nuclear cardiology, and electrophysiology.",
+            "The clinic is made up of exam rooms, offices, labs, ultrasound rooms, PT rooms, and a conference area."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "vradf3",
+        "name": "Greater Knoxville Ear, Nose & Throat",
+        "location": "Powell, TN",
+        "client_name": "Greater Knoxville Ear, Nose & Throat",
+        "dimensions": {
+            "sqft": 13000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The medical office is currently in permitting. The space is approximately 13,000 square feet with rooms for exams, procedures, audiology tests, physical therapy, hearing aid repairs, and C.T. scans.",
+            "There are also bathrooms, offices, storage areas, waiting areas, and a patio."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "o3f0jaf",
+        "name": "Peachstate Advanced Cardiac & Endovascular Clinic",
+        "location": "Newnan, GA",
+        "client_name": "Peachstate Advanced Cardiac & Endovascular Clinic",
+        "dimensions": {
+            "sqft": 5600
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Located at the Summit Healthplex, Peachstate Advanced Cardiac and Endovascular (PACE) is a Center for Heart and Amputation Prevention (CHAMP) that works to create public awareness on cardiovascular disease.",
+            "Our scope of work invloved a 5,600-square-foot build-out for the 1st generation medical office."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "43fadflk",
+        "name": "Advanced Urology",
+        "location": "Atlanta, GA",
+        "client_name": "Advanced Urology",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Advanced Urology project is 30,000 square feet with two Class C operating rooms, six procedure rooms, twenty exam rooms, offices, and support areas."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "3rfaafdm",
+        "name": "Oakhurst Medical Center",
+        "location": "Atlanta, GA",
+        "client_name": "Oakhurst Medical Center",
+        "dimensions": {
+            "sqft": 12911
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Oakhurst Medical Center is a 12,911 square foot single story building.",
+            "The building includes common areas, administrative offices, an outpatient clinic, pediatrics, OBGYN, dental, imaging, laboratory, optometry and ophthalmology spaces."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "afpjmfasdf",
+        "name": "Eye Surgery and Laser Center",
+        "location": "Madison, MS",
+        "client_name": "Eye Surgery and Laser Center",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "This Eye Surgery and Laser Center is 12,000 square feet with two Class C operating rooms, 18 exam rooms, offices and support areas."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "lkkpj3efa",
+        "name": "Outpatient Imaging",
+        "location": "Atlanta, GA",
+        "client_name": "Outpatient Imaging",
+        "dimensions": {
+            "sqft": 10000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "OutPatient Imaging is a 10,000 square feet medical project.",
+            "The project includes a bone density scan room, CT scans, digital fluoroscopy, digital mammography, magnetic resonance imaging, open magnetic resonance, nuclear medicine, an ultrasound, and X-ray."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+    
+    {
+        "id": "afpoj4gasdf",
+        "name": "Atlanta Vascular and Vein Center",
+        "location": "Lawrenceville, GA",
+        "client_name": "Atlanta Vascular and Vein Center",
+        "dimensions": {
+            "sqft": 3500
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Atlanta Vascular and Vein Center is 3,500 square feet with one Class B operating room, four exam rooms, offices and support areas."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+    
+    {
+        "id": "pojp4efa",
+        "name": "HealthPlex Performance Center",
+        "location": "Madison, MS",
+        "client_name": "HealthPlex Performance Center",
+        "dimensions": {
+            "sqft": 100000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "This facility has 100,000 square feet of interior space. About 60,000 square feet is designed as a medical health club with multiple interior pools, a fitness center, a physical therapy area, a track and an indoor field house.",
+            "The remaining space includes a medical office, eye surgery center, exam rooms, and a spa."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "af4tgsd",
+        "name": "Heartland Dental",
+        "location": "Across the U.S.",
+        "client_name": "Heartland Dental",
+        "dimensions": {
+            "sqft": 8000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "A typical Heartland Dental Center (HDC) project is 5,000 to 8,000 square feet. The facilities include 10 to 15 procedure rooms, offices and support areas."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "40ofadf",
+        "name": "Apotheca, Inc.",
+        "location": "Gainesville, GA",
+        "client_name": "Apotheca, Inc.",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Apotheca offers homeopathic, nutritional supplement and botanical manufacturing of natural healthcare products. Proficient provided services for a new addition and renovations to the company's building.",
+            "The production facility has an in-house lab equipped with high-tech analytical equipment and staffed by Ph.D. specialists."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "adsfafrg",
+        "name": "Innovation Compounding",
+        "location": "Kennesaw, GA",
+        "client_name": "Innovation Compounding",
+        "dimensions": {
+            "sqft": 12000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Innovation Compounding is a compounding pharmacy with over 7,000 prescribers and 70,000+ patients. Proficient provided services for the gutting and re-building of a 12,000-square-foot building for the facility."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "afdasdf",
+        "name": "Gynecology Associates of Gwinnett",
+        "location": "Lawrenceville, GA",
+        "client_name": "Gynecology Associates of Gwinnett",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Gynecology Associates of Gwinnett provides preventative, diagnostic, and advanced gynecological services for women.",
+            "The health center includes a waiting room, exam rooms, offices, bathrooms, and storage spaces."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "aklfne3aq",
+        "name": "Atlanta Bone and Joint Specialists",
+        "location": "Snellville, GA",
+        "client_name": "Atlanta Bone and Joint Specialists",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Atlanta Bone and Joint Specialists project involves the renovation of an existing dental suite to an imaging suite.",
+            "The scope of work includes a complete demolition of the area and a build back for one MRI and future imaging room."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "adfoj234",
+        "name": "Primary Care & Endocrinology",
+        "location": "Cumming, GA",
+        "client_name": "Primary Care & Endocrinology",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Located in the Forsyth Physicians Center, the tenant buildout is for a medical office that contains rooms for examinations, procedures, x-rays, storage, reception, and waiting."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+    {
+        "id": "faodfa",
+        "name": "Belmont Physicians Center",
+        "location": "Atlanta, GA",
+        "client_name": "Belmont Physicians Center",
+        "dimensions": {
+            "sqft": 33000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Belmont Physicians Center is a 33,000 square foot Class A medical office building located in Smyrna, GA. The facility is anchored by Emory Healthcare."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+
+    {
+        "id": "aofjasf",
+        "name": "AlignLife of Centrum",
+        "location": "Cary, NC",
+        "client_name": "AlignLife of Centrum",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Located in an existing shopping center, the project involved the interior renovation of a 1-story chiropractic and natural health center.",
+            "The scope featured removing finishes and interior walls, the erection of several walls, and adding new finishes throughout."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/medical.jpg"],
+        "tag": "medical"
+    },
+
+
+    {
+        "id": "apjf45",
+        "name": "Lee + White Redevelopment",
+        "location": "Atlanta, GA",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Lee + White Development building dates back to the 1950's. The project features an adaptive reuse of an approximately 99,000-square-foot, double height yet single story building into a creative office space.",
+            "Additional food hall space (25000sq) with inclusion of a bar area and patio."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+
+    {
+        "id": "uir342",
+        "name": "159 Armour Shell",
+        "location": "Atlanta, GA",
+        "client_name": "159 Armour Shell",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The project includes converting an existing warehouse building to retail, restaurant, and gallery spaces.",
+            "Exterior patios and a second floor will be also added."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "km324",
+        "name": "160 Trinity Avenue",
+        "location": "Atlanta, GA",
+        "client_name": "City of Atlanta",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The 160 Trinity Avenue project is a 61,399-square-foot, 3-story structure. It is a City of Atlanta office building located in the middle of the Downtown Atlanta Government Center. The building was designed to include a VRF system and LEED certification."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "bu34r42",
+        "name": "Complex",
+        "location": "Atlanta, GA",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Complex, a redevelopment involving six attached post-WWII warehouse buildings in West Midtown into loft office and retail spaces, totals approximately 105,000 square feet.",
+            "The adaptive reuse project is one of many that offers office tenants a location different from a glass tower."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "j4rt3",
+        "name": "Two Buckhead Plaza",
+        "location": "Atlanta, GA",
+        "client_name": "Two Buckhead Plaza",
+        "dimensions": {
+            "sqft": 200000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Two Buckhead Plaza, a 200,000 square foot, Class A Office Building in the Buckhead District of Atlanta, is part of a mixed-use urban development.",
+            "This also includes high-rise residential, retail and parking functions."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "309fasdfa",
+        "name": "The Willoughby",
+        "location": "Atlanta, GA",
+        "client_name": "The Willoughby",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Willoughby is the Beltline's first ground-up office building.",
+            " It will be a four-story, 43,000-square-foot complex snuggled up next to the Historic Fourth Ward Skate park."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "fpj3ads",
+        "name": "730 Peachtree Street",
+        "location": "Atlanta, GA",
+        "client_name": "730",
+        "dimensions": {
+            "sqft": 30000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The Circa 730 project is a roughly 30,000-square-foot renovation of a office building located on 730 Peachtree Street that was built in 1967. This includes the lobby area and 3rd floor"
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "asdfon3f",
+        "name": "550 Pharr Road",
+        "location": "Atlanta, GA",
+        "client_name": "550 Pharr ",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Three, an up-and-coming advertisement firm, relocated their corporate office to the top two floors of the 550 Pharr Building in Buckhead. ",
+            "The project renovation includes 11,000 square feet of office space with upgrades to all of the outdated MEP systems within the 47-year-old building."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "34fpjaf",
+        "name": "Gateway Center Two",
+        "location": "Atlanta, GA",
+        "client_name": "Gateway Center Two",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Gateway Center Two is a 51,000-square-foot, Class A office building located on the South Side of Atlanta.",
+            "The building is three floors with a 3,000-sqaure-foot lobby and 2 24,000-sqaure-foot floors above."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "3rfaspk",
+        "name": "McKesson",
+        "location": "Across the U.S.",
+        "client_name": "McKesson",
+        "dimensions": {
+            "sqft": 24000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "We have completed multiple projects for McKesson office buildings in metro Atlanta. ",
+            "This includes a security monitoring remodel and 19,000-square-foot fit-up of the North Druid Hills building's 4th floor. ",
+            "Proficient has also performed upgrades on 4 stories of the Windward, GA office building."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "mfepfa",
+        "name": "PNC Bank",
+        "location": "Atlanta, GA",
+        "client_name": "PNC Bank",
+        "dimensions": {
+            "sqft": 27000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Located at 1075 Peachtree Street, the PNC Bank project involved a fit out of a 27,000-square-foot office tower floor from an empty shell condition.",
+            "The fit-out included the MEP design of individual offices, open office space, conference rooms, a café, a storage room, a reception area, and an elevator lobby. The project is LEED silver certified."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "f3pasefdasd",
+        "name": "SAIC Office Renovation",
+        "location": "Cookeville, TN",
+        "client_name": "SAIC Office Renovation",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Located on the Regions Bank Building's first floor, we provided the mechanical, electrical, and plumbing engineering design for a Tennessee Tech Foundation 7,700-sqaure-foot office renovation.",
+            "The new layout includes an open office, work spaces, conference rooms, a break room, and restrooms. The existing vault was also removed."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "f32pofasd",
+        "name": "Hitachi Zosen Tenant Improvement",
+        "location": "Knoxville, TN",
+        "client_name": "Hitachi Zosen Tenant Improvement",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Located in Cedar Bluff, the approximately 7,600- square-foot renovation took place on first floor only.",
+            "The scope included updating the common restrooms, meeting room, offices, lobby, breakfast and food prep areas, and fitness room."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "asdfdasdf",
+        "name": "Baird Office",
+        "location": "Knoxville, TN",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 4600
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The approximately 4,600-SF office tenant fit-out required a new VAV and PIU design to meet the space's needs. The scope also included fire protection design intent."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "fp4jefasdfa",
+        "name": "Keller Williams",
+        "location": "College Park, GA",
+        "client_name": "Keller Williams",
+        "dimensions": {
+            "sqft": 12000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Keller Williams required the MEP design for a roughly 12,000-square-foot real estate office. The building features reception areas, training classrooms, breakrooms, and roughly 40 private offices."
+        ],
+        "year_completed": "2024",
+        "images": ["/images/portfolio/office.jpg"],
+        "tag": "office"
+    },
+
+    {
+        "id": "afoj4f",
+        "name": "",
+        "location": "",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
         "images": [],
-        "projectType": "Food and Beverages"
+        "tag": ""
+    },
+
+    {
+        "id": "itiyug87",
+        "name": "",
+        "location": "",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
+        "images": [],
+        "tag": ""
+    },
+
+    {
+        "id": "3423124",
+        "name": "",
+        "location": "",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
+        "images": [],
+        "tag": ""
+    },
+
+    {
+        "id": "3423124",
+        "name": "",
+        "location": "",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
+        "images": [],
+        "tag": ""
+    },
+
+    {
+        "id": "3423124",
+        "name": "",
+        "location": "",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
+        "images": [],
+        "tag": ""
+    },
+
+    {
+        "id": "3423124",
+        "name": "",
+        "location": "",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
+        "images": [],
+        "tag": ""
+    },
+
+    {
+        "id": "3423124",
+        "name": "",
+        "location": "",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
+        "images": [],
+        "tag": ""
+    },
+    {
+        "id": "3423124",
+        "name": "",
+        "location": "",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
+        "images": [],
+        "tag": ""
+    },
+    {
+        "id": "3423124",
+        "name": "",
+        "location": "",
+        "client_name": "",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            ""
+        ],
+        "year_completed": "2024",
+        "images": [],
+        "tag": ""
     }
 ]
