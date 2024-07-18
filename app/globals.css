@@ -292,7 +292,7 @@ nav ul {
 /* Experience */
 
 .landing-section-callout {
-  align-items: stretch;
+  align-items: flex-start;
   background-color: #f7f7f7;
   display: flex;
   justify-content: center;
