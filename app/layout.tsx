@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Inter, Open_Sans, Roboto, Poppins, Lato, Merriweather, Roboto_Serif, Bitter} from "next/font/google";
 import localFont from 'next/font/local';
 
@@ -56,6 +57,7 @@ export default function RootLayout({
         </div>
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
