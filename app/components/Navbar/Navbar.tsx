@@ -46,11 +46,12 @@ export default function Navbar() {
                     </li>
                     
                 </ul>
-                <button className='responsive-nav-btn' onClick={toggleOpen}>
-                    {
-                        !isNavOpen ? <AiOutlineMenu  /> : <AiOutlineClose />
-                    }
-                </button>
+                        <button className='responsive-nav-btn' onClick={toggleOpen}>
+                            {
+                                !isNavOpen ? <AiOutlineMenu  /> : <AiOutlineClose />
+                            }
+                        </button>
+                   
             </nav>
         </>
     )
