@@ -2500,6 +2500,7 @@
         "images": ["/images/portfolio/mixed.jpg"],
         "tag": "mixed use"
     },
+    
     {
         "id": "afoifew",
         "name": "115 East Broad Street",
@@ -2516,6 +2517,7 @@
         "images": ["/images/portfolio/mixed.jpg"],
         "tag": "mixed use"
     },
+
     {
         "id": "fdas324r",
         "name": "KWA Office HQ",
@@ -2532,6 +2534,7 @@
         "images": ["/images/portfolio/mixed.jpg"],
         "tag": "mixed use"
     },
+
     {
         "id": "3423124",
         "name": "",
