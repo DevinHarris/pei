@@ -361,6 +361,31 @@
     },
 
     {
+        "id": "u903f",
+        "slug": "/pratik",
+        "name": "Pratik Patel",
+        "title": "Sr. Mechanical Engineer",
+        "education": [],
+        "bio": [
+            "I'm Pratik, a modern-day renaissance man with a diverse skill set and an insatiable passion for knowledge. After graduating from LTI in 2004, I embarked on a journey as an HVAC subcontractor, gaining invaluable experience in the field. In 2014, I earned my BS in Mechanical Engineering from UTD, and in 2019, I transitioned into the world of MEP consulting as an HVAC Engineer.",
+            "Recently, I passed the PE Mechanical Exam and am on the verge of becoming a Professional Engineer. During the week, I dedicate myself to designing HVAC systems and collaborating closely with clients to meet their project needs.",
+            "In my free time, I indulge in various hobbies such as 3D design/printing, brewing beer, automotive craftsmanship, fishing, and researching physics. I am particularly proud to lead the launch of Proficient Engineering's newest satellite office in Dallas, TX, where my goal is to provide exceptional MEP consulting services to the Dallas market."
+        ],
+        "pe_registrations": [],
+        "memberships": [
+            "American Society of Heating Refrigeration",
+            "Airconditioning Engineers (ASHRAE)"
+        ],
+        "tagline": "I'm Pratik, a modern-day renaissance man with a diverse skill set and an insatiable passion for knowledge.",
+        "tasks": [],
+        "year_started": "2023",
+        "location": "Dallas, TX",
+        "hobbies": [],
+        "image": "/images/bios/pratik.png",
+        "featured_projects": []
+    },
+
+    {
         "id": "",
         "slug": "",
         "name": "",

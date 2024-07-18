@@ -1103,6 +1103,10 @@ footer {
     padding: 2rem 1rem;
   }
 
+  .featured-project-img-container {
+    height: auto;
+  }
+
   .featured-project-info-grid {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1135,6 +1139,10 @@ footer {
 
   .landing-section-meta-container {
     width: 100%;
+  }
+
+  .landing-stand-out__bg-img {
+    background-attachment: initial;
   }
 
   .landing-stand-out__content-col {
