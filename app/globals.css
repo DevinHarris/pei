@@ -1145,7 +1145,7 @@ footer {
   }
 
   .landing-section-meta {
-    padding: 2rem;
+    /* padding: 2rem; */
     text-align: center;
     width: 100%;
   }
@@ -1161,6 +1161,7 @@ footer {
 
   .landing-section-meta-container {
     width: 100%;
+    padding: 2.5rem;
   }
 
   .landing-stand-out__bg-img {
