@@ -10,7 +10,7 @@ export default function PortfolioPage() {
 
     // used to filter different projects 
 
-    const [projectTags, setProjectTags] = useState(['Food and Beverages', 'Community', 'Higher Education', 'Historic', 'Hospitality', 
+    const [projectTags, setProjectTags] = useState(['Food and Beverages', 'Community', 'Education', 'Historic', 'Hospitality', 
                                 'Industrial', 'Aviation', 'Recreation', 'Medical', 'Mixed Use', 'Multi-Family', 'Office', 'Retail', 'Senior Living'])
 
     const [currentProjectTag, setCurrentProjectTag] = useState('Community');

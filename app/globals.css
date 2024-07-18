@@ -358,7 +358,7 @@ nav ul {
 }
 
 .landing-section-callout-image {
-  width: 40%;
+  /* width: 40%; */
 }
 
 .landing-section-callout-image img {
@@ -1120,7 +1120,7 @@ footer {
   }
 
   .landing-section-meta, .landing-section-callout-image {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .landing-section-meta {
