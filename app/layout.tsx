@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from '@vercel/analytics/react';
 import { Inter, Open_Sans, Roboto, Poppins, Lato, Merriweather, Roboto_Serif, Bitter} from "next/font/google";
 import localFont from 'next/font/local';
 
@@ -54,6 +55,7 @@ export default function RootLayout({
            {children}
         </div>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
