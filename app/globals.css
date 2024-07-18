@@ -1126,6 +1126,7 @@ footer {
   .landing-section-meta {
     padding: 2rem;
     text-align: center;
+    width: 100%;
   }
 
   .landing-stand-out__content-item{
