@@ -10,14 +10,14 @@
             "For the Fulton County Government Center, Proficient provided services for the interior renovation and expansion of the 3rd floor conference and training room.",
             "This included separating the existing conference and media room to create room for one large multi-purpose space."
         ],
-
         "year_completed": "2021",
         "location": "Atlanta, GA",
         "client_name": "Fulton County",
-        "images": ["/images/portfolio/community.jpg"],
+        "images": [
+            "/images/portfolio/community.jpg"
+        ],
         "tag": "community"
     },
-
     {
         "id": "342324",
         "name": "City of Atlanta Office Building ",
@@ -32,10 +32,11 @@
             "The structure is a 61,399 square feet with 3 stories. A VRF system was included in Proficient's design."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/community.jpg"],
+        "images": [
+            "/images/portfolio/community.jpg"
+        ],
         "tag": "community"
     },
-
     {
         "id": "542j21",
         "name": "Braselton Civil Center",
@@ -47,14 +48,14 @@
             "The civil center is a new construction, pre-engineered metal building with 2 stories.",
             "The center includes an administrative office, a multi-purpose room, a ballroom, a lobby, a kitchen, restrooms, and storage and utility rooms."
         ],
-
         "year_completed": "2024",
         "location": "Braselton, GA",
         "client_name": "Braselton Civil Center",
-        "images": ["/images/portfolio/community.jpg"],
+        "images": [
+            "/images/portfolio/community.jpg"
+        ],
         "tag": "community"
     },
-
     {
         "id": "3424r32",
         "name": "Neva Lomason Memorial Library",
@@ -69,10 +70,11 @@
         "year_completed": "2024",
         "location": "Carrolton, GA",
         "client_name": "Neva Lomason Memorial Library",
-        "images": ["/images/portfolio/community.jpg"],
+        "images": [
+            "/images/portfolio/community.jpg"
+        ],
         "tag": "community"
     },
-
     {
         "id": "a3241f",
         "name": "West Memphis Municipal",
@@ -86,10 +88,11 @@
             "The project scope consists of a 9,000-square-foot fire station and police substation, a 12,000-square-foot municipal courthouse, and a 7,500-square foot fire station."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/community.jpg"],
+        "images": [
+            "/images/portfolio/community.jpg"
+        ],
         "tag": "community"
     },
-
     {
         "id": "4fasf",
         "name": "Jefferson County Municipal",
@@ -104,10 +107,11 @@
             "The second is a 9,000-SF structure for the County Coroner’s office. The third is roughly 5,300 SF and is for the Affairs Building in the downtown historic district."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/community.jpg"],
+        "images": [
+            "/images/portfolio/community.jpg"
+        ],
         "tag": "community"
     },
-
     {
         "id": "0jiojF",
         "name": "Cornelia Municipal Complex",
@@ -121,10 +125,11 @@
             "The Cornelia Municipal Complex is a 36,500 square foot structure that includes a city hall, police department and fire station."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/community.jpg"],
+        "images": [
+            "/images/portfolio/community.jpg"
+        ],
         "tag": "community"
     },
-
     {
         "id": "3423MK124",
         "name": "Jackson County Agricultural Center",
@@ -139,10 +144,11 @@
             "The facility possesses wash rooms, multi-purpose rooms, show areas, offices, storage rooms, conference rooms, restrooms, concession areas, a kitchen, and utility rooms."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/community.jpg"],
+        "images": [
+            "/images/portfolio/community.jpg"
+        ],
         "tag": "community"
     },
-
     {
         "id": "3E24R",
         "name": "Decatur Visitors Center",
@@ -156,10 +162,11 @@
             "The Decatur Visitors Center project is a fit out of a 4,600-square-foot existing space for the city of Decatur. The space includes two conference areas, an office space, a storage area, and a bathroom facility"
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/community.jpg"],
+        "images": [
+            "/images/portfolio/community.jpg"
+        ],
         "tag": "community"
     },
-
     {
         "id": "9JFAODF",
         "name": "The Beltline Visitors Center",
@@ -173,10 +180,11 @@
             "The Beltline Visitors Center project is a fit-out of a 4,300 square foot visitors center for the Atlanta Beltline. The space includes a new conference room, an office space, and a storage area."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/community.jpg"],
+        "images": [
+            "/images/portfolio/community.jpg"
+        ],
         "tag": "community"
     },
-
     {
         "id": "3F423124",
         "name": "Foothills Church Renovation",
@@ -191,10 +199,11 @@
             "The existing space is a pre-manufactured metal building and the renovation will cover the ground floor and mezzanine above."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/community.jpg"],
+        "images": [
+            "/images/portfolio/community.jpg"
+        ],
         "tag": "community"
     },
-
     {
         "id": "34290A3124",
         "name": "Emory University",
@@ -209,10 +218,11 @@
             "Proficient provided services for a renovation in the Grace Crum Rollins Building, an All-Gender Restroom addition, student housing, the James B. Williams Medical Education Building and a renovation of the Pharmacology building."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/education.jpg"],
+        "images": [
+            "/images/portfolio/education.jpg"
+        ],
         "tag": "education"
     },
-
     {
         "id": "3423423124",
         "name": "Georgia Military College",
@@ -226,10 +236,11 @@
             "Georgia Military College is a public institution that focuses on providing liberal arts higher education. The Fayetteville campus is GMC’s newest campus and is 25,000 square feet."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/education.jpg"],
+        "images": [
+            "/images/portfolio/education.jpg"
+        ],
         "tag": "education"
     },
-
     {
         "id": "3423fa124",
         "name": "Georgia Tech",
@@ -243,10 +254,11 @@
             "Georgia Tech provides technology-based higher education and is one of the top research facilities in the U.S. Proficient's projects for the university include the Montgomery Knight Aerospace building, the Swann building, the College of Computer Sciences building, the Pettit MRC building, and the Ramble Reck Garage."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/education.jpg"],
+        "images": [
+            "/images/portfolio/education.jpg"
+        ],
         "tag": "education"
     },
-
     {
         "id": "34234r3124",
         "name": "Georgia State University",
@@ -260,10 +272,11 @@
             "Georgia State University projects include 25 Park Place Phase 1 & 2 Renovations and A&H restrooms."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/education.jpg"],
+        "images": [
+            "/images/portfolio/education.jpg"
+        ],
         "tag": "education"
     },
-
     {
         "id": "htehe",
         "name": "Eddie White Middle Academy",
@@ -277,10 +290,11 @@
             "We provided MEP design services for a renovation of the Eddie White Middle Academy's kindergarten hall, science labs, prep rooms, administrative suite, hallway restrooms, electronic sign, intercom system, and additional rooms."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/education.jpg"],
+        "images": [
+            "/images/portfolio/education.jpg"
+        ],
         "tag": "education"
     },
-
     {
         "id": "afasdf4",
         "name": "Clark Atlanta University President's Residence",
@@ -295,10 +309,11 @@
             "The project featured is for a new 8,861-square-foot President's Residence for the university. It's features include a sitting room, a billiards room, a recreation room, a bedroom, a media room, a wine cellar, storage spaces, and a bathroom."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/education.jpg"],
+        "images": [
+            "/images/portfolio/education.jpg"
+        ],
         "tag": "education"
     },
-
     {
         "id": "ojfw323r",
         "name": "University of Georgia",
@@ -312,10 +327,11 @@
             "Proficient has completed multiple projects for the public University of Georgia including the Science Library building, Dawson Hall building, Agriculture and Environmental building."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/education.jpg"],
+        "images": [
+            "/images/portfolio/education.jpg"
+        ],
         "tag": "education"
     },
-
     {
         "id": "adwfa443",
         "name": "Kennesaw State University",
@@ -330,10 +346,11 @@
             ". Our work for the public research university includes the Kennesaw Campus Bookstore, Marietta Campus Library, Campus Lab, Administrative Suite, Dance Studio and UTIS Offices."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/education.jpg"],
+        "images": [
+            "/images/portfolio/education.jpg"
+        ],
         "tag": "education"
     },
-
     {
         "id": "45345fafd",
         "name": "University of Florida",
@@ -347,10 +364,11 @@
             "Proficient provided services for the top-ranked public research university's Harrell Medical Education Building."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/education.jpg"],
+        "images": [
+            "/images/portfolio/education.jpg"
+        ],
         "tag": "education"
     },
-
     {
         "id": "uyor324",
         "name": "Alabama A&M University",
@@ -365,10 +383,11 @@
             "Proficient has provided services for a 2-story and ~ 23,000-square-foot conversion of the historic Alabama A&M Frank Lewis Gym into facilities for the Reserve Officer Training Corps Program."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/education.jpg"],
+        "images": [
+            "/images/portfolio/education.jpg"
+        ],
         "tag": "education"
     },
-
     {
         "id": "34rfadf",
         "name": "Altla Buckhead Place",
@@ -382,10 +401,11 @@
             "Altla Buckhead Place is a new multi-family housing development with 5 levels of 286 residential units above a 3-level open parking garage with 528 spaces. A pool courtyard, leasing/amenity spaces, and a clubhouse are also included."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/multi.jpg"],
+        "images": [
+            "/images/portfolio/multi.jpg"
+        ],
         "tag": "multi-family"
     },
-
     {
         "id": "iojf43",
         "name": "Crogman School Lofts",
@@ -399,10 +419,11 @@
             "The scope of this project includes the MEP design for converting an auditorium and stage in an old school building into one and two-story residential units"
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/multi.jpg"],
+        "images": [
+            "/images/portfolio/multi.jpg"
+        ],
         "tag": "multi-family"
     },
-
     {
         "id": "uyr32r",
         "name": "The Union at Auburn",
@@ -417,10 +438,11 @@
             "The structure includes a parking deck, apartment units, and a 3,791-square-foot clubhouse. The unit types include a mix of 2, 3 and 4-bedroom units."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/multi.jpg"],
+        "images": [
+            "/images/portfolio/multi.jpg"
+        ],
         "tag": "multi-family"
     },
-
     {
         "id": "se3221",
         "name": "Parc at Murfreesboro",
@@ -435,10 +457,11 @@
             "Along with a 9,500-SF clubhouse, the development includes a pool, lounge seating, cabanas, a hammock oasis, and an outdoor kitchen. Other amenities include fitness/yoga rooms, a pet spa, and a bark park."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/multi.jpg"],
+        "images": [
+            "/images/portfolio/multi.jpg"
+        ],
         "tag": "multi-family"
     },
-
     {
         "id": "pwer2r3",
         "name": "Volar Barracks",
@@ -453,10 +476,11 @@
             "The 3-story barracks each need repairs for excessive moisture conditions and failing mechanical, electrical, and plumbing systems."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/multi.jpg"],
+        "images": [
+            "/images/portfolio/multi.jpg"
+        ],
         "tag": "multi-family"
     },
-
     {
         "id": "o3fr2fe",
         "name": "Milton Townhomes",
@@ -472,10 +496,11 @@
             "The residences will range from 1,280 to 1,690 square feet. The overall design will be divided into two phases."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/multi.jpg"],
+        "images": [
+            "/images/portfolio/multi.jpg"
+        ],
         "tag": "multi-family"
     },
-
     {
         "id": "3rfavf",
         "name": "Westside Future Funds (WFF) Properties",
@@ -490,10 +515,11 @@
             "The locations are 613 Echo Street with 7 units and 4,650 GSF, 588 Paines Avenue with 6 units and 4,000 GSF, and 592 Paines Avenue with 6 units and 4,500 GSF."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/multi.jpg"],
+        "images": [
+            "/images/portfolio/multi.jpg"
+        ],
         "tag": "multi-family"
     },
-
     {
         "id": "kfean32",
         "name": "The Chelsea Westside",
@@ -507,10 +533,11 @@
             "The Chelsea Westside is an urban contemporary community with 92 luxury townhomes ranging from 1,616 to 2,888 square feet. There are 9 different floors."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/multi.jpg"],
+        "images": [
+            "/images/portfolio/multi.jpg"
+        ],
         "tag": "multi-family"
     },
-
     {
         "id": "48jeq",
         "name": "Main Gate Logistics",
@@ -525,10 +552,11 @@
             "A full fit-out of three remote offices within the space is also included."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/industrial.jpg"],
+        "images": [
+            "/images/portfolio/industrial.jpg"
+        ],
         "tag": "industrial"
     },
-
     {
         "id": "rt54221",
         "name": "Daeyoung Electronics Manufacturing Facility",
@@ -544,10 +572,11 @@
             "The design is complete, and currently, we are working on the construction administration phase of the project."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/industrial.jpg"],
+        "images": [
+            "/images/portfolio/industrial.jpg"
+        ],
         "tag": "industrial"
     },
-
     {
         "id": "53tgsfga",
         "name": "Rockdale Technology Center",
@@ -563,10 +592,11 @@
             "Freeze protection with gas fired space heaters are also included to maintain 45 to 50 degrees."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/industrial.jpg"],
+        "images": [
+            "/images/portfolio/industrial.jpg"
+        ],
         "tag": "industrial"
     },
-
     {
         "id": "bbvw445",
         "name": "Hyundai Transys Plant Extension",
@@ -580,10 +610,11 @@
             "Including factory, office, and facility areas, the plant totals 569,603 square feet. The scope of work includes a new construction site of the Transys Georgia Transmission Shop for a siphonic storm drainage system."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/industrial.jpg"],
+        "images": [
+            "/images/portfolio/industrial.jpg"
+        ],
         "tag": "industrial"
     },
-
     {
         "id": "o4rfadf",
         "name": "LG Electronics Washing Machine Facility",
@@ -597,10 +628,11 @@
             "The LG Electronics’ 1 million square-foot facility is their first washing machine plant built in the United States. Located on a 310-acre site, the facility offers a wide range of opportunities for product production."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/industrial.jpg"],
+        "images": [
+            "/images/portfolio/industrial.jpg"
+        ],
         "tag": "industrial"
     },
-
     {
         "id": "sadf4434",
         "name": "Hanger",
@@ -615,10 +647,11 @@
             "This includes approximately 25,000 SF of office space, approximately 15,000 SF of manufacturing space, 4,440 SF for returns and a hazmat room, and the remainder will be warehouse space."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/industrial.jpg"],
+        "images": [
+            "/images/portfolio/industrial.jpg"
+        ],
         "tag": "industrial"
     },
-
     {
         "id": "93rjfas",
         "name": "O2 Energy",
@@ -632,10 +665,11 @@
             "02 Energy is a 3.5-megawatt solar farm set on a 51- acre site."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/industrial.jpg"],
+        "images": [
+            "/images/portfolio/industrial.jpg"
+        ],
         "tag": "industrial"
     },
-
     {
         "id": "ae45f",
         "name": "Prime Subaru",
@@ -649,27 +683,29 @@
             "Prime Subaru is a 32,000-square-foot car dealership that includes a showroom, customer lounge, office, conference space, and service shop all laid out over two floors."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/industrial.jpg"],
+        "images": [
+            "/images/portfolio/industrial.jpg"
+        ],
         "tag": "industrial"
     },
-
     {
         "id": "904rfa",
         "name": "Shottenkirk Toyota Dealership",
         "location": "Weatherford, TX",
         "client_name": "Shottenkirk Toyota",
         "dimensions": {
-            "sqft": 48000 
+            "sqft": 48000
         },
         "project_tagline": "",
         "project_description": [
             "The new dealership is approximately 48,000 square feet with a lot space for a 500+ car inventory. Car wash, quick lube, sales, and service facilities are included."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/industrial.jpg"],
+        "images": [
+            "/images/portfolio/industrial.jpg"
+        ],
         "tag": "industrial"
     },
-
     {
         "id": "4fadfp",
         "name": "Mike Erdman Nissan",
@@ -683,10 +719,11 @@
             "The site area for the Mike Erdman Toyota & Nissan property is 34.23 acres with the Nissan building totaling approximately 45,789 square feet."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/industrial.jpg"],
+        "images": [
+            "/images/portfolio/industrial.jpg"
+        ],
         "tag": "industrial"
     },
-
     {
         "id": "dasfa3",
         "name": "Mike Erdman Nissan",
@@ -700,10 +737,11 @@
             "The site area for the Mike Erdman Toyota & Nissan property is 34.23 acres with the Nissan building totaling approximately 45,789 square feet."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/industrial.jpg"],
+        "images": [
+            "/images/portfolio/industrial.jpg"
+        ],
         "tag": "industrial"
     },
-
     {
         "id": "kdiajf",
         "name": "Sutherlin Nissan",
@@ -717,10 +755,11 @@
             "Sutherlin Nissan is a 45,000-square-foot car dealership with showrooms, multiple garages (conditioned and just heated), offices, a training room, a car wash, a warehouse, and support areas."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/industrial.jpg"],
+        "images": [
+            "/images/portfolio/industrial.jpg"
+        ],
         "tag": "industrial"
     },
-
     {
         "id": "n32pfaa",
         "name": "Fulton County Airport Hangar",
@@ -734,10 +773,11 @@
             "Proficient designed the MEP systems of a one-story aviation hangar with offices for the Fulton County Airport. The project totals approximately 14,774 square feet."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/aviation.jpg"],
+        "images": [
+            "/images/portfolio/aviation.jpg"
+        ],
         "tag": "aviation"
     },
-
     {
         "id": "adf4fga",
         "name": "Sky Harbour BNA",
@@ -752,10 +792,11 @@
             "All the office areas include a lounge, a galley kitchen, a laundry room, and restrooms. A 2,100-square-foot service support building is also included."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/aviation.jpg"],
+        "images": [
+            "/images/portfolio/aviation.jpg"
+        ],
         "tag": "aviation"
     },
-
     {
         "id": "afdas34r",
         "name": "Mammal Gallery at the Met",
@@ -769,10 +810,11 @@
             "The project involves the repurposing of a water tower that once served as a fire-suppression system for the 105-year-old mammoth warehouse complex. The tower will be a 2-story bar and the the adjacent 6,100- SF warehouse will feature a 300-person performance venue."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/recreation.jpg"],
+        "images": [
+            "/images/portfolio/recreation.jpg"
+        ],
         "tag": "recreation"
     },
-
     {
         "id": "4rqafdsaf",
         "name": "The Rock Fitness Center",
@@ -787,10 +829,11 @@
             "The indoor pool was also fully conditioned with a dehumidification unit."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/recreation.jpg"],
+        "images": [
+            "/images/portfolio/recreation.jpg"
+        ],
         "tag": "recreation"
     },
-
     {
         "id": "4rsfaf",
         "name": "Ritz-Carlton Lake Oconee Pool Facility",
@@ -804,10 +847,11 @@
             "The facility will consist of two levels and serve as a building and bath house for families. The building totals 3,570 square feet and will include restrooms/washrooms, a game room, storage areas, and an office."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/recreation.jpg"],
+        "images": [
+            "/images/portfolio/recreation.jpg"
+        ],
         "tag": "recreation"
     },
-
     {
         "id": "faf4t5t",
         "name": "Adventure Air Sports",
@@ -822,10 +866,11 @@
             "The facility offers trampolines, adventure courses, a zip line, and foam pits."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/recreation.jpg"],
+        "images": [
+            "/images/portfolio/recreation.jpg"
+        ],
         "tag": "recreation"
     },
-
     {
         "id": "pe032r",
         "name": "Atlanta Music Project",
@@ -839,10 +884,11 @@
             "Atlanta Music Project provides music education for youths and offers rentable space to the public for conferences, luncheons, watch parties, concerts, and banquets The venue has full/audio/visual capability, flexible staging, 200 seats, a grand piano, and conference and baquet tables."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/recreation.jpg"],
+        "images": [
+            "/images/portfolio/recreation.jpg"
+        ],
         "tag": "recreation"
     },
-
     {
         "id": "lio4r23t",
         "name": "Grace Midtown",
@@ -858,10 +904,11 @@
             "The work for “kidtown” includes a standalone building with 8 different classrooms and 2 sets of bathrooms. The auditorium contains a sanctuary, performance theater, and a café bar."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/recreation.jpg"],
+        "images": [
+            "/images/portfolio/recreation.jpg"
+        ],
         "tag": "recreation"
     },
-
     {
         "id": "lm4faa",
         "name": "Three Ring Studios",
@@ -876,10 +923,11 @@
             "Sound stage areas were designed with acoustics and production flexibility in mind."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/recreation.jpg"],
+        "images": [
+            "/images/portfolio/recreation.jpg"
+        ],
         "tag": "recreation"
     },
-
     {
         "id": "34rfasav",
         "name": "WellStar Medical Center",
@@ -894,10 +942,11 @@
             "The projects range from approximately 3,000 square feet to 8,000 square feet of office space renovations."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "9gjajknd",
         "name": "PT Solutions",
@@ -911,10 +960,11 @@
             "A typical PT Solutions project is 3,000 square feet. The facilities include a physical therapy room with machines and other rehab equipment, office and support areas."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "bj5fga",
         "name": "Emory Cardiology Clinic & Imaging Renovation",
@@ -929,10 +979,11 @@
             "The clinic is made up of exam rooms, offices, labs, ultrasound rooms, PT rooms, and a conference area."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "vradf3",
         "name": "Greater Knoxville Ear, Nose & Throat",
@@ -947,10 +998,11 @@
             "There are also bathrooms, offices, storage areas, waiting areas, and a patio."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "o3f0jaf",
         "name": "Peachstate Advanced Cardiac & Endovascular Clinic",
@@ -965,10 +1017,11 @@
             "Our scope of work invloved a 5,600-square-foot build-out for the 1st generation medical office."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "43fadflk",
         "name": "Advanced Urology",
@@ -982,10 +1035,11 @@
             "The Advanced Urology project is 30,000 square feet with two Class C operating rooms, six procedure rooms, twenty exam rooms, offices, and support areas."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "3rfaafdm",
         "name": "Oakhurst Medical Center",
@@ -1000,10 +1054,11 @@
             "The building includes common areas, administrative offices, an outpatient clinic, pediatrics, OBGYN, dental, imaging, laboratory, optometry and ophthalmology spaces."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "afpjmfasdf",
         "name": "Eye Surgery and Laser Center",
@@ -1017,10 +1072,11 @@
             "This Eye Surgery and Laser Center is 12,000 square feet with two Class C operating rooms, 18 exam rooms, offices and support areas."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "lkkpj3efa",
         "name": "Outpatient Imaging",
@@ -1035,10 +1091,11 @@
             "The project includes a bone density scan room, CT scans, digital fluoroscopy, digital mammography, magnetic resonance imaging, open magnetic resonance, nuclear medicine, an ultrasound, and X-ray."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-    
     {
         "id": "afpoj4gasdf",
         "name": "Atlanta Vascular and Vein Center",
@@ -1052,10 +1109,11 @@
             "The Atlanta Vascular and Vein Center is 3,500 square feet with one Class B operating room, four exam rooms, offices and support areas."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-    
     {
         "id": "pojp4efa",
         "name": "HealthPlex Performance Center",
@@ -1070,10 +1128,11 @@
             "The remaining space includes a medical office, eye surgery center, exam rooms, and a spa."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "af4tgsd",
         "name": "Heartland Dental",
@@ -1087,10 +1146,11 @@
             "A typical Heartland Dental Center (HDC) project is 5,000 to 8,000 square feet. The facilities include 10 to 15 procedure rooms, offices and support areas."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "40ofadf",
         "name": "Apotheca, Inc.",
@@ -1105,10 +1165,11 @@
             "The production facility has an in-house lab equipped with high-tech analytical equipment and staffed by Ph.D. specialists."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "adsfafrg",
         "name": "Innovation Compounding",
@@ -1122,10 +1183,11 @@
             "Innovation Compounding is a compounding pharmacy with over 7,000 prescribers and 70,000+ patients. Proficient provided services for the gutting and re-building of a 12,000-square-foot building for the facility."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "afdasdf",
         "name": "Gynecology Associates of Gwinnett",
@@ -1140,10 +1202,11 @@
             "The health center includes a waiting room, exam rooms, offices, bathrooms, and storage spaces."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "aklfne3aq",
         "name": "Atlanta Bone and Joint Specialists",
@@ -1158,10 +1221,11 @@
             "The scope of work includes a complete demolition of the area and a build back for one MRI and future imaging room."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "adfoj234",
         "name": "Primary Care & Endocrinology",
@@ -1175,10 +1239,11 @@
             "Located in the Forsyth Physicians Center, the tenant buildout is for a medical office that contains rooms for examinations, procedures, x-rays, storage, reception, and waiting."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
     {
         "id": "faodfa",
         "name": "Belmont Physicians Center",
@@ -1192,11 +1257,11 @@
             "Belmont Physicians Center is a 33,000 square foot Class A medical office building located in Smyrna, GA. The facility is anchored by Emory Healthcare."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
-
     {
         "id": "aofjasf",
         "name": "AlignLife of Centrum",
@@ -1211,11 +1276,11 @@
             "The scope featured removing finishes and interior walls, the erection of several walls, and adding new finishes throughout."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/medical.jpg"],
+        "images": [
+            "/images/portfolio/medical.jpg"
+        ],
         "tag": "medical"
     },
-
-
     {
         "id": "apjf45",
         "name": "Lee + White Redevelopment",
@@ -1230,11 +1295,11 @@
             "Additional food hall space (25000sq) with inclusion of a bar area and patio."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
-
     {
         "id": "uir342",
         "name": "159 Armour Shell",
@@ -1249,10 +1314,11 @@
             "Exterior patios and a second floor will be also added."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "km324",
         "name": "160 Trinity Avenue",
@@ -1266,10 +1332,11 @@
             "The 160 Trinity Avenue project is a 61,399-square-foot, 3-story structure. It is a City of Atlanta office building located in the middle of the Downtown Atlanta Government Center. The building was designed to include a VRF system and LEED certification."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "bu34r42",
         "name": "Complex",
@@ -1284,10 +1351,11 @@
             "The adaptive reuse project is one of many that offers office tenants a location different from a glass tower."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "j4rt3",
         "name": "Two Buckhead Plaza",
@@ -1302,10 +1370,11 @@
             "This also includes high-rise residential, retail and parking functions."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "309fasdfa",
         "name": "The Willoughby",
@@ -1320,10 +1389,11 @@
             " It will be a four-story, 43,000-square-foot complex snuggled up next to the Historic Fourth Ward Skate park."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "fpj3ads",
         "name": "730 Peachtree Street",
@@ -1337,10 +1407,11 @@
             "The Circa 730 project is a roughly 30,000-square-foot renovation of a office building located on 730 Peachtree Street that was built in 1967. This includes the lobby area and 3rd floor"
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "asdfon3f",
         "name": "550 Pharr Road",
@@ -1355,10 +1426,11 @@
             "The project renovation includes 11,000 square feet of office space with upgrades to all of the outdated MEP systems within the 47-year-old building."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "34fpjaf",
         "name": "Gateway Center Two",
@@ -1373,10 +1445,11 @@
             "The building is three floors with a 3,000-sqaure-foot lobby and 2 24,000-sqaure-foot floors above."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "3rfaspk",
         "name": "McKesson",
@@ -1392,10 +1465,11 @@
             "Proficient has also performed upgrades on 4 stories of the Windward, GA office building."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "mfepfa",
         "name": "PNC Bank",
@@ -1410,10 +1484,11 @@
             "The fit-out included the MEP design of individual offices, open office space, conference rooms, a café, a storage room, a reception area, and an elevator lobby. The project is LEED silver certified."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "f3pasefdasd",
         "name": "SAIC Office Renovation",
@@ -1428,10 +1503,11 @@
             "The new layout includes an open office, work spaces, conference rooms, a break room, and restrooms. The existing vault was also removed."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "f32pofasd",
         "name": "Hitachi Zosen Tenant Improvement",
@@ -1446,10 +1522,11 @@
             "The scope included updating the common restrooms, meeting room, offices, lobby, breakfast and food prep areas, and fitness room."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "asdfdasdf",
         "name": "Baird Office",
@@ -1463,10 +1540,11 @@
             "The approximately 4,600-SF office tenant fit-out required a new VAV and PIU design to meet the space's needs. The scope also included fire protection design intent."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "fp4jefasdfa",
         "name": "Keller Williams",
@@ -1480,10 +1558,11 @@
             "Keller Williams required the MEP design for a roughly 12,000-square-foot real estate office. The building features reception areas, training classrooms, breakrooms, and roughly 40 private offices."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/office.jpg"],
+        "images": [
+            "/images/portfolio/office.jpg"
+        ],
         "tag": "office"
     },
-
     {
         "id": "afoj4f",
         "name": "Holiday Inn Express & Suites Renovation",
@@ -1498,10 +1577,11 @@
             "The renovation includes new finished, new casework, exterior and interior repair work, and 2 new meeting rooms that will replace 2 existing guest rooms."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "itiyug87",
         "name": "Hampton Inn Renovation",
@@ -1516,10 +1596,11 @@
             "The scope of the work includes first floor spaces such as common restrooms, a meeting room, offices, a lobby, a breakfast area, a food prep area, and fitness room."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "4fadf32",
         "name": "Best Western Premier",
@@ -1534,10 +1615,11 @@
             "The scope includes coordinating utility connections with the indoor pool designer, the MEP design for a rooftop restaurant and patio seating, site lighting, and photometric design."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "afffe44",
         "name": "TownePlace Suites by Marriott",
@@ -1552,10 +1634,11 @@
             "The 85-key hotel features a porte-cochère and an interior swimming pool. The structure had metal stud bearing walls with hollow core concrete plank floors and metal roof trusses."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "acadc4",
         "name": "Inn at Patrick Square",
@@ -1570,10 +1653,11 @@
             "It offers an authentic, traditional setting overlooking the beautiful Village Green.."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "pohih3fe",
         "name": "Avid Hotel",
@@ -1587,10 +1671,11 @@
             "The Avid Hotel project involves the development of a new, 41,695-square-foot hotel with 4 levels and 87 rooms."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "4tejvas",
         "name": "Staybridge Suites by IHG",
@@ -1604,7 +1689,9 @@
             "Staybridge Suites is going to be in Duluth, GA. This project is a new, ground up, 5-story, 115-room hotel."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": ""
     },
     {
@@ -1622,10 +1709,11 @@
             "The facility includes a guest dining room and bar with a full commercial kitchen, a business center, multiple meeting rooms, and commercial and guest laundry areas."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "32rfafw",
         "name": "Home2 Suites by Hilton",
@@ -1640,10 +1728,11 @@
             "The ground floor amenity and service spaces are approximately 11,630 square feet. There are 107 guest suites comprised of 2-4-unit types. Extended stay suites will include a kitchenette."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "asdf42",
         "name": "Sobu Flats Conversion",
@@ -1658,10 +1747,11 @@
             "The early 1950's building will feature a 135,000-sqaure-foot, boutique hotel with 9 stories and a variable refrigerant flow (VRF) for the HVAC."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "lenf24",
         "name": "Residence Inn by Marriott",
@@ -1675,10 +1765,11 @@
             "The Residence Inn is 7 stories and 88,183 square feet. The project includes fitness area office space, bedrooms, and laundry room."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "3lfi3a",
         "name": "Fairfield Inn by Marriott",
@@ -1692,10 +1783,11 @@
             "The scope of the project includes the mechanical, electrical, and plumbing engineering of a wood frame hotel that totals 56,809 square feet with 4 stories and 92 rooms."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "k421fa",
         "name": "Residence Inn by Marriott",
@@ -1709,10 +1801,11 @@
             "The Residence Inn is 94,124 square feet and has 3 stories. The 78-room building includes a business center, pool, outdoor patio, sports court, and dry cleaning."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "nie2r4",
         "name": "",
@@ -1726,10 +1819,11 @@
             ""
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "324otga",
         "name": "Best Western Plus Renovation",
@@ -1744,10 +1838,11 @@
             "The new equipment design featured a split system for the lobby, a split system for a meeting room and bathrooms, and (5) mini-split ceiling cassettes for the fitness room, the prep kitchen, and corridors."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/hospitality.jpg"],
+        "images": [
+            "/images/portfolio/hospitality.jpg"
+        ],
         "tag": "hospitality"
     },
-
     {
         "id": "h42tadf",
         "name": "Taco Bell",
@@ -1761,10 +1856,11 @@
             "Proficient is consistently helping Taco Bell expand and has worked on several of their locations across the Southeast."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
-
     {
         "id": "4e2rtfasd",
         "name": "",
@@ -1778,10 +1874,11 @@
             ""
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
-
     {
         "id": "34roojf",
         "name": "Zaxby's",
@@ -1796,10 +1893,11 @@
             "This prototype has saved thousands of dollars on each store while providing more comfortable space conditions using less energy."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
-
     {
         "id": "x3rofae",
         "name": "C Ellet's",
@@ -1814,10 +1912,11 @@
             ". The space includes a kitchen, associated storage spaces, a bar, oyster bar with walk up service window, multiple points of sale and dining spaces, and restrooms required for the fitout."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
-
     {
         "id": "n3fa0",
         "name": "Dreamland BBQ",
@@ -1832,7 +1931,9 @@
             "The décor inside is warm and inviting with a big bar, a few tables and booths and a pot bellied stove. Duluth Georgia is home to this 6,500 square foot BBQ restaurant."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
     {
@@ -1849,7 +1950,9 @@
             "Alongside our restauranteur clients, we took inspiration from the Mercado de San Miguel, a food hall within an open ironwork structure dating from 1916 located in Madrid."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
     {
@@ -1865,7 +1968,9 @@
             ""
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
     {
@@ -1882,7 +1987,9 @@
             "This restaurant makes a great addition to the Aavalon, a popular hangout spot outside of Atlanta."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
     {
@@ -1898,7 +2005,9 @@
             "Kale Me Crazy is a super food café that that focuses on feeding a healthy lifestyle. Proficient has designed several of these establishments across the Southeast."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
     {
@@ -1915,7 +2024,9 @@
             "The scope of the project includes a 6,600- square-foot building with covered patio. The dining room and bar was gutted and the kitchen was reworked."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
     {
@@ -1932,7 +2043,9 @@
             "The project scope includes a new covered patio to front of building, an expanded bar area, a new kitchen equipment layout, a potential new raised stage in dining room, and a potential addition of a new cooler to back of building."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
     {
@@ -1948,7 +2061,9 @@
             "The project featured the mechanical, electrical, and plumbing engineering design for a 3,800-square-foot restaurant renovation of an existing retail space with a bar."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
     {
@@ -1965,10 +2080,11 @@
             "The mechanical scope included reusing existing RTU with the revised diffuser layout. One new restroom was also added and the existing restroom was modified as necessary to meet code."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
-
     {
         "id": "e4fas",
         "name": "Common Place Coffee",
@@ -1983,10 +2099,11 @@
             ". The plumbing scope covered the modification of the bathroom layout and the addition of a coffee bar with a dishwasher and under-counter grease trap. Lighting updates and power design was also included as needed."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
-
     {
         "id": "4tfads",
         "name": "Sweetwater Brewing Company",
@@ -2001,10 +2118,11 @@
             "This included a new bar as the room's centerpiece and the addition of a kitchen allowing the brewery to offer catering services and a bar menu for taproom guests."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/food.jpg"],
+        "images": [
+            "/images/portfolio/food.jpg"
+        ],
         "tag": "food and beverages"
     },
-
     {
         "id": "3jassdf3",
         "name": "Second Self",
@@ -2018,10 +2136,11 @@
             "Second Self Brewery is located on the West side of Atlanta. The building is 4,000 square feet and includes a tasting room with a game area, storage space and beer making room."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/manufacturing.jpg"],
+        "images": [
+            "/images/portfolio/manufacturing.jpg"
+        ],
         "tag": "manufacturing"
     },
-
     {
         "id": "oiuhou8",
         "name": "Reformation Brewery",
@@ -2035,10 +2154,11 @@
             "Proficient provided services for the relocation of Reformation Brewery into an existing 7,000-squarefoot building."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/manufacturing.jpg"],
+        "images": [
+            "/images/portfolio/manufacturing.jpg"
+        ],
         "tag": "manufacturing"
     },
-
     {
         "id": "dlf29",
         "name": "Wild Heaven Beer",
@@ -2052,10 +2172,11 @@
             "Wild Heaven Beer is located on the Beltline in the Lee + White Development. The brewery is 20,700 square feet including cold storage, dry storage, event space, and office space."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/manufacturing.jpg"],
+        "images": [
+            "/images/portfolio/manufacturing.jpg"
+        ],
         "tag": "manufacturing"
     },
-
     {
         "id": "e4fw42",
         "name": "Elsewhere Brewing",
@@ -2070,10 +2191,11 @@
             "Elsewhere’s taproom design takes inspiration from beer gardens in Bavaria, pubs in Yorkshire, cafes in Brussels, drinking halls in Prague, and mezcalerias in Oaxac, forming a unique and homey atmosphere"
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/manufacturing.jpg"],
+        "images": [
+            "/images/portfolio/manufacturing.jpg"
+        ],
         "tag": "manufacturing"
     },
-
     {
         "id": "42gfasf",
         "name": "Sabbath Brewing",
@@ -2088,7 +2210,9 @@
             "The venue also hosts live music and game nights. We provided the plumbing design for the new establishment."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/manufacturing.jpg"],
+        "images": [
+            "/images/portfolio/manufacturing.jpg"
+        ],
         "tag": "manufacturing"
     },
     {
@@ -2105,7 +2229,9 @@
             "The restrooms need to be upgraded and the HVAC design needs to be re-worked. The rest of the space will become Pontoon's new primary production brewery."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/manufacturing.jpg"],
+        "images": [
+            "/images/portfolio/manufacturing.jpg"
+        ],
         "tag": "manufacturing"
     },
     {
@@ -2121,7 +2247,9 @@
             "This project includes providing electrical and plumbing for the renovation and tenant fit-up of an existing 38,680 square foot retail space. It also includes the renovation of two restrooms, a break room, and new lighting throughout the facility."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/manufacturing.jpg"],
+        "images": [
+            "/images/portfolio/manufacturing.jpg"
+        ],
         "tag": "manufacturing"
     },
     {
@@ -2138,7 +2266,9 @@
             "For these projects, Mep design is completed for an approximately 1200-1500-squarefoot office space. Services are relatively similar for all projects and are completed on an effective and flexible schedule."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
     {
@@ -2155,10 +2285,11 @@
             "At the upper level, there is an additional bulk bike storage & a small office space."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
-
     {
         "id": "asdf3r",
         "name": "",
@@ -2172,7 +2303,9 @@
             ""
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
     {
@@ -2189,11 +2322,12 @@
             "The facility consists of one 63,157-square-foot level and a 36,000-squarefoot mezzanine."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
-
-     {
+    {
         "id": "f32r2fa",
         "name": "Westside Village at Moores Mill",
         "location": "Atlanta, GA",
@@ -2207,10 +2341,11 @@
             "It sits on nearly 10 acres along Marietta Boulevard. The development repurposes two existing buildings, a large warehouse and former church, and adds as much as 50,000 SF of new construction."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
-
     {
         "id": "b34faf",
         "name": "Saks Fifth Avenue",
@@ -2224,10 +2359,11 @@
             "With 27,000 square feet at Buckhead Station, Saks Fifth Avenue includes a sales floor with office package, warehouse and support areas."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
-
     {
         "id": "v34r2a",
         "name": "Indian Lake",
@@ -2241,10 +2377,11 @@
             "The Indian Lake Retail project is a total of 29,360 square feet of leasable area for the developer. The initial design provides warm dark shells for multiple tenants with full fit-ups of a Tuesday Morning restaurant and a UFC Gym."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
-
     {
         "id": "fawrfa",
         "name": "Pure Luxe Renovation",
@@ -2259,10 +2396,11 @@
             "Additional renovations/ additions include new decorative lighting and new data/power for the reception desk, 6 new laser/injectable med rooms, and converting the existing sauna/gym to a staff workroom."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
-
     {
         "id": "of0oka",
         "name": "Fairview Road Self Storage",
@@ -2276,10 +2414,11 @@
             "The Fairview Road Self Storage project involved the MEP system design of a 3-story prototype for a storage facility that can be easily adaptable to several other locations"
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
-
     {
         "id": "c3daaf",
         "name": "North Macon Plaza",
@@ -2294,10 +2433,11 @@
             "Building 100 features a Michaels, Ross, Marshalls/HomeGoods, and Five Below. Some of Building 200's tenants are Lifeway Christian Stores, Famous Footwear, Old Navy, and Bealls."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
-
     {
         "id": "cdrg5rt",
         "name": "Roosevelt Square",
@@ -2312,10 +2452,11 @@
             "This included stubbing in utilities for all suites and setting grease traps for the planned restaurant spaces."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
-
     {
         "id": "foij3rfa",
         "name": "Bradley Square Mall Renovation",
@@ -2330,10 +2471,11 @@
             "An addition of a new free-standing building with inline tenants and a new mall entry is also included. Some of the tenant spaces will include grease interceptors for potential future use as restaurants."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
-
     {
         "id": "fpo3o",
         "name": "The Beacon",
@@ -2347,10 +2489,11 @@
             "Containing 80,000 square feet, The Beacon is a unique retail, dining and cultural destination nestled along the Beltline in Atlanta’s charming Grant Park Neighborhood."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/retail.jpg"],
+        "images": [
+            "/images/portfolio/retail.jpg"
+        ],
         "tag": "retail"
     },
-
     {
         "id": "her3r",
         "name": "The Malone",
@@ -2364,10 +2507,11 @@
             "The Malone is the development of a 55+ living community. The facility is approximately 440,000 square feet and includes retail space, a leasing office, and amenities including demonstration cooking."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/senior.jpg"],
+        "images": [
+            "/images/portfolio/senior.jpg"
+        ],
         "tag": "senior living"
     },
-
     {
         "id": "b3iefa",
         "name": "Watercrest Senior Living",
@@ -2381,7 +2525,9 @@
             "Watecrest Macon is a 107-unit senior living community with 75 assisted living and 32 memory care dwellings. The overall structure is 93,249 square feet includes several different amenity and service spaces."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/senior.jpg"],
+        "images": [
+            "/images/portfolio/senior.jpg"
+        ],
         "tag": "senior living"
     },
     {
@@ -2397,10 +2543,11 @@
             ""
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/senior.jpg"],
+        "images": [
+            "/images/portfolio/senior.jpg"
+        ],
         "tag": "senior living"
     },
-
     {
         "id": "hu0hoj",
         "name": "The Union at Auburn",
@@ -2415,7 +2562,9 @@
             "The unit types include a mix of 2, 3 and 4-bedroom units."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/mixed.jpg"],
+        "images": [
+            "/images/portfolio/mixed.jpg"
+        ],
         "tag": "mixed use"
     },
     {
@@ -2431,7 +2580,9 @@
             "For Phase 1 of the Aiken mall redevelopment, there will be an addition of 256 luxury apartments. Future plans include an upscale hotel as well as retail and dining establishments."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/mixed.jpg"],
+        "images": [
+            "/images/portfolio/mixed.jpg"
+        ],
         "tag": "mixed use"
     },
     {
@@ -2447,7 +2598,9 @@
             "The 33,000-square-foot movie theater, with a new full-service kitchen addition, underwent complete gutting and renovation."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/mixed.jpg"],
+        "images": [
+            "/images/portfolio/mixed.jpg"
+        ],
         "tag": "mixed use"
     },
     {
@@ -2464,7 +2617,9 @@
             "The development works on revitalizing the Adair Park neighborhood by providing 35 affordable micro-units targeting creatives and artists and 2,500 square feet of loft-office space to serve nonprofits and small businesses."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/mixed.jpg"],
+        "images": [
+            "/images/portfolio/mixed.jpg"
+        ],
         "tag": "mixed use"
     },
     {
@@ -2480,10 +2635,11 @@
             "The planned mixed use will featuremore than300 residential units, including a 273-unit apartment complex, and a collection of townhouses, flats and city homes. It includes 3 different buildings, 2 that are 4 stories and 1 that is 5 stories."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/mixed.jpg"],
+        "images": [
+            "/images/portfolio/mixed.jpg"
+        ],
         "tag": "mixed use"
     },
-
     {
         "id": "g4o3a",
         "name": "The Local",
@@ -2497,10 +2653,11 @@
             "The Local is an urban infill, mixed-use project that includes 282 residential units and 8,000 SF of street level retail that wrap around a 5-level parking deck. Portions of two historic warehouses were also preserved in a separate, 5-story adaptive reuse building, housing 23 units and 5,000 SF of amenity space."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/mixed.jpg"],
+        "images": [
+            "/images/portfolio/mixed.jpg"
+        ],
         "tag": "mixed use"
     },
-    
     {
         "id": "afoifew",
         "name": "115 East Broad Street",
@@ -2514,15 +2671,16 @@
             "Located at 115 East Broad Street is a new construction, 6-story mixed-use building. With a total of 31,663 square feet, the structure includes 19,256 square feet of office and 12,138 square feet of retail space, as well as Athens’ first rooftop restaurant. With solar panels and a green roof up top, the building will meet LEED gold standard."
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/mixed.jpg"],
+        "images": [
+            "/images/portfolio/mixed.jpg"
+        ],
         "tag": "mixed use"
     },
-
     {
         "id": "fdas324r",
         "name": "KWA Office HQ",
         "location": "Atlanta, GA",
-        "client_name": "KWA Office HQ",,
+        "client_name": "KWA Office HQ",
         "dimensions": {
             "sqft": 43000
         },
@@ -2531,10 +2689,11 @@
             "With a total of 4,800 square feet split evenly over two stories, Kronberg Wall’s studio is located in what was the historic church’s sanctuary with a separate tenant space below"
         ],
         "year_completed": "2024",
-        "images": ["/images/portfolio/mixed.jpg"],
+        "images": [
+            "/images/portfolio/mixed.jpg"
+        ],
         "tag": "mixed use"
     },
-
     {
         "id": "3423124",
         "name": "",
@@ -2551,5 +2710,4 @@
         "images": [],
         "tag": ""
     }
-
 ]
