@@ -1114,7 +1114,8 @@ footer {
   }
 
   .featured-project {
-    padding: 2rem 1rem;
+    /* padding: 2rem 1rem; */
+    padding: 0;
   }
 
   .featured-project-img-container {
@@ -1155,8 +1156,12 @@ footer {
   }
 
   .landing-stand-out-container {
-    padding: 1rem;
+    /* padding: 1rem; */
     width: 100%;
+  }
+
+  .landing-stand-out__content {
+    padding: 1rem;
   }
 
   .landing-section-meta-container {
