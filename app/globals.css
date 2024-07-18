@@ -1129,6 +1129,10 @@ footer {
   }
 
   /* .landing-section-meta,  */
+
+  .landing-section-callout {
+    height: auto;
+  }
   
   .landing-section-callout-image {
     height: 100%;
