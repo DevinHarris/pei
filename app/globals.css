@@ -1174,11 +1174,18 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .callout-quote-container {
+    height: auto;
+    margin-top: 6rem;
+  }
+
   .footer {
     margin: 0;
     width: 100%;
 
   }
+
+
 
   .footer__container {
     align-items: center;
