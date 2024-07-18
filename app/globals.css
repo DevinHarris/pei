@@ -919,7 +919,7 @@ footer {
 .lunch-learn-description {
   margin: 1rem auto;
   line-height: 1.5;
-  width: 65rem;
+  /* width: 65rem; */
 }
 
 
@@ -1185,6 +1185,22 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .lunch-learn-title {
+    font-size: 2rem;
+  }
+
+  .lunch-learn-col-description {
+    text-align: center;
+  }
+
+  .lunch-learn-description {
+    margin: 2rem auto;
+  }
+
+  .lunch-learn-type {
+    margin-top: 1rem;
+  }
+
   .callout-quote-container {
     height: auto;
     margin: 6rem 0;
@@ -1276,6 +1292,7 @@ footer {
 
   .our-team-page__grid {
     grid-template-columns: repeat(2, 1fr);
+    padding: 0 1rem;
   }
 
   /* Bio Page */
@@ -1286,6 +1303,30 @@ footer {
 
   .bio-page__projects-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Contact Page */
+
+  .contact-us-page__form {
+    padding: 1rem;
+  }
+
+  /* BIM */
+
+  .bim-page__inner {
+    padding: 1rem;
+  }
+
+  .bim-page__benefit-lists {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .bim-page__benefit-list {
+    margin-bottom: 1rem;
+  }
+
+  .bim-page__what-is-bim {
+    margin-top: 3rem;
   }
 
   
@@ -1320,9 +1361,31 @@ footer {
     width: 100%;
     margin-bottom: 2rem;
   }
+
+  .portfolio-page__header--content {
+    padding: 5rem 2rem;
+  }
+
+  .portfolio-page__header--text {
+    font-size: 0.9rem; 
+  }
+
+  .portfolio-page__header--title {
+    font-size: 2rem;
+  }
+
+  .portfolio-page__projects {
+    padding: 0 2rem;
+  }
+
+  .current-project-type {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 800px) {
+
+
   .portfolio-page__projects-grid {
     grid-template-columns: repeat(2, 1fr);
   }
