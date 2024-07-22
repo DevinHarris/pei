@@ -44,9 +44,13 @@ export default function ProjectPage() {
                 </div>
             </header>
             <main className="project-page__main">
-                <section className="project-page__callout">
-                    <h2 className="project-page__callout-text">{currentProject?.project_tagline}</h2>
-                </section>
+                {
+                    currentProject?.project_tagline ? (
+                        <section className="project-page__callout">
+                            <h2 className="project-page__callout-text">{currentProject?.project_tagline}</h2>
+                        </section>
+                    ) : null
+                }
                 <section className="project-page__meta">
                     <div className="project-page__meta-grid">
                         <div className="project-page__meta-grid-col project-page__meta-grid-about">
