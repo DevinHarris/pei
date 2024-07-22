@@ -17,7 +17,7 @@ export default function Home() {
                 <div className="featured-project-heading">
                     <span className="featured-project-tag">Featured Project</span>
                     <h2 className="featured-project-title">
-                      <a href='/projects'>SweetWater Brewing Company | Atlanta, GA</a>
+                      <a href='/portfolio/4tfads'>SweetWater Brewing Company | Atlanta, GA</a>
                     </h2>
                 </div>
                 <div className="featured-project-main">
