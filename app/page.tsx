@@ -22,7 +22,7 @@ export default function Home() {
                 </div>
                 <div className="featured-project-main">
                   <div className="featured-project-img-container">
-                    <img className="featured-project-img" src="/images/project-img-6.jpg" alt="building image"  />
+                    <img className="featured-project-img" src="/images/portfolio/sweetwater.jpeg" alt="building image"  />
                   </div>
                   <div className="featured-project-info-grid">
                     <div className="featured-project-info">
@@ -55,7 +55,7 @@ export default function Home() {
                 </div>
                 <div className="landing-section-callout-image experience-col">
 
-                  <img className='landing-section-image' src="/images/project-img-10.jpg" alt="landing-image" />
+                  <img className='landing-section-image' src="/images/portfolio/emory.jpeg" alt="landing-image" />
                   
                 </div>
           </section>

@@ -1,4 +1,9 @@
+import profileData from '../../data/bios.json';
+
 export default function OurTeam() {
+
+
+
         return (
             <div className="our-team-page">
                 <div className="portfolio-page">
@@ -12,86 +17,23 @@ export default function OurTeam() {
 
                  <main className="our-team-page__main">
                     <div className="our-team-page__grid">
-                        <div className="our-team-page__profile">
-                            <div className="our-team-page__img">
-                                <a href="/bios/paul">
-                                    <img src="/images/bios/bio-img-11.jpeg" alt="" />
-                                </a>
-                            </div>
-                            <h2 className="our-team-page__name">Paul Kenney | Mechanical Engineer</h2>
-                        </div>
-                        <div className="our-team-page__profile">
-                            <div className="our-team-page__img">
-                                <a href="/bios/brian">
-                                    <img src="/images/bios/bio-img-10.jpeg" alt="" />
-                                </a>
-                            </div>
-                            <h2 className="our-team-page__name">Brian Armenta | Electrical Engineer</h2>
-                        </div>
-                        <div className="our-team-page__profile">
-                            <div className="our-team-page__img">
-                                <a href="/bios/jeff">
-                                    <img src="/images/bios/bio-img-13.jpeg" alt="" />
-                                </a>
-                            </div>
-                            <h2 className="our-team-page__name">Jeff Gray | Head of IT</h2>
-                        </div>
-                        <div className="our-team-page__profile">
-                            <div className="our-team-page__img">
-                                <a href="/bios/jaime">
-                                    <img src="/images/bios/bio-img-12.jpeg" alt="" />
-                                </a>
-                            </div>
-                            <h2 className="our-team-page__name">Jaime Merriet | HR</h2>
-                        </div>
-                        <div className="our-team-page__profile">
-                            <div className="our-team-page__img">
-                                <a href="/bios/jen">
-                                    <img src="/images/bios/bio-img-15.jpeg" alt="" />
-                                </a>
-                            </div>
-                            <h2 className="our-team-page__name">Jen Duchac | Mechanical Principal</h2>
-                        </div>
-                        <div className="our-team-page__profile">
-                            <div className="our-team-page__img">
-                                <a href="/bios/wayne">
-                                    <img src="/images/bios/bio-img-9.jpeg" alt="" />
-                                </a>
-                            </div>
-                            <h2 className="our-team-page__name">Wayne Watt | Director of IT</h2>
-                        </div>
-                        <div className="our-team-page__profile">
-                            <div className="our-team-page__img">
-                                <a href="/bios/tim">
-                                    <img src="/images/bios/bio-img-6.jpeg" alt="" />
-                                </a>
-                            </div>
-                            <h2 className="our-team-page__name">Tim F. Carroll | Mechanical Engineer</h2>
-                        </div>
-                        <div className="our-team-page__profile">
-                            <div className="our-team-page__img">
-                                <a href="/bios/devonta">
-                                    <img src="/images/bios/bio-img-5.jpeg" alt="" />
-                                </a>
-                            </div>
-                            <h2 className="our-team-page__name">Devonta Harris | Software Engineer</h2>
-                        </div>
-                        <div className="our-team-page__profile">
-                            <div className="our-team-page__img">
-                                <a href="/bios/ann">
-                                    <img src="/images/bios/bio-img-7.jpeg" alt="" />
-                                </a>
-                            </div>
-                            <h2 className="our-team-page__name">Ann Balkovetz | Electrical Engineer</h2>
-                        </div>
-                        <div className="our-team-page__profile">
-                            <div className="our-team-page__img">
-                                <a href="/bios/ron">
-                                    <img src="/images/bios/bio-img-14.jpeg" alt="" />
-                                </a>
-                            </div>
-                            <h2 className="our-team-page__name">Ron Patel | Mechanical Engineer</h2>
-                        </div>
+
+
+                        {
+                            profileData ? (
+
+                                profileData.map(profile => (
+                                    <div className="our-team-page__profile">
+                                        <div className="our-team-page__img">
+                                            <a href={`/bios${profile.slug}`}>
+                                                <img src={profile.image} alt={`${profile.name}'s photo`} />
+                                            </a>
+                                        </div>
+                                        <h2 className="our-team-page__name">{`${profile.name} | ${profile.title}`}</h2>
+                                    </div>
+                                ))
+                            ) : null
+                        }
                     </div>
                  </main>
             </div>

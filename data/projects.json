@@ -14,7 +14,7 @@
         "location": "Atlanta, GA",
         "client_name": "Fulton County",
         "images": [
-            "/images/portfolio/community.jpg"
+            "/images/portfolio/fulton-county.jpg"
         ],
         "tag": "community"
     },
@@ -39,7 +39,7 @@
     },
     {
         "id": "542j21",
-        "name": "Braselton Civil Center",
+        "name": "Braselton Civic Center",
         "dimensions": {
             "sqft": 43000
         },
@@ -50,9 +50,9 @@
         ],
         "year_completed": "2024",
         "location": "Braselton, GA",
-        "client_name": "Braselton Civil Center",
+        "client_name": "Braselton Civic Center",
         "images": [
-            "/images/portfolio/community.jpg"
+            "/images/portfolio/braselton.jpg"
         ],
         "tag": "community"
     },
@@ -71,7 +71,7 @@
         "location": "Carrolton, GA",
         "client_name": "Neva Lomason Memorial Library",
         "images": [
-            "/images/portfolio/community.jpg"
+            "/images/portfolio/neva.jpeg"
         ],
         "tag": "community"
     },
@@ -89,7 +89,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/community.jpg"
+            "/images/portfolio/west-memphis.jpeg"
         ],
         "tag": "community"
     },
@@ -108,7 +108,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/community.jpg"
+            "/images/portfolio/jefferson.jpg"
         ],
         "tag": "community"
     },
@@ -145,7 +145,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/community.jpg"
+            "/images/portfolio/jackson-county.jpeg"
         ],
         "tag": "community"
     },
@@ -181,7 +181,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/community.jpg"
+            "/images/portfolio/beltline.jpeg"
         ],
         "tag": "community"
     },
@@ -200,7 +200,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/community.jpg"
+            "/images/portfolio/foothills.jpeg"
         ],
         "tag": "community"
     },
@@ -219,7 +219,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/education.jpg"
+            "/images/portfolio/emory.jpeg"
         ],
         "tag": "education"
     },
@@ -237,7 +237,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/education.jpg"
+            "/images/portfolio/gmc.jpeg"
         ],
         "tag": "education"
     },
@@ -255,7 +255,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/education.jpg"
+            "/images/portfolio/ga-tech.jpeg"
         ],
         "tag": "education"
     },
@@ -273,7 +273,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/education.jpg"
+            "/images/portfolio/ga-state.jpeg"
         ],
         "tag": "education"
     },
@@ -291,7 +291,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/education.jpg"
+            "/images/portfolio/eddie-white.jpeg"
         ],
         "tag": "education"
     },
@@ -310,7 +310,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/education.jpg"
+            "/images/portfolio/clark-university.jpeg"
         ],
         "tag": "education"
     },
@@ -328,7 +328,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/education.jpg"
+            "/images/portfolio/uga.jpeg"
         ],
         "tag": "education"
     },
@@ -347,7 +347,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/education.jpg"
+            "/images/portfolio/kennesaw.jpeg"
         ],
         "tag": "education"
     },
@@ -365,7 +365,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/education.jpg"
+            "/images/portfolio/florida.jpeg"
         ],
         "tag": "education"
     },
@@ -384,7 +384,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/education.jpg"
+            "/images/portfolio/alabama.jpeg"
         ],
         "tag": "education"
     },
@@ -402,7 +402,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/multi.jpg"
+            "/images/portfolio/buckhead.jpeg"
         ],
         "tag": "multi-family"
     },
@@ -420,7 +420,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/multi.jpg"
+            "/images/portfolio/crogman.jpeg"
         ],
         "tag": "multi-family"
     },
@@ -439,7 +439,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/multi.jpg"
+            "/images/portfolio/union-at-auburn.jpeg"
         ],
         "tag": "multi-family"
     },
@@ -458,7 +458,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/multi.jpg"
+            "/images/portfolio/parc.jpeg"
         ],
         "tag": "multi-family"
     },
@@ -497,7 +497,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/multi.jpg"
+            "/images/portfolio/milton.jpeg"
         ],
         "tag": "multi-family"
     },
@@ -516,7 +516,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/multi.jpg"
+            "/images/portfolio/wff.jpeg"
         ],
         "tag": "multi-family"
     },
@@ -534,7 +534,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/multi.jpg"
+            "/images/portfolio/chelsea-westside.jpeg"
         ],
         "tag": "multi-family"
     },
@@ -553,7 +553,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/industrial.jpg"
+            "/images/portfolio/main-gate.jpeg"
         ],
         "tag": "industrial"
     },
@@ -573,7 +573,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/industrial.jpg"
+            "/images/portfolio/daeyoung.jpeg"
         ],
         "tag": "industrial"
     },
@@ -593,7 +593,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/industrial.jpg"
+            "/images/portfolio/rockdale-tech.jpeg"
         ],
         "tag": "industrial"
     },
@@ -611,7 +611,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/industrial.jpg"
+            "/images/portfolio/hyundai.jpeg"
         ],
         "tag": "industrial"
     },
@@ -629,7 +629,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/industrial.jpg"
+            "/images/portfolio/lg.jpeg"
         ],
         "tag": "industrial"
     },
@@ -648,7 +648,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/industrial.jpg"
+            "/images/portfolio/hanger.jpeg"
         ],
         "tag": "industrial"
     },
@@ -666,7 +666,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/industrial.jpg"
+            "/images/portfolio/02-energy.jpeg"
         ],
         "tag": "industrial"
     },
@@ -702,7 +702,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/industrial.jpg"
+            "/images/portfolio/shottenkirk.jpeg"
         ],
         "tag": "industrial"
     },
@@ -738,7 +738,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/industrial.jpg"
+            "/images/portfolio/mike-erdman.jpeg"
         ],
         "tag": "industrial"
     },
@@ -756,7 +756,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/industrial.jpg"
+            "/images/portfolio/sutherlin.jpeg"
         ],
         "tag": "industrial"
     },
@@ -774,7 +774,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/aviation.jpg"
+            "/images/portfolio/fulton-hangar.jpeg"
         ],
         "tag": "aviation"
     },
@@ -793,7 +793,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/aviation.jpg"
+            "/images/portfolio/sky-harbour.jpeg"
         ],
         "tag": "aviation"
     },
@@ -811,7 +811,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/recreation.jpg"
+            "/images/portfolio/mammal.jpeg"
         ],
         "tag": "recreation"
     },
@@ -848,7 +848,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/recreation.jpg"
+            "/images/portfolio/ritz-carlton.jpeg"
         ],
         "tag": "recreation"
     },
@@ -867,7 +867,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/recreation.jpg"
+            "/images/portfolio/adventure-air.jpeg"
         ],
         "tag": "recreation"
     },
@@ -885,7 +885,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/recreation.jpg"
+            "/images/portfolio/atlanta-music-project.jpeg"
         ],
         "tag": "recreation"
     },
@@ -905,7 +905,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/recreation.jpg"
+            "/images/portfolio/grace-midtown.jpeg"
         ],
         "tag": "recreation"
     },
@@ -924,7 +924,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/recreation.jpg"
+            "/images/portfolio/three-ring.jpeg"
         ],
         "tag": "recreation"
     },
@@ -943,7 +943,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/medical.jpg"
+            "/images/portfolio/wellstar.png"
         ],
         "tag": "medical"
     },
@@ -961,7 +961,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/medical.jpg"
+            "/images/portfolio/pt-solutions.jpeg"
         ],
         "tag": "medical"
     },
@@ -980,7 +980,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/medical.jpg"
+            "/images/portfolio/emory.jpeg"
         ],
         "tag": "medical"
     },
@@ -999,7 +999,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/medical.jpg"
+            "/images/portfolio/greater-knoxville.png"
         ],
         "tag": "medical"
     },
@@ -1036,7 +1036,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/medical.jpg"
+            "/images/portfolio/advanced-urology.jpeg"
         ],
         "tag": "medical"
     },
@@ -1055,7 +1055,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/medical.jpg"
+            "/images/portfolio/oakhurst.jpeg"
         ],
         "tag": "medical"
     },
@@ -1092,7 +1092,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/medical.jpg"
+            "/images/portfolio/opi.jpeg"
         ],
         "tag": "medical"
     },
@@ -1110,7 +1110,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/medical.jpg"
+            "/images/portfolio/atl-center.jpeg"
         ],
         "tag": "medical"
     },
@@ -1129,7 +1129,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/medical.jpg"
+            "/images/portfolio/healthplex.jpeg"
         ],
         "tag": "medical"
     },
@@ -1147,7 +1147,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/medical.jpg"
+            "/images/portfolio/heartland.jpeg"
         ],
         "tag": "medical"
     },
@@ -1166,7 +1166,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/medical.jpg"
+            "/images/portfolio/apotheca.jpeg"
         ],
         "tag": "medical"
     },
@@ -1285,7 +1285,7 @@
         "id": "apjf45",
         "name": "Lee + White Redevelopment",
         "location": "Atlanta, GA",
-        "client_name": "",
+        "client_name": "Lee + White",
         "dimensions": {
             "sqft": 43000
         },
@@ -1296,47 +1296,11 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/office.jpg"
+            "/images/portfolio/lee.jpg"
         ],
         "tag": "office"
     },
-    {
-        "id": "uir342",
-        "name": "159 Armour Shell",
-        "location": "Atlanta, GA",
-        "client_name": "159 Armour Shell",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            "The project includes converting an existing warehouse building to retail, restaurant, and gallery spaces.",
-            "Exterior patios and a second floor will be also added."
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/office.jpg"
-        ],
-        "tag": "office"
-    },
-    {
-        "id": "km324",
-        "name": "160 Trinity Avenue",
-        "location": "Atlanta, GA",
-        "client_name": "City of Atlanta",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            "The 160 Trinity Avenue project is a 61,399-square-foot, 3-story structure. It is a City of Atlanta office building located in the middle of the Downtown Atlanta Government Center. The building was designed to include a VRF system and LEED certification."
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/office.jpg"
-        ],
-        "tag": "office"
-    },
+    
     {
         "id": "bu34r42",
         "name": "Complex",
@@ -1371,7 +1335,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/office.jpg"
+            "/images/portfolio/buckhead-plaza.jpeg"
         ],
         "tag": "office"
     },
@@ -1390,13 +1354,13 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/office.jpg"
+            "/images/portfolio/willoughby.jpg"
         ],
         "tag": "office"
     },
     {
         "id": "fpj3ads",
-        "name": "730 Peachtree Street",
+        "name": "The Circa 730",
         "location": "Atlanta, GA",
         "client_name": "730",
         "dimensions": {
@@ -1408,7 +1372,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/office.jpg"
+            "/images/portfolio/circa.jpeg"
         ],
         "tag": "office"
     },
@@ -1427,7 +1391,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/office.jpg"
+            "/images/portfolio/550-pharr.jpeg"
         ],
         "tag": "office"
     },
@@ -1446,7 +1410,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/office.jpg"
+            "/images/portfolio/gateway-2.jpeg"
         ],
         "tag": "office"
     },
@@ -1466,7 +1430,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/office.jpg"
+            "/images/portfolio/mckesson.jpeg"
         ],
         "tag": "office"
     },
@@ -1485,7 +1449,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/office.jpg"
+            "/images/portfolio/pnc-bank.jpg"
         ],
         "tag": "office"
     },
@@ -1504,7 +1468,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/office.jpg"
+            "/images/portfolio/saic.jpeg"
         ],
         "tag": "office"
     },
@@ -1541,7 +1505,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/office.jpg"
+            "/images/portfolio/baird-office.jpeg"
         ],
         "tag": "office"
     },
@@ -1559,7 +1523,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/office.jpg"
+            "/images/portfolio/keller.jpeg"
         ],
         "tag": "office"
     },
@@ -1578,7 +1542,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/hospitality.jpg"
+            "/images/portfolio/holiday-inn.jpeg"
         ],
         "tag": "hospitality"
     },
@@ -1597,7 +1561,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/hospitality.jpg"
+            "/images/portfolio/hampton-knoxville.jpeg"
         ],
         "tag": "hospitality"
     },
@@ -1616,7 +1580,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/hospitality.jpg"
+            "/images/portfolio/best-western.jpeg"
         ],
         "tag": "hospitality"
     },
@@ -1635,7 +1599,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/hospitality.jpg"
+            "/images/portfolio/towneplace.jpeg"
         ],
         "tag": "hospitality"
     },
@@ -1654,7 +1618,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/hospitality.jpg"
+            "/images/portfolio/patrick-square.jpeg"
         ],
         "tag": "hospitality"
     },
@@ -1672,7 +1636,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/hospitality.jpg"
+            "/images/portfolio/avid.jpeg"
         ],
         "tag": "hospitality"
     },
@@ -1690,7 +1654,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/hospitality.jpg"
+            "/images/portfolio/staybridge.jpg"
         ],
         "tag": ""
     },
@@ -1710,7 +1674,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/hospitality.jpg"
+            "/images/portfolio/hyatt.jpeg"
         ],
         "tag": "hospitality"
     },
@@ -1729,7 +1693,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/hospitality.jpg"
+            "/images/portfolio/gulf-breeze.jpeg"
         ],
         "tag": "hospitality"
     },
@@ -1748,28 +1712,11 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/hospitality.jpg"
+            "/images/portfolio/sobu.jpeg"
         ],
         "tag": "hospitality"
     },
-    {
-        "id": "lenf24",
-        "name": "Residence Inn by Marriott",
-        "location": "Greensboro, NC",
-        "client_name": "Marriott",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            "The Residence Inn is 7 stories and 88,183 square feet. The project includes fitness area office space, bedrooms, and laundry room."
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/hospitality.jpg"
-        ],
-        "tag": "hospitality"
-    },
+
     {
         "id": "3lfi3a",
         "name": "Fairfield Inn by Marriott",
@@ -1784,46 +1731,11 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/hospitality.jpg"
+            "/images/portfolio/fairfield.jpeg"
         ],
         "tag": "hospitality"
     },
-    {
-        "id": "k421fa",
-        "name": "Residence Inn by Marriott",
-        "location": "South Haven, MS",
-        "client_name": "Marriott",
-        "dimensions": {
-            "sqft": 94124
-        },
-        "project_tagline": "",
-        "project_description": [
-            "The Residence Inn is 94,124 square feet and has 3 stories. The 78-room building includes a business center, pool, outdoor patio, sports court, and dry cleaning."
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/hospitality.jpg"
-        ],
-        "tag": "hospitality"
-    },
-    {
-        "id": "nie2r4",
-        "name": "",
-        "location": "",
-        "client_name": "",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            ""
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/hospitality.jpg"
-        ],
-        "tag": "hospitality"
-    },
+
     {
         "id": "324otga",
         "name": "Best Western Plus Renovation",
@@ -1839,7 +1751,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/hospitality.jpg"
+            "/images/portfolio/pigeon-forge.jpeg"
         ],
         "tag": "hospitality"
     },
@@ -1857,28 +1769,11 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/food.jpg"
+            "/images/portfolio/taco-bell.jpg"
         ],
         "tag": "food and beverages"
     },
-    {
-        "id": "4e2rtfasd",
-        "name": "",
-        "location": "",
-        "client_name": "",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            ""
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/food.jpg"
-        ],
-        "tag": "food and beverages"
-    },
+
     {
         "id": "34roojf",
         "name": "Zaxby's",
@@ -1894,7 +1789,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/food.jpg"
+            "/images/portfolio/zaxbys.jpeg"
         ],
         "tag": "food and beverages"
     },
@@ -1913,7 +1808,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/food.jpg"
+            "/images/portfolio/c-ellets.jpeg"
         ],
         "tag": "food and beverages"
     },
@@ -1932,7 +1827,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/food.jpg"
+            "/images/portfolio/dreamland.jpeg"
         ],
         "tag": "food and beverages"
     },
@@ -1951,28 +1846,11 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/food.jpg"
+            "/images/portfolio/bar-mercado.jpg"
         ],
         "tag": "food and beverages"
     },
-    {
-        "id": "ln3p2fa",
-        "name": "",
-        "location": "",
-        "client_name": "",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            ""
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/food.jpg"
-        ],
-        "tag": "food and beverages"
-    },
+
     {
         "id": "g42ra",
         "name": "Gusto at The Avalon",
@@ -1988,7 +1866,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/food.jpg"
+            "/images/portfolio/gusto.png"
         ],
         "tag": "food and beverages"
     },
@@ -2006,7 +1884,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/food.jpg"
+            "/images/portfolio/kale-me-crazy.jpeg"
         ],
         "tag": "food and beverages"
     },
@@ -2025,7 +1903,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/food.jpg"
+            "/images/portfolio/hw-steakhouse.jpeg"
         ],
         "tag": "food and beverages"
     },
@@ -2044,7 +1922,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/food.jpg"
+            "/images/portfolio/wild-wing-cafe.jpeg"
         ],
         "tag": "food and beverages"
     },
@@ -2062,7 +1940,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/food.jpg"
+            "/images/portfolio/zalate.jpeg"
         ],
         "tag": "food and beverages"
     },
@@ -2089,7 +1967,7 @@
         "id": "e4fas",
         "name": "Common Place Coffee",
         "location": "Knoxville, TN",
-        "client_name": "",
+        "client_name": "Common Place Coffee",
         "dimensions": {
             "sqft": 43000
         },
@@ -2100,7 +1978,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/food.jpg"
+            "/images/portfolio/commonplace.jpeg"
         ],
         "tag": "food and beverages"
     },
@@ -2119,7 +1997,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/food.jpg"
+            "/images/portfolio/sweetwater.jpeg"
         ],
         "tag": "food and beverages"
     },
@@ -2137,7 +2015,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/manufacturing.jpg"
+            "/images/portfolio/second-self.jpeg"
         ],
         "tag": "manufacturing"
     },
@@ -2155,7 +2033,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/manufacturing.jpg"
+            "/images/portfolio/reformation.jpg"
         ],
         "tag": "manufacturing"
     },
@@ -2173,7 +2051,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/manufacturing.jpg"
+            "/images/portfolio/wild-heaven.jpeg"
         ],
         "tag": "manufacturing"
     },
@@ -2192,7 +2070,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/manufacturing.jpg"
+            "/images/portfolio/elsewhere.jpeg"
         ],
         "tag": "manufacturing"
     },
@@ -2211,7 +2089,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/manufacturing.jpg"
+            "/images/portfolio/sabbath.jpeg"
         ],
         "tag": "manufacturing"
     },
@@ -2230,7 +2108,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/manufacturing.jpg"
+            "/images/portfolio/pontoon.jpeg"
         ],
         "tag": "manufacturing"
     },
@@ -2248,7 +2126,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/manufacturing.jpg"
+            "/images/portfolio/gfm.jpg"
         ],
         "tag": "manufacturing"
     },
@@ -2267,7 +2145,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/retail.jpg"
+            "/images/portfolio/lendmark.jpeg"
         ],
         "tag": "retail"
     },
@@ -2286,28 +2164,11 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/retail.jpg"
+            "/images/portfolio/two-bikes.jpeg"
         ],
         "tag": "retail"
     },
-    {
-        "id": "asdf3r",
-        "name": "",
-        "location": "",
-        "client_name": "",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            ""
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/retail.jpg"
-        ],
-        "tag": "retail"
-    },
+
     {
         "id": "poij3rf",
         "name": "HBO Storage",
@@ -2342,7 +2203,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/retail.jpg"
+            "/images/portfolio/westside-village.jpeg"
         ],
         "tag": "retail"
     },
@@ -2360,7 +2221,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/retail.jpg"
+            "/images/portfolio/saks.jpeg"
         ],
         "tag": "retail"
     },
@@ -2378,7 +2239,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/retail.jpg"
+            "/images/portfolio/indian-lake.jpeg"
         ],
         "tag": "retail"
     },
@@ -2397,7 +2258,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/retail.jpg"
+            "/images/portfolio/pure-luxe.jpeg"
         ],
         "tag": "retail"
     },
@@ -2434,7 +2295,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/retail.jpg"
+            "/images/portfolio/north-macon.jpeg"
         ],
         "tag": "retail"
     },
@@ -2453,7 +2314,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/retail.jpg"
+            "/images/portfolio/roosevelt-square.jpeg"
         ],
         "tag": "retail"
     },
@@ -2472,7 +2333,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/retail.jpg"
+            "/images/portfolio/bradley-square.jpeg"
         ],
         "tag": "retail"
     },
@@ -2490,7 +2351,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/retail.jpg"
+            "/images/portfolio/beacon.jpeg"
         ],
         "tag": "retail"
     },
@@ -2526,7 +2387,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/senior.jpg"
+            "/images/portfolio/watercrest-macon.jpeg"
         ],
         "tag": "senior living"
     },
@@ -2544,29 +2405,11 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/senior.jpg"
+            "/images/portfolio/vinings-seniors.jpeg"
         ],
         "tag": "senior living"
     },
-    {
-        "id": "hu0hoj",
-        "name": "The Union at Auburn",
-        "location": "Auburn, AL",
-        "client_name": "The Union at Auburn",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            "The Union project involves the design of a new construction, 5-story student housing building. The structure includes a parking deck, apartment units, and a 3,791-square-foot clubhouse.",
-            "The unit types include a mix of 2, 3 and 4-bedroom units."
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/mixed.jpg"
-        ],
-        "tag": "mixed use"
-    },
+
     {
         "id": "yihjkn",
         "name": "Aiken Mall Redevelopment",
@@ -2581,7 +2424,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/mixed.jpg"
+            "/images/portfolio/aiken-mall.jpeg"
         ],
         "tag": "mixed use"
     },
@@ -2599,7 +2442,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/mixed.jpg"
+            "/images/portfolio/cinepolis.jpeg"
         ],
         "tag": "mixed use"
     },
@@ -2618,7 +2461,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/mixed.jpg"
+            "/images/portfolio/academy-lofts.jpeg"
         ],
         "tag": "mixed use"
     },
@@ -2636,7 +2479,7 @@
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/mixed.jpg"
+            "/images/portfolio/quarter-westside.jpeg"
         ],
         "tag": "mixed use"
     },
@@ -2658,24 +2501,7 @@
         ],
         "tag": "mixed use"
     },
-    {
-        "id": "afoifew",
-        "name": "115 East Broad Street",
-        "location": "Athens, GA",
-        "client_name": "115 East Broad Street",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            "Located at 115 East Broad Street is a new construction, 6-story mixed-use building. With a total of 31,663 square feet, the structure includes 19,256 square feet of office and 12,138 square feet of retail space, as well as Athens’ first rooftop restaurant. With solar panels and a green roof up top, the building will meet LEED gold standard."
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/mixed.jpg"
-        ],
-        "tag": "mixed use"
-    },
+
     {
         "id": "fdas324r",
         "name": "KWA Office HQ",
@@ -2693,21 +2519,5 @@
             "/images/portfolio/mixed.jpg"
         ],
         "tag": "mixed use"
-    },
-    {
-        "id": "3423124",
-        "name": "",
-        "location": "",
-        "client_name": "",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            ""
-        ],
-        "year_completed": "2024",
-        "images": [],
-        "tag": ""
     }
 ]

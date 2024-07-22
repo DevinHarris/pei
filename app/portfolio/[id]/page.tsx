@@ -83,30 +83,9 @@ export default function ProjectPage() {
                             <div className="project-page__image">
                                 <img src="/images/project-img-10.jpg" alt="project image" />
                             </div>
-                            <div className="project-page__image">
-                                <img src="/images/project-img-11.jpg" alt="project image" />
-                            </div>
-                            <div className="project-page__image">
-                                <img src="/images/project-img-12.jpg" alt="project image" />
-                            </div>
                 </section>
                 <section className="project-page__callout--center">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptate exercitationem nobis, corrupti odit sed quas tenetur doloremque earum enim repellat esse asperiores qui ea nemo voluptatem eius ad nam!</p>
-                </section>
-
-                <section className="project-page__image-grid">
-                            <div className="project-page__image">
-                                <img src="/images/project-img-4.jpg" alt="project image" />
-                            </div>
-                            <div className="project-page__image">
-                                <img src="/images/project-img-5.jpg" alt="project image" />
-                            </div>
-                            <div className="project-page__image">
-                                <img src="/images/project-img-6.jpg" alt="project image" />
-                            </div>
-                            <div className="project-page__image">
-                                <img src="/images/project-img-8.jpg" alt="project image" />
-                            </div>
                 </section>
             </main>
         </div>
