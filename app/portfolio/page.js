@@ -15,17 +15,18 @@ export default function PortfolioPage() {
 
     const [currentProjectTag, setCurrentProjectTag] = useState('Community');
 
-    const [projects, setProjects] = useState([]);
+    // const [projects, setProjects] = useState([]);
+    const [filteredProjects, setFilteredProjects] = useState([]);
 
     const handleOnChange = (e) => {
 
         setCurrentProjectTag(e.target.value)
-        console.log(e.target.value)
     }
 
     useEffect(() => {
-        setProjects(projectData);
-    }, [currentProjectTag, projects])
+        const filteredData = projectData.filter(project => project.tag === currentProjectTag.toLowerCase());
+        setFilteredProjects(filteredData);
+    }, [currentProjectTag])
 
     
     return (
@@ -51,9 +52,7 @@ export default function PortfolioPage() {
                 </div>
                 <div className='portfolio-page__projects-grid'>
                     {
-                        projects ? projects.filter(project => {
-                            return project.tag === currentProjectTag.toLowerCase();
-                        }).map(project => {
+                        filteredProjects.length !== 0 ? filteredProjects.map(project => {
                            return <ProjectThumbnail key={project.name} {...project} />
                         }) : <h1>Currently there are no projects to display.</h1>
                     }

@@ -23,7 +23,7 @@ export default function OurTeam() {
                             profileData ? (
 
                                 profileData.map(profile => (
-                                    <div className="our-team-page__profile">
+                                    <div className="our-team-page__profile" key={profile.id}>
                                         <div className="our-team-page__img">
                                             <a href={`/bios${profile.slug}`}>
                                                 <img src={profile.image} alt={`${profile.name}'s photo`} />
