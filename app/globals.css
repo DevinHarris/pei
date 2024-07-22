@@ -635,6 +635,10 @@ nav ul {
   width: 100%;
 }
 
+.project-page__callout-no-text {
+  height: 8rem;
+}
+
 .project-page__callout h2 {
 
   font-size: 1.5rem;
@@ -1249,14 +1253,21 @@ footer {
     height: 70vh;
   }
 
+  .project-page__header--hero {
+    padding: 2rem;
+  }
+
   .project-page__callout {
     height: auto;
-   
-    padding: 3rem;
+    padding: 2rem;
   }
 
   .project-page__callout h2 {
     font-size: 1.2rem;
+  }
+
+  .project-page__header--content h1 {
+    font-size: 1.4rem;
   }
 
   .project-page__meta-grid {
@@ -1264,7 +1275,7 @@ footer {
   }
 
   .project-page__meta-grid-col {
-    padding: 3rem;
+    padding: 1.5rem;
   }
   
   .what-we-do__services {
@@ -1286,7 +1297,12 @@ footer {
     margin-top: 2rem;
   }
 
+  .project-page__callout--center {
+    padding: 2rem;
+  }
+
   .project-page__callout--center p {
+    font-size: 1.2rem;
     width: 100%;
   }
 
