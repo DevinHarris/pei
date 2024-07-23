@@ -35,7 +35,9 @@ export default function LunchLearnPage() {
                                         <li>To explain future impact of BIM on the AEC industry</li>
                                     </ul>
                                     <CalloutText>
-                                        Worth <span className="font-medium">1 AIA Learning Unit</span>
+                                        <a href="https://classic.aia.org/resource/170276-continuing-education" target="_blank">
+                                            Worth <span className="font-medium">1 AIA Learning Unit</span>
+                                        </a>
                                     </CalloutText>
                                     <a className="lunch-learn-register-link rounded-btn-cta" href="https://calendly.com/savanna-hoover/virtual-bim-lunch-and-learn?month=2020-07" target="_blank">Register Here</a>
                                 </div>
@@ -57,8 +59,10 @@ export default function LunchLearnPage() {
                                         <li>To stay on top of current technologies that can help the design team</li>
                                     </ul>
                                     <CalloutText>
-                                        
+                                        <a href="https://classic.aia.org/resource/170276-continuing-education" target="_blank">
                                             Worth <span className="font-medium">1 AIA HSW (Heath Safety Welfare) <br></br> Learning Unit </span>
+                                        </a>
+                                           
                                     </CalloutText>
                                     <a className="lunch-learn-register-link rounded-btn-cta" href="#">Register Here</a>
                                 </div>
