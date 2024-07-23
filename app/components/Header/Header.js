@@ -21,7 +21,7 @@ export default function Header() {
                 <Navbar />
                 <div className="landing-hero">
                     <video ref={videoRef} className="hero-video" autoPlay loop muted>
-                        <source src="/images/bg-vid-3.mov" type="video/mp4" />
+                        <source src="/images/pei-landing-bg.mov" type="video/mp4" />
                     </video>
                     <div className="hero-content">
                         <div className="hero-content-container">
