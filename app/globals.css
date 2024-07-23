@@ -527,6 +527,10 @@ nav ul {
 
 /* Bio Page */
 
+/* .project-page__meta-value:not(:last-child)::after { content: ',' } */
+
+
+
 .bio-page {
   margin-top: 5rem;
 }

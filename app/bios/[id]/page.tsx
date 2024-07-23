@@ -23,6 +23,8 @@ interface Profile {
     featured_projects: { name: string, thumbnail: string }[]
 }
 
+/* clean up endings lastIndex substring "/" */
+
 export default function BioPage() {
 
     const [currentProfile, setCurrentProfile] = useState<Profile | undefined>();
@@ -58,12 +60,13 @@ export default function BioPage() {
                         <div className="project-page__meta-grid-col project-page__meta-grid-about">
                             <div className="project-page__meta-desc">
                                 <b className="project-page__meta-title">What I Do</b>
-                                <span className="project-page__meta-value">
-                                    { currentProfile?.tasks.map(task => `${task}, `) }
-                                </span>
+
+                                <span className="project-page__meta-value">{
+                                                currentProfile?.tasks?.map((task, index) => task).join(', ')
+                                            }</span>
                             </div>
                             <div className="project-page__meta-desc">
-                                <b className="project-page__meta-title">Year I Started</b>
+                                <b className="project-page__meta-title">Year Started</b>
                                 <span className="project-page__meta-value">{currentProfile?.year_started}</span>
                             </div>
                             <div className="project-page__meta-desc">
@@ -72,34 +75,43 @@ export default function BioPage() {
                             </div>
                             
                             {
-                                currentProfile?.education ? (
+                                currentProfile?.education?.length !== 0 ? (
                                     <div className="project-page__meta-desc">
                                         <b className="project-page__meta-title">My Education</b>
-                                        {
-                                            currentProfile.education?.map(education => <span className="project-page__meta-value">{`${education} | `}</span>)
+                        
+                            {
+                                            
+
+                                            <span className="project-page__meta-value">{
+                                                currentProfile?.education?.map((degree, index) => degree).join(' | ')
+                                            }</span>
                                         }
                                     </div>
                                 ) : null
                             }
 
 {
-                             currentProfile?.memberships ? (
+                             currentProfile?.memberships?.length !== 0 ? (
                                     <div className="project-page__meta-desc">
                                         <b className="project-page__meta-title">Memberships</b>
                                         {
-                                            currentProfile.memberships?.map(membership => <span className="project-page__meta-value">{`${membership}, `}</span>)
+                                            
+
+                                            <span className="project-page__meta-value">{
+                                                currentProfile?.memberships?.map((membership, index) => membership).join(', ')
+                                            }</span>
                                         }
                                     </div>
                                 ) : null
                             }
 
 {
-                                currentProfile?.pe_registrations ? (
+                                currentProfile?.pe_registrations?.length !== 0 ? (
                                     <div className="project-page__meta-desc">
                                         <b className="project-page__meta-title">PE Registrations</b>
-                                        {
-                                            currentProfile.pe_registrations?.map(registration => <span className="project-page__meta-value">{`${registration}, `}</span>)
-                                        }
+                                        <span className="project-page__meta-value">{
+                                                currentProfile?.pe_registrations?.map((registration, index) => registration).join(', ')
+                                            }</span>
                                     </div>
                                 ) : null
                             }

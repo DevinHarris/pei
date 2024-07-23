@@ -15,22 +15,22 @@ export default function Navbar() {
                     <li className="nav-item">
                         <a href="/what-we-do">What We Do</a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a href="#why-proficient">Why Proficient</a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <a href="/portfolio">Portfolio</a>
                     </li>
                     <li className="nav-item">
                         <a href="/bim">BIM</a>
                     </li>
+                    <li className="nav-item">
+                        <a href="/our-team">Our Team</a>
+                    </li>
                     <li className="nav-logo-container">
                         <a href="/">
                             <img className="nav-logo" src="/images/logo.png" />
                         </a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="/our-team">Our Team</a>
                     </li>
                     <li className="nav-item">
                         <a href="/lunch-learn">Lunch and Learns</a>

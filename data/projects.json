@@ -1660,9 +1660,9 @@
     },
     {
         "id": "fwefjp2",
-        "name": "The Hyatt",
+        "name": "Hyatt Place",
         "location": "Augusta, GA",
-        "client_name": "The Hyatt",
+        "client_name": "Hyatt Place",
         "dimensions": {
             "sqft": 43000
         },

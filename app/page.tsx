@@ -47,7 +47,7 @@ export default function Home() {
           <section className="landing-section-callout">
                 <div className="landing-section-meta landing-section-callout-meta  experience-col">
                       <div className='landing-section-meta-container'>
-                        <span className="featured-project-tag">Proficient Engineering</span>
+                        {/* <span className="featured-project-tag">Proficient Engineering</span> */}
                         <h3>Our Experience</h3>
                         <p>No matter how complex or simple, we engineer our projects precisely and don’t tolerate corner-cutting. Between our vast project expertise, in-house tools and fully licensed staff, we produce accurate, architecturally efficient designs. Besides, we’re engineers. Precision should be our middle name.</p>
                         <a className="rounded-btn-cta" href="/what-we-do">Learn more</a>
@@ -62,7 +62,7 @@ export default function Home() {
           <section className='landing-section landing-stand-out' id="why-proficient">
               <div className='landing-stand-out-container'>
                     <div className='landing-stand-out__header'>
-                        <span className='featured-project-tag'>More About Us</span>
+                        {/* <span className='featured-project-tag'>More About Us</span> */}
                         <h1 className='landing-stand-out__heading'>Why choose Proficient Engineering?</h1>
                     </div>
                     <div className='landing-stand-out__bg-img'></div>
