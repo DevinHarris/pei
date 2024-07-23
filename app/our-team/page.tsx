@@ -11,7 +11,7 @@ export default function OurTeam() {
                         <div className="portfolio-page__header--content">
                                 <h1 className="portfolio-page__header--title">Meet our Team</h1>
                                 <p className="portfolio-page__header--text">Our employees love to work here and our top priority is to help you succeed, bar none. From the first phone call to finished project, we take ownership and are incredibly easy to work with, resulting in reliable work without hand holding. We work hard to make it easy for you.</p>
-                                <p className="portfolio-page__header--text">With a combined 200+ years of Proficient Excellence!</p>
+                                <p className="portfolio-page__header--text mt-3">With a combined 200+ years of Proficient Excellence!</p>
                         </div>
                     </header>
                  </div>
