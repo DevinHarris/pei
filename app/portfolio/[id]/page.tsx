@@ -69,23 +69,27 @@ export default function ProjectPage() {
                         </div>
                         <div className="project-page__meta-grid-col project-page__meta-grid-text">
                             {
-                                currentProject?.project_description.map(description => <p className="project-page__meta-text">{description}</p>)
+                                currentProject?.project_description.map((description, index) => <p className="project-page__meta-text" key={`${currentProject.name}'s desc ${index}`}>{description}</p>)
                             }
                                 
                         </div>
                        
                     </div>
                 </section>
+
                 <section className="project-page__image-grid">
-                            <div className="project-page__image">
-                                <img src="/images/project-img-9.jpg" alt="project image" />
-                            </div>
-                            <div className="project-page__image">
-                                <img src="/images/project-img-10.jpg" alt="project image" />
-                            </div>
+
+                            {
+                                currentProject?.images.map((image, index) => (
+                                    <div className="project-page__image" key={`${currentProject.name}'s photo ${index}`}>
+                                        <img src={image} alt="project image" />
+                                    </div>
+                                ))
+                            }
                 </section>
                 <section className="project-page__callout--center">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptate exercitationem nobis, corrupti odit sed quas tenetur doloremque earum enim repellat esse asperiores qui ea nemo voluptatem eius ad nam!</p>
+                    <p>Along with thousands of other completed projects!</p>
+                    <a href="/portfolio" className='rounded-btn-cta'>View more here</a>
                 </section>
             </main>
         </div>

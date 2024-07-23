@@ -108,7 +108,10 @@ export default function BioPage() {
                         <h3 className="bio-page__about-heading">About {currentProfile?.name.split(" ")[0]}</h3>
                                 
                                 {
-                                    currentProfile?.bio.map(paragraph => <p className="project-page__meta-text">{paragraph}</p> )
+                                    currentProfile?.bio.length !== 0 ? (
+                                        currentProfile?.bio.map(paragraph => <p className="project-page__meta-text">{paragraph}</p> )
+                                    ) : 
+                                    <h2 className='font-light'>{currentProfile.name.split(" ")[0]}'s bio is currently empty.</h2>
                                 }
                                
                                 
@@ -117,39 +120,26 @@ export default function BioPage() {
                 </section>
                 <section className="bio-page__projects-container">
                     <h3 className="bio-page__projects-heading">Featured Projects and Accomplishments</h3>
-                    <div className="bio-page__projects-grid">
-                        <div className="bio-page__project">
-                        <div className="bio-page__project-img">
-                                <a href="/portfolio/3242">
-                                    <img src="/images/project-img-6.jpg" alt="" />
-                                </a>
+                    {
+                        currentProfile?.featured_projects.length !== 0 ? (
+                            <div className="bio-page__projects-grid" style={{ gridTemplateColumns: `repeat(${currentProfile?.featured_projects.length}, 1fr)` }}>
+                                {
+                                    currentProfile?.featured_projects.map(project => (
+                                        <div className="bio-page__project">
+                                            <div className="bio-page__project-img">
+                                                 <a href="/portfolio/3242">
+                                                    <img src={project.thumbnail} alt="" />
+                                                </a>
+                                            </div>
+                                            <h3>{project.name}</h3>
+                                        </div>
+                                    ))
+                                }
                             </div>
-                            <h3>PWORK Site</h3>
-                        </div>
-                        <div className="bio-page__project">
-                            <div className="bio-page__project-img">
-                                <a href="/portfolio/3242">
-                                    <img src="/images/project-img-6.jpg" alt="" />
-                                </a>
-                            </div>
-                            <h3>Proficient Engineering.com</h3>
-                        </div>
-                        <div className="bio-page__project">
-                            <div className="bio-page__project-img">
-                                <a href="/portfolio/3242">
-                                    <img src="/images/project-img-4.jpg" alt="" />
-                                </a>                            </div>
-                            <h3>Project Name</h3>
-                        </div>
-                        <div className="bio-page__project">
-                        <div className="bio-page__project-img">
-                                <a href="/portfolio/3242">
-                                    <img src="/images/project-img-6.jpg" alt="" />
-                                </a>
-                            </div>
-                            <h3>Project Name</h3>
-                        </div>
-                    </div>
+                            ) : (
+                                <h2 className="mt-5">Currently {currentProfile?.name.split(" ")[0]} doesn't have any featured projects to display.</h2>
+                            )
+                    }
                 </section>
                 </main>
             </div>

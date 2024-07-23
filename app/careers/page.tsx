@@ -5,7 +5,7 @@ export default function CareerPage() {
             <div className="project-page bio-page">
             <header className="project-page__header">
                 <div className="project-page__header--hero">
-                    <img className="project-page__header--img" src="/images/our-team/team-img-1.jpg" alt="project-image" />
+                    <img className="project-page__header--img" src="/images/our-team/join-our-team-img-2.jpg" alt="project-image" />
                     <div className="project-page__header--content">
                         <h1 className="project-title">Careers | Join our Team</h1>
                     </div>

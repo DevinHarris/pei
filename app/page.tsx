@@ -27,19 +27,19 @@ export default function Home() {
                   <div className="featured-project-info-grid">
                     <div className="featured-project-info">
                         <h3>Identity</h3>
-                        <p>Every house has its own identity, all different from one another, despite having a common base, inherent to the Mima system. Thus our ultimate goal, allowing for customization, regarding predefined architectural rules.</p>
+                        <p>SweetWater is a microbrewery that was established in 1997. The company offeres a variety of brews as well as tours and events at their facility.</p>
                     </div>
                     <div className="featured-project-info">
-                        <h3>Quality</h3>
-                        <p>The quality of the architecture, along with the quality of the construction execution and construction materials is Mima’s fundamental aim. Our objective is long-lasting, gracefully enduring, quality construction.</p>
+                        <h3>Approach</h3>
+                        <p>The restaurant design required an additional coordination with the kitchen consultant and a mechanical design intergration with the kitchen hood design.</p>
                     </div>
                     <div className="featured-project-info">
-                        <h3>Simplicity</h3>
-                        <p>Simple constructions are the most attractive and timeless ones. Our intention is not different or strange constructions but timeless, attractive and comfortable ones. We believe simplicity is ultimate sophistication..</p>
+                        <h3>Challenge</h3>
+                        <p>The biggest challenge of this project was managing the tight project schedule and keeping the project within budget.</p>
                     </div>
                     
                   </div>
-                  <a className="rounded-btn-cta" href="#">Read More</a>
+                  <a className="rounded-btn-cta" href="/portfolio/4tfads">Read More</a>
                 </div>
              </div>
           </section>
@@ -50,7 +50,7 @@ export default function Home() {
                         <span className="featured-project-tag">Proficient Engineering</span>
                         <h3>Our Experience</h3>
                         <p>No matter how complex or simple, we engineer our projects precisely and don’t tolerate corner-cutting. Between our vast project expertise, in-house tools and fully licensed staff, we produce accurate, architecturally efficient designs. Besides, we’re engineers. Precision should be our middle name.</p>
-                        <a className="rounded-btn-cta" href="#">Learn more</a>
+                        <a className="rounded-btn-cta" href="/what-we-do">Learn more</a>
                       </div>
                 </div>
                 <div className="landing-section-callout-image experience-col">
@@ -113,13 +113,13 @@ export default function Home() {
           <section className='landing-section landing-section-qualifications'>
               <div className='landing-section-qualifications__heading'>
                 <h1>Our Qualifications</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores facilis iusto qui expedita eligendi eius dicta amet dolorum modi iste fugiat nulla maxime deleniti dolorem magni accusamus, dolor quas necessitatibus?</p>
+                <p>Join the ranks of our satisfied clients and experience the Proficient difference. Partner with us for your next project and let us help you achieve excellence through engineering.</p>
               </div>
               <div className='landing-section-qualifications__content'>
                   <div className='landing-section-qualifications__qualification'>
                     <h2>Registration</h2>
                     <ul>
-                      <li>Professional Engineer Registrations in <a href="#">49 states</a></li>
+                      <li>Liscened across the U.S.</li>
                       <li>NCEES records available in other states</li>
                     </ul>
                   </div>

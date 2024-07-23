@@ -1,3 +1,5 @@
+import CalloutText from "../components/CalloutText/CalloutText"
+
 export default function LunchLearnPage() {
 
     return (
@@ -5,7 +7,7 @@ export default function LunchLearnPage() {
             <div className="project-page bio-page">
             <header className="project-page__header">
                 <div className="project-page__header--hero">
-                    <img className="project-page__header--img" src="/images/project-img-2.jpg" alt="project-image" />
+                    <img className="project-page__header--img" src="/images/lunch-learn-3.jpg" alt="project-image" />
                     <div className="project-page__header--content">
                         <h1 className="project-title">Lunch and Learns</h1>
                     </div>
@@ -20,7 +22,7 @@ export default function LunchLearnPage() {
                 <section className="lunch-learns-container">
                     <div className="lunch-learn-type">
                         <div className="lunch-learn-col lunch-learn-col-image">
-                            <img src="/images/project-img-6.jpg" alt="Lunch and Learn image" />
+                            <img src="/images/lunch-learn-1.jpg" alt="Lunch and Learn image" />
                         </div>
                         <div className="lunch-learn-col lunch-learn-col-description">
                            <div className="lunch-learn-col-description-inner">
@@ -32,14 +34,17 @@ export default function LunchLearnPage() {
                                         <li>To provide advantages of BIM for Construction Team</li>
                                         <li>To explain future impact of BIM on the AEC industry</li>
                                     </ul>
-                                    <a className="lunch-learn-register-link rounded-btn-cta" href="#">Register Here</a>
+                                    <CalloutText>
+                                        Worth <span className="font-medium">1 AIA Learning Unit</span>
+                                    </CalloutText>
+                                    <a className="lunch-learn-register-link rounded-btn-cta" href="https://calendly.com/savanna-hoover/virtual-bim-lunch-and-learn?month=2020-07" target="_blank">Register Here</a>
                                 </div>
                            </div>
                         </div>
                     </div>
                     <div className="lunch-learn-type lunch-learn-reverse">
                         <div className="lunch-learn-col lunch-learn-col-image">
-                            <img src="/images/project-img-8.jpg" alt="Lunch and Learn image" />
+                            <img src="/images/lunch-learn-2.jpg" alt="Lunch and Learn image" />
                         </div>
                         <div className="lunch-learn-col lunch-learn-col-description">
                            <div className="lunch-learn-col-description-inner">
@@ -51,6 +56,10 @@ export default function LunchLearnPage() {
                                         <li>To determine the project’s critical path</li>
                                         <li>To stay on top of current technologies that can help the design team</li>
                                     </ul>
+                                    <CalloutText>
+                                        
+                                            Worth <span className="font-medium">1 AIA HSW (Heath Safety Welfare) <br></br> Learning Unit </span>
+                                    </CalloutText>
                                     <a className="lunch-learn-register-link rounded-btn-cta" href="#">Register Here</a>
                                 </div>
                            </div>
@@ -61,7 +70,8 @@ export default function LunchLearnPage() {
                 
                 <section className="bio-page__projects-container upcoming-lunch-learn">
                     <h3 className="lunch-learn-heading">Upcoming Lunch and Learns</h3>
-                    <div className="bio-page__projects-grid">
+                    <p className="mt-5">There are currently no Lunch and Learns scheduled. Please check back soon!</p>
+                    {/* <div className="bio-page__projects-grid">
                         <div className="bio-page__project">
                         <div className="bio-page__project-img">
                                 <a href="/portfolio/3242">
@@ -93,7 +103,7 @@ export default function LunchLearnPage() {
                             </div>
                             <h3>Project Name</h3>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
                 </main>
             </div>
