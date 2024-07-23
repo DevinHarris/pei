@@ -843,6 +843,7 @@ nav ul {
 
 .contact__form input, textarea {
   background-color: #f9f9f9;
+  border-radius: 10px;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
   width: 100%;
@@ -1317,6 +1318,7 @@ footer {
   /* Bio Page */
 
   .bio-page__projects-container {
+    margin-bottom: 3rem;
     padding: 0 1rem;
   }
 
