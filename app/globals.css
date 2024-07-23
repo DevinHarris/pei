@@ -1383,6 +1383,10 @@ footer {
     font-size: 2.3rem;
   }
 
+  .what-we-do__header {
+    background-attachment: initial;
+  }
+
   .responsive-nav-btn {
     display: block;
     position: absolute;
