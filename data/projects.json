@@ -706,42 +706,7 @@
         ],
         "tag": "industrial"
     },
-    {
-        "id": "4fadfp",
-        "name": "Mike Erdman Nissan",
-        "location": "Cocoa, FL",
-        "client_name": "Mike Erdman Nissan",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            "The site area for the Mike Erdman Toyota & Nissan property is 34.23 acres with the Nissan building totaling approximately 45,789 square feet."
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/industrial.jpg"
-        ],
-        "tag": "industrial"
-    },
-    {
-        "id": "dasfa3",
-        "name": "Mike Erdman Nissan",
-        "location": "Cocoa, FL",
-        "client_name": "Mike Erdman Nissan",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            "The site area for the Mike Erdman Toyota & Nissan property is 34.23 acres with the Nissan building totaling approximately 45,789 square feet."
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/mike-erdman.jpeg"
-        ],
-        "tag": "industrial"
-    },
+    
     {
         "id": "kdiajf",
         "name": "Sutherlin Nissan",
