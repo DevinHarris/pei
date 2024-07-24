@@ -1351,6 +1351,11 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .bio-page__callout {
+    padding: 3rem 2rem;
+    font-size: 1.2rem;
+  }
+
   /* Contact Page */
 
   .contact-us-page__form {
