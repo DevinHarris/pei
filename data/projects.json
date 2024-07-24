@@ -1791,44 +1791,29 @@
         ],
         "tag": "hospitality"
     },
+    
     {
-        "id": "h42tadf",
-        "name": "Taco Bell",
-        "location": "Across the Southeastern U.S.",
-        "client_name": "Taco Bell",
+        "id": "4tfads",
+        "name": "Sweetwater Brewing Company",
+        "location": "Atlanta, GA",
+        "client_name": "Sweetwater Brewing Company",
         "dimensions": {
-            "sqft": 43000
+            "sqft": 1500
         },
         "project_tagline": "",
         "project_description": [
-            "Proficient is consistently helping Taco Bell expand and has worked on several of their locations across the Southeast."
+            "For Sweetwater Brewing Company, Proficient provided services for a 1,500-square-foot renovation to the taproom.",
+            "This included a new bar as the room's centerpiece and the addition of a kitchen allowing the brewery to offer catering services and a bar menu for taproom guests."
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/taco-bell.jpg"
+            "/images/portfolio/sweetwater.jpeg",
+            "/images/portfolio/sweetwater-img-2.png"
         ],
         "tag": "food and beverage"
     },
 
-    {
-        "id": "34roojf",
-        "name": "Zaxby's",
-        "location": "Across the Southeastern U.S.",
-        "client_name": "Zaxby's",
-        "dimensions": {
-            "sqft": 43000
-        },
-        "project_tagline": "",
-        "project_description": [
-            "Proficient developed the new prototype design for Zaxby's.",
-            "This prototype has saved thousands of dollars on each store while providing more comfortable space conditions using less energy."
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/zaxbys.jpeg"
-        ],
-        "tag": "food and beverage"
-    },
+   
     {
         "id": "x3rofae",
         "name": "C Ellet's",
@@ -1943,6 +1928,7 @@
         ],
         "tag": "food and beverage"
     },
+    
     {
         "id": "nklo3e",
         "name": "Wild Wing Cafe",
@@ -1962,6 +1948,8 @@
         ],
         "tag": "food and beverage"
     },
+
+   
     {
         "id": "ke4pfa",
         "name": "Zalate Taqueria",
@@ -2018,26 +2006,47 @@
         ],
         "tag": "food and beverage"
     },
+
     {
-        "id": "4tfads",
-        "name": "Sweetwater Brewing Company",
-        "location": "Atlanta, GA",
-        "client_name": "Sweetwater Brewing Company",
+        "id": "h42tadf",
+        "name": "Taco Bell",
+        "location": "Across the Southeastern U.S.",
+        "client_name": "Taco Bell",
         "dimensions": {
-            "sqft": 1500
+            "sqft": 43000
         },
         "project_tagline": "",
         "project_description": [
-            "For Sweetwater Brewing Company, Proficient provided services for a 1,500-square-foot renovation to the taproom.",
-            "This included a new bar as the room's centerpiece and the addition of a kitchen allowing the brewery to offer catering services and a bar menu for taproom guests."
+            "Proficient is consistently helping Taco Bell expand and has worked on several of their locations across the Southeast."
         ],
         "year_completed": "2024",
         "images": [
-            "/images/portfolio/sweetwater.jpeg",
-            "/images/portfolio/sweetwater-img-2.png"
+            "/images/portfolio/taco-bell.jpg"
         ],
         "tag": "food and beverage"
     },
+
+    {
+        "id": "34roojf",
+        "name": "Zaxby's",
+        "location": "Across the Southeastern U.S.",
+        "client_name": "Zaxby's",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Proficient developed the new prototype design for Zaxby's.",
+            "This prototype has saved thousands of dollars on each store while providing more comfortable space conditions using less energy."
+        ],
+        "year_completed": "2024",
+        "images": [
+            "/images/portfolio/zaxbys.jpeg"
+        ],
+        "tag": "food and beverage"
+    },
+    
+    
     {
         "id": "3jassdf3",
         "name": "Second Self",
