@@ -390,7 +390,7 @@
     },
     {
         "id": "34rfadf",
-        "name": "Altla Buckhead Place",
+        "name": "Alta Buckhead Place",
         "location": "Atlanta GA",
         "client_name": "Altla Buckhead Place",
         "dimensions": {
@@ -398,11 +398,54 @@
         },
         "project_tagline": "",
         "project_description": [
-            "Altla Buckhead Place is a new multi-family housing development with 5 levels of 286 residential units above a 3-level open parking garage with 528 spaces. A pool courtyard, leasing/amenity spaces, and a clubhouse are also included."
+            "Alta Buckhead Place is a new multi-family housing development with 5 levels of 286 residential units above a 3-level open parking garage with 528 spaces. A pool courtyard, leasing/amenity spaces, and a clubhouse are also included."
         ],
         "year_completed": "2024",
         "images": [
             "/images/portfolio/buckhead.jpeg"
+        ],
+        "tag": "multi-family"
+    },
+
+    {
+        "id": "985gjasf",
+        "name": "Porter Square",
+        "location": "Brookhaven, GA",
+        "client_name": "Porter Square",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Porter Square consists of 2 buildings that are about 350,000 square feet with approximately 283 multi-family units and 17,000 square feet of retail space."
+        ],
+        "year_completed": "2024",
+        "images": [
+            "/images/portfolio/porter-square.jpeg",
+            "/images/portfolio/porter-square-2.jpeg",
+            "/images/portfolio/porter-square-3.jpeg"
+        ],
+        "tag": "multi-family"
+    },
+
+    {
+        "id": "u4039fa",
+        "name": "The Maverick Flats",
+        "location": "Atlanta GA",
+        "client_name": "The Maverick Flats",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "The project entails a 110-unit townhome development, featuring three-story units with living spaces, kitchen/dining areas, laundry facilities, and 1-2 car garages. Residences range from 1,280 to 1,690 square feet, divided into two phases."
+        ],
+        "year_completed": "2024",
+        "images": [
+            "/images/portfolio/the-maverick-flats.jpeg",
+            "/images/portfolio/the-maverick-flats-2.jpeg",
+            "/images/portfolio/the-maverick-flats-3.jpeg",
+            "/images/portfolio/the-maverick-flats-4.jpeg"
         ],
         "tag": "multi-family"
     },
@@ -538,6 +581,31 @@
         ],
         "tag": "multi-family"
     },
+
+    {
+        "id": "40ijjaf",
+        "name": "SK Battery America",
+        "location": "Commerce, GA",
+        "client_name": "SK Battery America",
+        "dimensions": {
+            "sqft": 43000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Located on 283 acres within the Commerce industrial complex, SK Innovation's first U.S. EV battery factory spans 2.4 million square feet and costs $1.67 billion.",
+            "Phase I began in 2019, followed by Phase II in 2020, covering sitework, concrete, steel, IMP, roofing, MEP, clean/dry rooms, and ancillary support structures, including medium voltage banks and cross-country piping tracks."
+        ],
+        "year_completed": "2024",
+        "images": [
+            "/images/portfolio/sk-battery.jpeg",
+            "/images/portfolio/sk-battery-2.jpeg",
+            "/images/portfolio/sk-battery-3.jpeg",
+            "/images/portfolio/sk-battery-4.jpeg"
+
+        ],
+        "tag": "industrial"
+    },
+
     {
         "id": "48jeq",
         "name": "Main Gate Logistics",
@@ -1246,6 +1314,28 @@
         ],
         "tag": "medical"
     },
+
+
+    {
+        "id": "mfepfa",
+        "name": "PNC Bank",
+        "location": "Atlanta, GA",
+        "client_name": "PNC Bank",
+        "dimensions": {
+            "sqft": 27000
+        },
+        "project_tagline": "",
+        "project_description": [
+            "Located at 1075 Peachtree Street, the PNC Bank project involved a fit out of a 27,000-square-foot office tower floor from an empty shell condition.",
+            "The fit-out included the MEP design of individual offices, open office space, conference rooms, a café, a storage room, a reception area, and an elevator lobby. The project is LEED silver certified."
+        ],
+        "year_completed": "2024",
+        "images": [
+            "/images/portfolio/pnc-bank.jpeg",
+            "/images/portfolio/pnc-bank-2.jpeg"
+        ],
+        "tag": "office"
+    },
     {
         "id": "apjf45",
         "name": "Lee + White Redevelopment",
@@ -1396,25 +1486,6 @@
         "year_completed": "2024",
         "images": [
             "/images/portfolio/mckesson.jpeg"
-        ],
-        "tag": "office"
-    },
-    {
-        "id": "mfepfa",
-        "name": "PNC Bank",
-        "location": "Atlanta, GA",
-        "client_name": "PNC Bank",
-        "dimensions": {
-            "sqft": 27000
-        },
-        "project_tagline": "",
-        "project_description": [
-            "Located at 1075 Peachtree Street, the PNC Bank project involved a fit out of a 27,000-square-foot office tower floor from an empty shell condition.",
-            "The fit-out included the MEP design of individual offices, open office space, conference rooms, a café, a storage room, a reception area, and an elevator lobby. The project is LEED silver certified."
-        ],
-        "year_completed": "2024",
-        "images": [
-            "/images/portfolio/pnc-bank.jpg"
         ],
         "tag": "office"
     },
@@ -1736,7 +1807,7 @@
         "images": [
             "/images/portfolio/taco-bell.jpg"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
 
     {
@@ -1756,7 +1827,7 @@
         "images": [
             "/images/portfolio/zaxbys.jpeg"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
     {
         "id": "x3rofae",
@@ -1775,7 +1846,7 @@
         "images": [
             "/images/portfolio/c-ellets.jpeg"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
     {
         "id": "n3fa0",
@@ -1794,7 +1865,7 @@
         "images": [
             "/images/portfolio/dreamland.jpeg"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
     {
         "id": "j3n2d",
@@ -1813,7 +1884,7 @@
         "images": [
             "/images/portfolio/bar-mercado.jpg"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
 
     {
@@ -1833,7 +1904,7 @@
         "images": [
             "/images/portfolio/gusto.png"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
     {
         "id": "nio32fa",
@@ -1851,7 +1922,7 @@
         "images": [
             "/images/portfolio/kale-me-crazy.jpeg"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
     {
         "id": "lhfoie",
@@ -1870,7 +1941,7 @@
         "images": [
             "/images/portfolio/hw-steakhouse.jpeg"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
     {
         "id": "nklo3e",
@@ -1889,7 +1960,7 @@
         "images": [
             "/images/portfolio/wild-wing-cafe.jpeg"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
     {
         "id": "ke4pfa",
@@ -1907,7 +1978,7 @@
         "images": [
             "/images/portfolio/zalate.jpeg"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
     {
         "id": "lk432",
@@ -1926,7 +1997,7 @@
         "images": [
             "/images/portfolio/food.jpg"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
     {
         "id": "e4fas",
@@ -1945,7 +2016,7 @@
         "images": [
             "/images/portfolio/commonplace.jpeg"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
     {
         "id": "4tfads",
@@ -1965,7 +2036,7 @@
             "/images/portfolio/sweetwater.jpeg",
             "/images/portfolio/sweetwater-img-2.png"
         ],
-        "tag": "food and beverages"
+        "tag": "food and beverage"
     },
     {
         "id": "3jassdf3",

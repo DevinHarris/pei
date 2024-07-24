@@ -50,10 +50,10 @@ export default function ProjectPage() {
                 <section className="project-page__meta">
                     <div className="project-page__meta-grid">
                         <div className="project-page__meta-grid-col project-page__meta-grid-about">
-                            <div className="project-page__meta-desc">
+                            {/* <div className="project-page__meta-desc">
                                 <b className="project-page__meta-title">Size</b>
                                 <span className="project-page__meta-value">{currentProject?.dimensions?.sqft}</span>
-                            </div>
+                            </div> */}
                             <div className="project-page__meta-desc">
                                 <b className="project-page__meta-title">Year</b>
                                 <span className="project-page__meta-value">{currentProject?.year_completed}</span>
