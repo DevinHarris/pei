@@ -15,7 +15,7 @@ export default function Home() {
           <section className="landing-section">
              <div className="featured-project">
                 <div className="featured-project-heading">
-                    <span className="featured-project-tag">Featured Project</span>
+                    <span className="featured-project-tag">Project Spotlight</span>
                     <h2 className="featured-project-title">
                       <a href='/portfolio/4tfads'>SweetWater Brewing Company | Atlanta, GA</a>
                     </h2>
