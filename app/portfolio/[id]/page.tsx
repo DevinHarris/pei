@@ -68,6 +68,7 @@ export default function ProjectPage() {
                             </div>
                         </div>
                         <div className="project-page__meta-grid-col project-page__meta-grid-text">
+                            <h3 className="bio-page__about-heading">About this Project</h3>
                             {
                                 currentProject?.project_description.map((description, index) => <p className="project-page__meta-text" key={`${currentProject.name}'s desc ${index}`}>{description}</p>)
                             }
