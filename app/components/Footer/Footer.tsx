@@ -1,4 +1,5 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6'
 
 export default function Footer() {
 
@@ -31,16 +32,25 @@ export default function Footer() {
                 <div className="footer-socials-container">
                     <ul className="footer-socials">
                         <li>
-                            <FaFacebook />
+                            <a href="https://www.facebook.com/ProficientEngineers" target='_blank'>
+                                <FaFacebook />
+                            </a>
+                           
                         </li>
                         <li>
-                            <FaInstagram />
+                            <a href="https://www.instagram.com/proficient_engineering/" target='_blank'>
+                                <FaInstagram />
+                            </a>
                         </li>
                         <li>
-                            <FaLinkedin />
+                            <a href="https://www.linkedin.com/company/proficient-engineering-inc-/" target='_blank'>
+                                <FaLinkedin />
+                            </a>
                         </li>
                         <li>
-                            <FaTwitter />
+                            <a href="https://x.com/proficienteng" target='_blank'>
+                                <FaXTwitter />
+                            </a>
                         </li>
                     </ul>
                 </div>
