@@ -9,7 +9,7 @@ export default function BIMPage() {
             <div className="project-page bim-page">
             <header className="project-page__header">
                 <div className="project-page__header--hero">
-                    <img className="project-page__header--img" src="/images/bim/bim-pei-sign.png" alt="project-image" />
+                    <img className="project-page__header--img" src="/images/bim/bim-landing-img.jpeg" alt="project-image" />
                     <div className="project-page__header--content">
                         <h1 className="project-title">Maximize your Design, Construction and Planning with BIM</h1>
                     </div>
