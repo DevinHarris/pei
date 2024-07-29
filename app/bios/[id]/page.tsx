@@ -20,7 +20,7 @@ interface Profile {
     memberships?: string[],
     education?: string[],
     bio: string[],
-    featured_projects?: { name: string, thumbnail: string }[]
+    featured_projects?: string[]
 }
 
 /* clean up endings lastIndex substring "/" */
@@ -130,7 +130,7 @@ export default function BioPage() {
                         </div>
                     </div>
                 </section>
-                <section className="bio-page__projects-container">
+                {/* <section className="bio-page__projects-container">
                     <h3 className="bio-page__projects-heading">Featured Projects and Accomplishments</h3>
                     {
                         currentProfile?.featured_projects?.length !== 0 ? (
@@ -152,7 +152,7 @@ export default function BioPage() {
                                 <h2 className="mt-5">Currently {currentProfile?.name.split(" ")[0]} doesn't have any featured projects to display.</h2>
                             )
                     }
-                </section>
+                </section> */}
                 </main>
             </div>
         </>
