@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
+import Image from 'next/image';
 import projects from '../../../data/projects.json';
 
 interface Project {
@@ -37,7 +38,7 @@ export default function ProjectPage() {
         <div className="project-page">
             <header className="project-page__header">
                 <div className="project-page__header--hero">
-                    <img className="project-page__header--img" src={currentProject?.images[0]} alt="project-image" />
+                    <img className="project-page__header--img" src={currentProject?.images[0]} alt="project-image" width={0} height={0}  />
                     <div className="project-page__header--content">
                         <h1 className="project-title">{currentProject?.name} | {currentProject?.location}</h1>
                     </div>
@@ -70,7 +71,9 @@ export default function ProjectPage() {
                         <div className="project-page__meta-grid-col project-page__meta-grid-text">
                             <h3 className="bio-page__about-heading">About this Project</h3>
                             {
-                                currentProject?.project_description.map((description, index) => <p className="project-page__meta-text" key={`${currentProject.name}'s desc ${index}`}>{description}</p>)
+                                currentProject && (
+                                    currentProject.project_description.map((description, index) => <p className="project-page__meta-text" key={`${currentProject.name}'s desc ${index}`}>{description}</p>)
+                                )
                             }
                                 
                         </div>
@@ -81,11 +84,13 @@ export default function ProjectPage() {
                 <section className="project-page__image-grid">
 
                             {
-                                currentProject?.images.map((image, index) => (
-                                    <div className="project-page__image" key={`${currentProject.name}'s photo ${index}`}>
-                                        <img src={image} alt="project image" />
-                                    </div>
-                                ))
+                               currentProject && (
+                                    currentProject.images.map((image, index) => (
+                                        <div className="project-page__image" key={`${currentProject.name}'s photo ${index}`}>
+                                            <Image src={image} alt="project image" width={0} height={0}  unoptimized/>
+                                        </div>
+                                    ))
+                               )
                             }
                 </section>
                 <section className="project-page__callout--center">

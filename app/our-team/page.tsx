@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import profileData from '../../data/bios.json';
 
 export default function OurTeam() {
@@ -21,19 +22,19 @@ export default function OurTeam() {
 
 
                         {
-                            profileData ? (
+                            profileData  && (
 
                                 profileData.map(profile => (
                                     <div className="our-team-page__profile" key={profile.id}>
                                         <div className="our-team-page__img">
                                             <a href={`/bios${profile.slug}`}>
-                                                <img src={profile.image} alt={`${profile.name}'s photo`} />
+                                                <Image src={profile.image} alt={`${profile.name}'s photo`} width={0} height={0} unoptimized/>
                                             </a>
                                         </div>
                                         <h2 className="our-team-page__name">{`${profile.name} | ${profile.title}`}</h2>
                                     </div>
                                 ))
-                            ) : null
+                            )
                         }
                     </div>
                  </main>

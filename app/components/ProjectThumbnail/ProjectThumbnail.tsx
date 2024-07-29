@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 interface ProjectThumbnail {
     id: string,
     name: string,
@@ -12,7 +14,7 @@ export default function ProjectThumbnail({ id, name, images, location, project_d
     return (
         <div className="project-thumbnail">
             <div className="project-thumbnail__image">
-                <img src={images[0]} alt={`${name}'s project image`} />
+                <Image src={images[0]} alt={`${name}'s project image`} width={0} height={0} unoptimized />
             </div>
             <div className="project-thumbnail__meta">
                 <a className="project-thumbnail__title" href={`/portfolio/${id}`}>

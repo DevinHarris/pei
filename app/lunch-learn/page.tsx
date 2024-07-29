@@ -1,3 +1,4 @@
+import Image from "next/image"
 import CalloutText from "../components/CalloutText/CalloutText"
 
 export default function LunchLearnPage() {
@@ -7,7 +8,7 @@ export default function LunchLearnPage() {
             <div className="project-page bio-page">
             <header className="project-page__header">
                 <div className="project-page__header--hero">
-                    <img className="project-page__header--img" src="/images/lunch-learn-3.jpg" alt="project-image" />
+                    <Image className="project-page__header--img" src="/images/lunch-learn-bg.png" alt="lunch-learn image" width={0} height={0} unoptimized />
                     <div className="project-page__header--content">
                         <h1 className="project-title">Lunch and Learns</h1>
                     </div>
@@ -22,7 +23,7 @@ export default function LunchLearnPage() {
                 <section className="lunch-learns-container">
                     <div className="lunch-learn-type">
                         <div className="lunch-learn-col lunch-learn-col-image">
-                            <img src="/images/lunch-learn-1.jpg" alt="Lunch and Learn image" />
+                            <Image src="/images/lunch-learn-bg-2.png" alt="Lunch and Learn image" width={0} height={0} unoptimized/>
                         </div>
                         <div className="lunch-learn-col lunch-learn-col-description">
                            <div className="lunch-learn-col-description-inner">
@@ -46,7 +47,7 @@ export default function LunchLearnPage() {
                     </div>
                     <div className="lunch-learn-type lunch-learn-reverse">
                         <div className="lunch-learn-col lunch-learn-col-image">
-                            <img src="/images/lunch-learn-2.jpg" alt="Lunch and Learn image" />
+                            <Image src="/images/lunch-learn-bg-3.png" alt="Lunch and Learn image" width={0} height={0} unoptimized />
                         </div>
                         <div className="lunch-learn-col lunch-learn-col-description">
                            <div className="lunch-learn-col-description-inner">

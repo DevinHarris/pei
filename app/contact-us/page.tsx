@@ -1,4 +1,9 @@
+// import { Resend } from 'resend';
+// import { Email } from '../components/Email';
+
 export default function ContactUsPage() {
+
+    // const resend = new Resend(process.env.RESEND_KEY);
 
     return (
         <div className="contact-us-page">
