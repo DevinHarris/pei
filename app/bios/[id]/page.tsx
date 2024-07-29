@@ -20,7 +20,7 @@ interface Profile {
     memberships?: string[],
     education?: string[],
     bio: string[],
-    featured_projects: { name: string, thumbnail: string }[]
+    featured_projects?: { name: string, thumbnail: string }[]
 }
 
 /* clean up endings lastIndex substring "/" */
@@ -133,10 +133,10 @@ export default function BioPage() {
                 <section className="bio-page__projects-container">
                     <h3 className="bio-page__projects-heading">Featured Projects and Accomplishments</h3>
                     {
-                        currentProfile?.featured_projects.length !== 0 ? (
+                        currentProfile?.featured_projects?.length !== 0 ? (
                             <div className="bio-page__projects-grid" style={{ gridTemplateColumns: `repeat(${currentProfile?.featured_projects.length}, 1fr)` }}>
                                 {
-                                    currentProfile?.featured_projects.map(project => (
+                                    currentProfile?.featured_projects?.map(project => (
                                         <div className="bio-page__project">
                                             <div className="bio-page__project-img">
                                                  <a href="/portfolio/3242">
