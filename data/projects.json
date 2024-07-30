@@ -2419,7 +2419,7 @@
         "images": [
             "/images/portfolio/senior.jpg"
         ],
-        "tag": "senior living"
+        "tag": "senior-living"
     },
     {
         "id": "b3iefa",
@@ -2437,7 +2437,7 @@
         "images": [
             "/images/portfolio/watercrest-macon.jpeg"
         ],
-        "tag": "senior living"
+        "tag": "senior-living"
     },
     {
         "id": "nke3fa",
@@ -2455,7 +2455,7 @@
         "images": [
             "/images/portfolio/vinings-seniors.jpeg"
         ],
-        "tag": "senior living"
+        "tag": "senior-living"
     },
 
     {
@@ -2474,7 +2474,7 @@
         "images": [
             "/images/portfolio/aiken-mall.jpeg"
         ],
-        "tag": "mixed use"
+        "tag": "mixed-use"
     },
     {
         "id": "arti0h",
@@ -2492,7 +2492,7 @@
         "images": [
             "/images/portfolio/cinepolis.jpeg"
         ],
-        "tag": "mixed use"
+        "tag": "mixed-use"
     },
     {
         "id": "oh4hfa",
@@ -2511,7 +2511,7 @@
         "images": [
             "/images/portfolio/academy-lofts.jpeg"
         ],
-        "tag": "mixed use"
+        "tag": "mixed-use"
     },
     {
         "id": "no3rfa",
@@ -2529,7 +2529,7 @@
         "images": [
             "/images/portfolio/quarter-westside.jpeg"
         ],
-        "tag": "mixed use"
+        "tag": "mixed-use"
     },
     {
         "id": "g4o3a",
@@ -2547,7 +2547,7 @@
         "images": [
             "/images/portfolio/mixed.jpg"
         ],
-        "tag": "mixed use"
+        "tag": "mixed-use"
     },
 
     {
@@ -2566,6 +2566,6 @@
         "images": [
             "/images/portfolio/mixed.jpg"
         ],
-        "tag": "mixed use"
+        "tag": "mixed-use"
     }
 ]

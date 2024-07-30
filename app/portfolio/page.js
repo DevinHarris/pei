@@ -1,33 +1,42 @@
 'use client'
 
 import { useState, useEffect } from 'react';
-import { useParams } from 'next/navigation';
+import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import ProjectThumbnail from "../components/ProjectThumbnail/ProjectThumbnail";
 
 import projectData from '../../data/projects.json';
 
 export default function PortfolioPage() {
 
+    const router = useRouter();
+    const search = useSearchParams();
+
     // used to filter different projects 
 
     const [projectTags, setProjectTags] = useState(['Food and Beverage', 'Community', 'Education', 'Hospitality', 
-                                'Industrial', 'Aviation', 'Recreation', 'Medical', 'Mixed Use', 'Multi-Family', 'Office', 'Retail', 'Senior Living'])
+                                'Industrial', 'Aviation', 'Recreation', 'Medical', 'Mixed-Use', 'Multi-Family', 'Office', 'Retail', 'Senior-Living'])
 
-    const [currentProjectTag, setCurrentProjectTag] = useState('Community');
+    const [currentProjectTag, setCurrentProjectTag] = useState(() => {
+        return search.get('projectType') ? search.get('projectType') : 'Community';
+    });
 
     // const [projects, setProjects] = useState([]);
     const [filteredProjects, setFilteredProjects] = useState([]);
 
     const handleOnChange = (e) => {
-
+        router.replace(`/portfolio?projectType=${currentProjectTag.toLowerCase()}`);
         setCurrentProjectTag(e.target.value)
     }
 
     useEffect(() => {
         const filteredData = projectData.filter(project => project.tag === currentProjectTag.toLowerCase());
         setFilteredProjects(filteredData);
-    }, [currentProjectTag])
 
+
+        router.replace(`/portfolio?projectType=${currentProjectTag.toLowerCase()}`);
+
+    }, [currentProjectTag])
+    
     
     return (
         <div className="portfolio-page">
@@ -41,14 +50,14 @@ export default function PortfolioPage() {
                 <div className="portfolio-page__project-selection">
                     <select className="project-type" name="project-type" id="project-type" value={currentProjectTag} onChange={handleOnChange}>
                         {
-                            projectTags.map(projectTag => {
+                            projectTags.map((projectTag, index) => {
                                 return (
-                                    <option value={projectTag} key={projectTag}>{projectTag}</option>
+                                    <option value={projectTag} key={`${projectTag}-${index}`}>{projectTag}</option>
                                 )
                             })
                         }
                     </select>
-                    <h3 className='current-project-type'>{currentProjectTag}</h3>
+                    <h3 className='current-project-type'>{currentProjectTag.toUpperCase()}</h3>
                 </div>
                 <div className='portfolio-page__projects-grid'>
                     {

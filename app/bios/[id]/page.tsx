@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 
 import data from '../../../data/bios.json';
+import projectData from '../../../data/projects.json';
 
 interface Profile {
     id: string,
@@ -23,21 +24,33 @@ interface Profile {
     featured_projects?: string[]
 }
 
+interface FeaturedProject {
+    id: string,
+    name: string,
+    images: string[]
+}
+
 /* clean up endings lastIndex substring "/" */
 
 export default function BioPage() {
 
     const [currentProfile, setCurrentProfile] = useState<Profile | undefined>();
+    const [featuredProjects, setFeaturedProjects] = useState<FeaturedProject[] | undefined>();
     const { id } = useParams<{ id: string }>();
 
 
     useEffect(() => {
 
         const profileData = data.find(profile => profile.slug === `/${id}`);
+        const projects = currentProfile?.featured_projects?.map(id => {
+            return projectData.filter(project => project.id === id);
+        })
+
+        // setFeaturedProjects(projects);
 
 
         setCurrentProfile(profileData);
-    }, [currentProfile])
+    }, [currentProfile, featuredProjects])
 
 
     return (
