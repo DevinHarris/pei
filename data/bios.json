@@ -444,7 +444,7 @@
         "id": "adsf32rsaf",
         "slug": "/andrew",
         "name": "Andrew Turner",
-        "title": "Mechanical Engineer (Knoxville)",
+        "title": "Electrical Engineer (Knoxville)",
         "education": ["B.S. Electrical Engineering - University of Tennessee Knoxville"],
         "bio": [
                 "Andrew grew up in a town surrounded by engineers, so at a young age he decided to follow in his father’s footsteps and become an engineer as well.",
@@ -452,9 +452,9 @@
                 "After graduation, Andrew joined Proficient Engineering in Atlanta where he decided to dive into the MEP industry. A couple years later, Andrew returned to Knoxville to help launch Proficient Engineering’s first satellite office."
             ],
         "pe_registrations": [],
-        "memberships": [],
+        "memberships": ["ASHRAE"],
         "tagline": "Andrew joined Proficient Engineering in Atlanta where he decided to dive into the MEP industry.",
-        "tasks": ["Electrical Engineering"],
+        "tasks": ["Electrical Engineering", "Electrical Project Manager"],
         "year_started": "2019",
         "location": "Knoxville, TN",
         "hobbies": [],

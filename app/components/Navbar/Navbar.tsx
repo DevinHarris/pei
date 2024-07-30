@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 export default function Navbar() {
@@ -13,36 +14,36 @@ export default function Navbar() {
             <nav>
                 <ul className={`nav-container ${isNavOpen ? 'navbar-responsive' : ''}`}>
                     <li className="nav-item">
-                        <a href="/what-we-do">What We Do</a>
+                        <Link href="/what-we-do">What We Do</Link>
                     </li>
                     {/* <li className="nav-item">
                         <a href="#why-proficient">Why Proficient</a>
                     </li> */}
                     <li className="nav-item">
-                        <a href="/portfolio">Portfolio</a>
+                        <Link href="/portfolio">Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="/bim">BIM</a>
+                        <Link href="/bim">BIM</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="/our-team">Our Team</a>
+                        <Link href="/our-team">Our Team</Link>
                     </li>
                     <li className="nav-logo-container">
-                        <a href="/">
+                        <Link href="/">
                             <img className="nav-logo" src="/images/logo.png" />
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a href="/lunch-learn">Lunch and Learns</a>
+                        <Link href="/lunch-learn">Lunch and Learns</Link>
                     </li>
                     {/* <li className="nav-item">
                         <a href="#">Blogs</a>
                     </li> */}
                     <li className="nav-item">
-                        <a href="/careers">Careers</a>
+                        <Link href="/careers">Careers</Link>
                     </li>
                     <li className="nav-item">
-                        <a href="/contact-us">Contact Us</a>
+                        <Link href="/contact-us">Contact Us</Link>
                     </li>
                     
                 </ul>

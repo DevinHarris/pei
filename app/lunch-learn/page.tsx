@@ -1,4 +1,5 @@
-import Image from "next/image"
+import Image from "next/image";
+import Link from "next/link";
 import CalloutText from "../components/CalloutText/CalloutText"
 
 export default function LunchLearnPage() {
@@ -36,11 +37,11 @@ export default function LunchLearnPage() {
                                         <li>To explain future impact of BIM on the AEC industry</li>
                                     </ul>
                                     <CalloutText>
-                                        <a href="https://classic.aia.org/resource/170276-continuing-education" target="_blank">
+                                        <Link href="https://classic.aia.org/resource/170276-continuing-education" target="_blank">
                                             Worth <span className="font-medium">1 AIA Learning Unit</span>
-                                        </a>
+                                        </Link>
                                     </CalloutText>
-                                    <a className="lunch-learn-register-link rounded-btn-cta" href="https://calendly.com/savanna-hoover/virtual-bim-lunch-and-learn?month=2020-07" target="_blank">Register Here</a>
+                                    <Link className="lunch-learn-register-link rounded-btn-cta" href="https://calendly.com/savanna-hoover/virtual-bim-lunch-and-learn?month=2020-07" target="_blank">Register Here</Link>
                                 </div>
                            </div>
                         </div>
@@ -60,9 +61,9 @@ export default function LunchLearnPage() {
                                         <li>To stay on top of current technologies that can help the design team</li>
                                     </ul>
                                     <CalloutText>
-                                        <a href="https://classic.aia.org/resource/170276-continuing-education" target="_blank">
+                                        <Link href="https://classic.aia.org/resource/170276-continuing-education" target="_blank">
                                             Worth <span className="font-medium">1 AIA HSW (Heath Safety Welfare) <br></br> Learning Unit </span>
-                                        </a>
+                                        </Link>
                                            
                                     </CalloutText>
                                     <a className="lunch-learn-register-link rounded-btn-cta" href="#">Register Here</a>

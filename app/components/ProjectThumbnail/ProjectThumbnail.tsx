@@ -1,4 +1,5 @@
-import Image from "next/image"
+import Image from "next/image";
+import Link from "next/link";
 
 interface ProjectThumbnail {
     id: string,
@@ -17,9 +18,9 @@ export default function ProjectThumbnail({ id, name, images, location, project_d
                 <Image src={images[0]} alt={`${name}'s project image`} width={0} height={0} unoptimized />
             </div>
             <div className="project-thumbnail__meta">
-                <a className="project-thumbnail__title" href={`/portfolio/${id}`}>
+                <Link className="project-thumbnail__title" href={`/portfolio/${id}`}>
                     <h1>{name} | {location} </h1>
-                </a>
+                </Link>
                 {/* <span className="project-thumbnail__location">{locations[0]}</span> */}
                 <p className="project-thumbnail__desc">{`${project_description[0].substring(0, 100)}...`}</p>
             </div>

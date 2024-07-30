@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import Image from 'next/image';
+import Link from 'next/link';
 import projects from '../../../data/projects.json';
 
 interface Project {
@@ -95,7 +96,7 @@ export default function ProjectPage() {
                 </section>
                 <section className="project-page__callout--center">
                     <p>Along with thousands of other completed projects!</p>
-                    <a href="/portfolio" className='rounded-btn-cta'>View more here</a>
+                    <Link href="/portfolio" className='rounded-btn-cta'>View more here</Link>
                 </section>
             </main>
         </div>
