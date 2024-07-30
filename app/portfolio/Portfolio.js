@@ -1,12 +1,12 @@
 'use client'
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import ProjectThumbnail from "../components/ProjectThumbnail/ProjectThumbnail";
 
 import projectData from '../../data/projects.json';
 
-export default function PortfolioPage() {
+export function Portfolio() {
 
     const router = useRouter();
     const search = useSearchParams();
@@ -24,7 +24,7 @@ export default function PortfolioPage() {
     const [filteredProjects, setFilteredProjects] = useState([]);
 
     const handleOnChange = (e) => {
-        router.replace(`/portfolio?projectType=${currentProjectTag.toLowerCase()}`);
+        
         setCurrentProjectTag(e.target.value)
     }
 
@@ -33,7 +33,7 @@ export default function PortfolioPage() {
         setFilteredProjects(filteredData);
 
 
-        router.replace(`/portfolio?projectType=${currentProjectTag.toLowerCase()}`);
+        // router.replace(`/portfolio?projectType=${currentProjectTag.toLowerCase()}`);
 
     }, [currentProjectTag])
     
