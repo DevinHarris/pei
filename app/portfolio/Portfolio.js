@@ -17,7 +17,7 @@ export function Portfolio() {
                                 'Industrial', 'Aviation', 'Recreation', 'Medical', 'Mixed-Use', 'Multi-Family', 'Office', 'Retail', 'Senior-Living'])
 
     const [currentProjectTag, setCurrentProjectTag] = useState(() => {
-        return search.get('projectType') ? search.get('projectType') : 'Community';
+        return search.get('projectType') ? search.get('projectType') : projectTags[0];
     });
 
     // const [projects, setProjects] = useState([]);
@@ -25,7 +25,7 @@ export function Portfolio() {
 
     const handleOnChange = (e) => {
         
-        setCurrentProjectTag(e.target.value)
+        setCurrentProjectTag(e.target.value);
     }
 
     useEffect(() => {
@@ -33,7 +33,7 @@ export function Portfolio() {
         setFilteredProjects(filteredData);
 
 
-        // router.replace(`/portfolio?projectType=${currentProjectTag.toLowerCase()}`);
+        router.replace(`/portfolio?projectType=${currentProjectTag.toLowerCase()}`);
 
     }, [currentProjectTag])
     
