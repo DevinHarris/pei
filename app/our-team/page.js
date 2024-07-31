@@ -1,10 +1,27 @@
+
+'use client'
+
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import profileData from '../../data/bios.json';
 
 export default function OurTeam() {
+        
+        const [locations, setLocatons] = useState(['All', 'Atlanta, GA', 'Denver, CO', 'Dallas, TX', 'Knoxville, TN', 'Alabama']);
+        const [currentLocation, setCurrentLocation] = useState('All');
+        const [filteredProfiles, setFilteredProfiles] = useState([]);
 
+        const handleOnChange =  (e) => {
+            setCurrentLocation(e.target.value);
+        }
 
+        useEffect(() => {
+
+                const filteredData = currentLocation === 'All' ?  profileData : profileData.filter(profile => profile.location.toLowerCase() === currentLocation.toLowerCase());
+                setFilteredProfiles(filteredData);
+
+        }, [currentLocation])
 
         return (
             <div className="our-team-page">
@@ -19,13 +36,26 @@ export default function OurTeam() {
                  </div>
 
                  <main className="our-team-page__main">
+                    
+                    <div className="portfolio-page__project-selection pl-20 mb-20">
+                    <select className="project-type" name="location" id="location" value={currentLocation} onChange={handleOnChange}>
+                            {
+                                locations.map((location, index) => {
+                                    return (
+                                        <option value={location} key={`${location}-${index}`}>{location}</option>
+                                    )
+                                })
+                            }
+                        </select>
+                    </div>
+                
                     <div className="our-team-page__grid">
-
+    
 
                         {
-                            profileData  && (
+                            filteredProfiles  && (
 
-                                profileData.map(profile => (
+                                filteredProfiles.map(profile => (
                                     <div className="our-team-page__profile" key={profile.id}>
                                         <div className="our-team-page__img">
                                             <Link href={`/bios${profile.slug}`}>
