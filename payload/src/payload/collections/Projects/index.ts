@@ -1,5 +1,6 @@
-import type { CollectionConfig } from 'payload/types'
 import path from 'path'
+import type { CollectionConfig } from 'payload/types'
+
 import { admins } from '../../access/admins'
 import { adminsOrPublished } from '../../access/adminsOrPublished'
 import { Archive } from '../../blocks/ArchiveBlock'
@@ -27,7 +28,6 @@ export const Projects: CollectionConfig = {
   upload: {
     staticDir: path.resolve('../../../../media'),
     filesRequiredOnCreate: false,
-    
   },
   // hooks: {
   //   beforeChange: [populatePublishedAt],
@@ -85,47 +85,47 @@ export const Projects: CollectionConfig = {
     //     },
     //   ],
     // },
-  //   {
-  //     name: 'projectImages',
-  //     relationTo: 'portfolio',
-  //     type: 'upload'
-  // },
+    //   {
+    //     name: 'projectImages',
+    //     relationTo: 'portfolio',
+    //     type: 'upload'
+    // },
 
-  // {
-  //     name: 'projectName',
-  //     type: 'text'
-  // }, 
-  
-  {
+    // {
+    //     name: 'projectName',
+    //     type: 'text'
+    // },
+
+    {
       name: 'projectTagline',
-      type: 'text'
-  },
+      type: 'text',
+    },
 
-  {
+    {
       name: 'yearCompleted',
-      type: 'date'
-  },
+      type: 'date',
+    },
 
-  {
+    {
       name: 'location',
-      type: 'text'
-  },
+      type: 'text',
+    },
 
-  {
+    {
       name: 'projectDescription',
-      type: 'richText'
-  },
+      type: 'richText',
+    },
 
-  {
+    {
       name: 'clientName',
-      type: 'text'
-  },
-  {
-    name: 'projectType',
-    type: 'relationship',
-    relationTo: 'portfolio',
-    hasMany: true
-  },
+      type: 'text',
+    },
+    {
+      name: 'projectType',
+      type: 'relationship',
+      relationTo: 'portfolio',
+      hasMany: true,
+    },
     // {
     //   name: 'relatedPortfolio',
     //   type: 'relationship',

@@ -1,112 +1,106 @@
-import { CollectionConfig } from 'payload/types';
+import type { CollectionConfig } from 'payload/types'
 
 const Bio: CollectionConfig = {
-    slug: 'bio',
+  slug: 'bio',
 
-    admin: {
-        useAsTitle: 'fullName'
+  admin: {
+    useAsTitle: 'fullName',
+  },
+
+  fields: [
+    {
+      name: 'photo',
+      relationTo: 'bio',
+      type: 'upload',
+      required: false,
     },
 
-    fields: [
+    {
+      name: 'urlSlug',
+      type: 'text',
+    },
 
-        {
-            name: 'photo',
-            relationTo: 'bio',
-            type: 'upload',
-            required: false
-        },
+    {
+      name: 'fullName',
+      type: 'text',
+    },
 
-        {
-            name: 'urlSlug',
-            type: 'text'
-        },
+    {
+      name: 'professionalTitle',
+      type: 'text',
+    },
 
-        {
-            name: 'fullName',
-            type: 'text'
+    {
+      name: 'education',
+      type: 'text',
+    },
 
-        },
+    {
+      name: 'bio',
+      type: 'richText',
+    },
 
-        {
-            name: 'professionalTitle',
-            type: 'text'
+    {
+      name: 'registrations',
+      type: 'text',
+    },
 
-        },
+    {
+      name: 'memberships',
+      type: 'text',
+    },
 
-        {
-            name: 'education',
-            type: 'text'
-        },
+    {
+      name: 'userQuote',
+      type: 'text',
+    },
 
+    {
+      name: 'repsonsiblities',
+      type: 'text',
+    },
 
-        {
-            name: 'bio',
-            type: 'richText'
-        },
+    {
+      name: 'yearStarted',
+      type: 'number',
+    },
 
+    {
+      name: 'location',
+      type: 'text',
+    },
 
-        {
-            name: 'registrations',
-            type: 'text'
-        },
+    {
+      name: 'featuredProjects',
+      type: 'relationship',
+      relationTo: 'portfolio',
+      hasMany: true,
+    },
+  ],
 
-        {
-            name: 'memberships',
-            type: 'text'
-        },
+  upload: {
+    staticURL: '../../../../public/media/bios',
+    staticDir: '../../../../public/media',
+    filesRequiredOnCreate: false,
+    imageSizes: [
+      {
+        name: 'thumbnail',
+        width: 400,
+        height: 300,
+        position: 'centre',
+      },
 
-        {
-            name: 'userQuote',
-            type: 'text'
-        },
-
-        {
-            name: 'repsonsiblities',
-            type: 'text'
-        },
-
-        {
-            name: 'yearStarted',
-            type: 'number'
-        },
-
-        {
-            name: 'location',
-            type: 'text'
-        },
-        
-        {
-            name: 'featuredProjects',
-            type: 'relationship',
-            relationTo: 'portfolio',
-            hasMany: true
-        }
-
+      {
+        name: 'card',
+        width: undefined,
+        height: undefined,
+        position: 'centre',
+      },
     ],
 
-    upload: {
-        staticURL: '../../../../public/media/bios',
-        staticDir: '../../../../public/media',
-        filesRequiredOnCreate: false,
-        imageSizes: [
-           {
-                name: 'thumbnail',
-                width: 400,
-                height: 300,
-                position: 'centre'
-           },
+    adminThumbnail: 'thumbnail',
+    mimeTypes: ['image/*'],
+  },
+}
 
-           {
-                name: 'card',
-                width: undefined,
-                height: undefined,
-                position: 'centre'
-           }
-        ],
-
-        adminThumbnail: 'thumbnail',
-        mimeTypes: ['image/*']
-    }
-} 
-
-export default Bio;
+export default Bio
