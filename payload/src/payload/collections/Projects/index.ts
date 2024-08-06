@@ -3,15 +3,15 @@ import type { CollectionConfig } from 'payload/types'
 
 import { admins } from '../../access/admins'
 import { adminsOrPublished } from '../../access/adminsOrPublished'
-import { Archive } from '../../blocks/ArchiveBlock'
-import { CallToAction } from '../../blocks/CallToAction'
-import { Content } from '../../blocks/Content'
-import { MediaBlock } from '../../blocks/MediaBlock'
-import { hero } from '../../fields/hero'
+// import { Archive } from '../../blocks/ArchiveBlock'
+// import { CallToAction } from '../../blocks/CallToAction'
+// import { Content } from '../../blocks/Content'
+// import { MediaBlock } from '../../blocks/MediaBlock'
+// import { hero } from '../../fields/hero'
 import { slugField } from '../../fields/slug'
-import { populateArchiveBlock } from '../../hooks/populateArchiveBlock'
-import { populatePublishedAt } from '../../hooks/populatePublishedAt'
-import { revalidateProject } from './hooks/revalidateProject'
+// import { populateArchiveBlock } from '../../hooks/populateArchiveBlock'
+// import { populatePublishedAt } from '../../hooks/populatePublishedAt'
+// import { revalidateProject } from './hooks/revalidateProject'
 
 export const Projects: CollectionConfig = {
   slug: 'projects',
