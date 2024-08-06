@@ -1,5 +1,5 @@
 import type { CollectionConfig } from 'payload/types'
-
+import path from 'path'
 import { admins } from '../../access/admins'
 import { adminsOrPublished } from '../../access/adminsOrPublished'
 import { Archive } from '../../blocks/ArchiveBlock'
@@ -15,7 +15,7 @@ import { revalidateProject } from './hooks/revalidateProject'
 export const Projects: CollectionConfig = {
   slug: 'projects',
   admin: {
-    useAsTitle: 'title',
+    useAsTitle: 'projectName',
     defaultColumns: ['title', 'slug', 'updatedAt'],
     preview: doc => {
       return `${process.env.PAYLOAD_PUBLIC_SERVER_URL}/next/preview?url=${encodeURIComponent(
@@ -23,14 +23,20 @@ export const Projects: CollectionConfig = {
       )}&secret=${process.env.PAYLOAD_PUBLIC_DRAFT_SECRET}`
     },
   },
-  hooks: {
-    beforeChange: [populatePublishedAt],
-    afterChange: [revalidateProject],
-    afterRead: [populateArchiveBlock],
+
+  upload: {
+    staticDir: path.resolve('../../../../media'),
+    filesRequiredOnCreate: false,
+    
   },
-  versions: {
-    drafts: true,
-  },
+  // hooks: {
+  //   beforeChange: [populatePublishedAt],
+  //   afterChange: [revalidateProject],
+  //   afterRead: [populateArchiveBlock],
+  // },
+  // versions: {
+  //   drafts: true,
+  // },
   access: {
     read: adminsOrPublished,
     update: admins,
@@ -39,7 +45,7 @@ export const Projects: CollectionConfig = {
   },
   fields: [
     {
-      name: 'title',
+      name: 'projectName',
       type: 'text',
       required: true,
     },
@@ -59,39 +65,80 @@ export const Projects: CollectionConfig = {
         position: 'sidebar',
       },
     },
-    {
-      type: 'tabs',
-      tabs: [
-        {
-          label: 'Hero',
-          fields: [hero],
-        },
-        {
-          label: 'Content',
-          fields: [
-            {
-              name: 'layout',
-              type: 'blocks',
-              required: true,
-              blocks: [CallToAction, Content, MediaBlock, Archive],
-            },
-          ],
-        },
-      ],
-    },
-    {
-      name: 'relatedProjects',
-      type: 'relationship',
-      relationTo: 'projects',
-      hasMany: true,
-      filterOptions: ({ id }) => {
-        return {
-          id: {
-            not_in: [id],
-          },
-        }
-      },
-    },
+    // {
+    //   type: 'tabs',
+    //   tabs: [
+    //     {
+    //       label: 'Hero',
+    //       fields: [hero],
+    //     },
+    //     {
+    //       label: 'Content',
+    //       fields: [
+    //         {
+    //           name: 'layout',
+    //           type: 'blocks',
+    //           required: true,
+    //           blocks: [CallToAction, Content, MediaBlock, Archive],
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
+  //   {
+  //     name: 'projectImages',
+  //     relationTo: 'portfolio',
+  //     type: 'upload'
+  // },
+
+  // {
+  //     name: 'projectName',
+  //     type: 'text'
+  // }, 
+  
+  {
+      name: 'projectTagline',
+      type: 'text'
+  },
+
+  {
+      name: 'yearCompleted',
+      type: 'date'
+  },
+
+  {
+      name: 'location',
+      type: 'text'
+  },
+
+  {
+      name: 'projectDescription',
+      type: 'richText'
+  },
+
+  {
+      name: 'clientName',
+      type: 'text'
+  },
+  {
+    name: 'projectType',
+    type: 'relationship',
+    relationTo: 'portfolio',
+    hasMany: true
+  },
+    // {
+    //   name: 'relatedPortfolio',
+    //   type: 'relationship',
+    //   relationTo: 'portfolio',
+    //   hasMany: true,
+    //   // filterOptions: ({ id }) => {
+    //   //   return {
+    //   //     id: {
+    //   //       not_in: [id],
+    //   //     },
+    //   //   }
+    //   // },
+    // },
     slugField(),
   ],
 }
