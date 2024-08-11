@@ -2,12 +2,12 @@
 
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
-
+import fetcher from '@/app/helpers/fetcher';
 import data from '../../../data/bios.json';
 import projectData from '../../../data/projects.json';
 
 interface Profile {
-    id: string,
+    id: number,
     slug: string,
     name: string,
     tagline: string,
@@ -37,18 +37,20 @@ export default function BioPage() {
     const [currentProfile, setCurrentProfile] = useState<Profile | undefined>();
     const [featuredProjects, setFeaturedProjects] = useState<FeaturedProject[] | undefined>();
     const { id } = useParams<{ id: string }>();
+    const payloadAPIEndpoint = "https://pei-cms.onrender.com/admin/collections/bio/"
 
 
     useEffect(() => {
+        
 
-        const profileData = data.find(profile => profile.slug === `/${id}`);
+        const profileData = data.find(profile => profile.id === `/${id}`);
         const projects = currentProfile?.featured_projects?.map(id => {
             return projectData.filter(project => project.id === id);
         })
 
         // setFeaturedProjects(projects);
 
-
+        console.log(fetcher(`${payloadAPIEndpoint}\${id}`));
         setCurrentProfile(profileData);
     }, [currentProfile, featuredProjects])
 
